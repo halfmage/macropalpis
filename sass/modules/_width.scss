@@ -13,3 +13,15 @@
 .w50	{ width: 50%; }
 .w66	{ width: 66.66%; }
 .w100 	{ width: 100%; }
+
+@media (min-width:$bp_m) {
+	.w0_m	{ width: 0%; }
+	.w10_m	{ width: 10%; }
+	.w20_m	{ width: 20%; }
+	.w25_m	{ width: 25%; }
+	.w33_m	{ width: 33.33%; }
+	.w40_m	{ width: 40%; }
+	.w50_m	{ width: 50%; }
+	.w66_m	{ width: 66.66%; }
+	.w100_m	{ width: 100%; }
+}

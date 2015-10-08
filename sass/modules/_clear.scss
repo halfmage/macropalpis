@@ -1,0 +1,22 @@
+/* 
+
+	clear module
+
+*/
+
+.cb	{ clear: both;}
+.cl	{ clear: left;}
+.cr	{ clear: right;}
+.cn	{ clear: none;}
+
+.cf	{ 
+
+	&:before, &:after {
+	    content: " ";
+	    display: table; 
+	}
+	&:after {
+	    clear: both;
+	}
+
+}

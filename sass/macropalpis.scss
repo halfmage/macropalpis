@@ -1,8 +1,19 @@
 /* 
 
+	importing variables
+
+*/
+
+@import "modules/breakpoints.scss";
+
+
+/* 
+
 	importing all modules
 
 */
+
+@import "modules/normalize.scss";
 
 @import "modules/padding.scss";
 @import "modules/margin.scss";
@@ -10,3 +21,4 @@
 @import "modules/width.scss";
 @import "modules/height.scss";
 @import "modules/display.scss";
+@import "modules/clear.scss";
