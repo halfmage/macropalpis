@@ -25,3 +25,15 @@
 	.w66_m	{ width: 66.66%; }
 	.w100_m	{ width: 100%; }
 }
+
+@media (min-width:$bp_l) {
+	.w0_l	{ width: 0%; }
+	.w10_l	{ width: 10%; }
+	.w20_l	{ width: 20%; }
+	.w25_l	{ width: 25%; }
+	.w33_l	{ width: 33.33%; }
+	.w40_l	{ width: 40%; }
+	.w50_l	{ width: 50%; }
+	.w66_l	{ width: 66.66%; }
+	.w100_l	{ width: 100%; }
+}
