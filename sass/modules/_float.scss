@@ -7,3 +7,15 @@
 .fl	{ float: left; }
 .fr { float: right; }
 .fn { float: none; }
+
+@media (min-width:$bp_m) {
+	.fl_m { float: left; }
+	.fr_m { float: right; }
+	.fn_m { float: none; }
+}
+
+@media (min-width:$bp_l) {
+	.fl_l { float: left; }
+	.fr_l { float: right; }
+	.fn_l { float: none; }
+}
