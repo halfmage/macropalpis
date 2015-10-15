@@ -1,29 +1,51 @@
-/* 
-
-	importing variables
-
-
-*/
-
+// importing variables
 @import "modules/breakpoints.scss";
 
-
-/* 
-
-	importing all modules
-
-
-*/
-
+// vendor modules
 @import "modules/normalize.scss";
 
-@import "modules/padding.scss";
-@import "modules/margin.scss";
-@import "modules/float.scss";
-@import "modules/width.scss";
-@import "modules/height.scss";
-@import "modules/display.scss";
-@import "modules/clear.scss";
-@import "modules/border-radius.scss";
-@import "modules/text-align.scss";
-@import "modules/visibility.scss";
+// importing modules
+
+	// spacing
+	@import "modules/padding.scss";
+	@import "modules/margin.scss";
+
+	// positioning
+	@import "modules/width.scss";
+	@import "modules/height.scss";
+	@import "modules/float.scss";
+	@import "modules/clear.scss";
+	@import "modules/display.scss";
+	@import "modules/visibility.scss";
+
+	// border
+	//@import "modules/border.scss";
+	//@import "modules/border-color.scss";
+	//@import "modules/border-width.scss";
+	//@import "modules/border-style.scss";
+	@import "modules/border-radius.scss";
+
+	// lists
+	//@import "modules/list-style.scss";
+
+	// font
+	//@import "modules/font-family.scss";
+	//@import "modules/font-size.scss";
+	//@import "modules/font-style.scss";
+	//@import "modules/font-weight.scss";
+
+	// text
+	//@import "modules/letter-spacing.scss";
+	//@import "modules/line-height.scss";
+	@import "modules/text-align.scss";
+	//@import "modules/text-decoration.scss";
+	//@import "modules/text-indent.scss";
+	//@import "modules/text-transform.scss";
+	//@import "modules/text-shadow.scss";
+
+	// colors
+	//@import "modules/color.scss";
+	//@import "modules/background-color.scss";
+
+	// user interface
+	//@import "modules/cursor.scss";
