@@ -1,0 +1,24 @@
+/* 
+
+	text-decoration module
+
+*/
+
+.tdn { text-decoration: none; }
+.tdu { text-decoration: underline; }
+.tdo { text-decoration: overline; }
+.tdl { text-decoration: line-through; }
+
+@media (min-width:$bp_m) {
+	.tdn_m { text-decoration: none; }
+	.tdu_m { text-decoration: underline; }
+	.tdo_m { text-decoration: overline; }
+	.tdl_m { text-decoration: line-through; }
+}
+
+@media (min-width:$bp_l) {
+	.tdn_l { text-decoration: none; }
+	.tdu_l { text-decoration: underline; }
+	.tdo_l { text-decoration: overline; }
+	.tdl_l { text-decoration: line-through; }
+}
