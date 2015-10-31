@@ -6,23 +6,27 @@
 
 // importing modules
 
-	// spacing
+	// box-model
 	@import "modules/padding.scss";
 	@import "modules/margin.scss";
 
-	// positioning
+	// dimensions
 	@import "modules/width.scss";
 	@import "modules/height.scss";
+
+	// layout
 	@import "modules/float.scss";
 	@import "modules/clear.scss";
 	@import "modules/display.scss";
+	@import "modules/opacity.scss";
 	@import "modules/visibility.scss";
+	@import "modules/overflow.scss";
 
 	// border
-	//@import "modules/border.scss";
+	@import "modules/border.scss";
 	//@import "modules/border-color.scss";
-	//@import "modules/border-width.scss";
-	//@import "modules/border-style.scss";
+	@import "modules/border-width.scss";
+	@import "modules/border-style.scss";
 	@import "modules/border-radius.scss";
 
 	// lists
@@ -45,7 +49,7 @@
 
 	// colors
 	//@import "modules/color.scss";
-	//@import "modules/background-color.scss";
+	@import "modules/background-color.scss";
 
 	// user interface
 	//@import "modules/cursor.scss";

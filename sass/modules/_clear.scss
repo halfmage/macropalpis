@@ -4,13 +4,7 @@
 
 */
 
-.cb	{ clear: both;}
-.cl	{ clear: left;}
-.cr	{ clear: right;}
-.cn	{ clear: none;}
-
 .cf	{ 
-
 	&:before, &:after {
 	    content: " ";
 	    display: table; 
@@ -18,5 +12,23 @@
 	&:after {
 	    clear: both;
 	}
+}
 
+.cb	{ clear: both;}
+.cl	{ clear: left;}
+.cr	{ clear: right;}
+.cn	{ clear: none;}
+
+@media (min-width:$bp_m){
+.cb_m { clear: both;}
+.cl_m { clear: left;}
+.cr_m { clear: right;}
+.cn_m { clear: none;}
+}
+
+@media (min-width:$bp_l){
+.cb_l { clear: both;}
+.cl_l { clear: left;}
+.cr_l { clear: right;}
+.cn_l { clear: none;}
 }
