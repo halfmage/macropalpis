@@ -6,12 +6,13 @@
 
 // importing modules
 
-	// box-model
+	// spacing
 	@import "modules/padding.scss";
 	@import "modules/margin.scss";
 
 	// dimensions
 	@import "modules/width.scss";
+	@import "modules/max-width.scss";
 	@import "modules/height.scss";
 
 	// layout

@@ -4,6 +4,9 @@
 
 */
 
+// Nicolas Gallaghers Clearfix
+// http://nicolasgallagher.com/micro-clearfix-hack/
+
 .cf	{ 
 	&:before, &:after {
 	    content: " ";
@@ -14,21 +17,21 @@
 	}
 }
 
-.cb	{ clear: both;}
+.cn	{ clear: none;}
 .cl	{ clear: left;}
 .cr	{ clear: right;}
-.cn	{ clear: none;}
+.cb	{ clear: both;}
 
 @media (min-width:$bp_m){
-.cb_m { clear: both;}
+.cn_m { clear: none;}
 .cl_m { clear: left;}
 .cr_m { clear: right;}
-.cn_m { clear: none;}
+.cb_m { clear: both;}
 }
 
 @media (min-width:$bp_l){
-.cb_l { clear: both;}
+.cn_l { clear: none;}
 .cl_l { clear: left;}
 .cr_l { clear: right;}
-.cn_l { clear: none;}
+.cb_l { clear: both;}
 }
