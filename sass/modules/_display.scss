@@ -1,24 +1,24 @@
 /* 
 
-	display module
+display module
 
 */
 
-.dn		{ display: none; }
-.db		{ display: block; }
-.di		{ display: inline; }
-.dib	{ display: inline-block; }
+.dn	{display: none;}
+.db	{display: block;}
+.di	{display: inline;}
+.dib {display: inline-block;}
 
 @media (min-width:$bp_m) {
-	.dn_m  { display: none; }
-	.db_m  { display: block; }
-	.di_m  { display: inline; }
-	.dib_m { display: inline-block; }
+	.dn_m {display: none;}
+	.db_m {display: block;}
+	.di_m {display: inline;}
+	.dib_m {display: inline-block;}
 }
 
 @media (min-width:$bp_l) {
-	.dn_l  { display: none; }
-	.db_l  { display: block; }
-	.di_l  { display: inline; }
-	.dib_l { display: inline-block; }
+	.dn_l {display: none;}
+	.db_l {display: block;}
+	.di_l {display: inline;}
+	.dib_l {display: inline-block;}
 }
