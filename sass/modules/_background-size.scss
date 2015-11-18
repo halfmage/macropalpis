@@ -1,0 +1,18 @@
+// MACROPALPIS
+// background-size module
+
+.bgza { background-size: auto }
+.bgzcv { background-size: cover }
+.bgzct { background-size: contain }
+
+@media (min-width:$bp_m) {
+	.bgza_m { background-size: auto }
+	.bgzcv_m { background-size: cover }
+	.bgzct_m { background-size: contain }
+}
+
+@media (min-width:$bp_l) {
+	.bgza_l { background-size: auto }
+	.bgzcv_l { background-size: cover }
+	.bgzct_l { background-size: contain }
+}

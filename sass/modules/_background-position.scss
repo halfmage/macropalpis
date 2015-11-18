@@ -1,0 +1,36 @@
+// MACROPALPIS
+// background-position module
+
+.bgpt { background-position: top }
+.bgpb { background-position: bottom }
+.bgpl { background-position: left }
+.bgpr { background-position: right }
+
+.bgptl { background-position: top left }
+.bgptr { background-position: top right }
+.bgpbl { background-position: bottom left }
+.bgpbr { background-position: bottom right }
+
+@media (min-width:$bp_m) {
+	.bgpt--M { background-position: top }
+	.bgpb--M { background-position: bottom }
+	.bgpl--M { background-position: left }
+	.bgpr--M { background-position: right }
+
+	.bgptl--M { background-position: top left }
+	.bgptr--M { background-position: top right }
+	.bgpbl--M { background-position: bottom left }
+	.bgpbr--M { background-position: bottom right }
+}
+
+@media (min-width:$bp_l) {
+	.bgpt--L { background-position: top }
+	.bgpb--L { background-position: bottom }
+	.bgpl--L { background-position: left }
+	.bgpr--L { background-position: right }
+
+	.bgptl--L { background-position: top left }
+	.bgptr--L { background-position: top right }
+	.bgpbl--L { background-position: bottom left }
+	.bgpbr--L { background-position: bottom right }
+}

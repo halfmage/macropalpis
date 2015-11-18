@@ -6,6 +6,12 @@
 
 // importing modules
 
+	// Background Modules
+	@import "modules/background-color.scss";
+	@import "modules/background-position.scss";
+	@import "modules/background-repeat.scss";
+	@import "modules/background-size.scss";
+
 	// spacing
 	@import "modules/padding.scss";
 	@import "modules/margin.scss";
@@ -50,7 +56,6 @@
 
 	// colors
 	@import "modules/color.scss";
-	@import "modules/background-color.scss";
 
 	// user interface
 	//@import "modules/cursor.scss";
