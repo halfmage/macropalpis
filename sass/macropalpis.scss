@@ -22,21 +22,20 @@
 	@import "modules/padding.scss";
 	@import "modules/margin.scss";
 
-	// dimensions
+	// layout
+	//@import "modules/position.scss";
+	@import "modules/display.scss";
+	@import "modules/float.scss";
+	@import "modules/visibility.scss";
+	@import "modules/overflow.scss";
+	@import "modules/clear.scss";
+	@import "modules/opacity.scss";
+	//@import "modules/z-index.scss";
 	@import "modules/width.scss";
 	@import "modules/max-width.scss";
 	@import "modules/height.scss";
 
-	// layout
-	@import "modules/float.scss";
-	@import "modules/clear.scss";
-	@import "modules/display.scss";
-	@import "modules/opacity.scss";
-	@import "modules/visibility.scss";
-	@import "modules/overflow.scss";
-
 	// border
-	@import "modules/border.scss";
 	//@import "modules/border-color.scss";
 	@import "modules/border-width.scss";
 	@import "modules/border-style.scss";
@@ -44,18 +43,19 @@
 
 	// lists
 	//@import "modules/list-style.scss";
+	//@import "modules/list-type.scss";
 
 	// text
+	@import "modules/color.scss";
 	//@import "modules/letter-spacing.scss";
 	//@import "modules/line-height.scss";
 	@import "modules/text-align.scss";
 	@import "modules/text-decoration.scss";
 	//@import "modules/text-indent.scss";
 	//@import "modules/text-transform.scss";
+	//@import "modules/vertical-align.scss";
+	//@import "modules/white-space.scss";
 	//@import "modules/text-shadow.scss";
-
-	// colors
-	@import "modules/color.scss";
 
 	// user interface
 	//@import "modules/cursor.scss";
