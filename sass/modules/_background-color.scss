@@ -4,3 +4,15 @@
 .bgc-white { background-color: #fefefe; }
 .bgc-black { background-color: #111; }
 .bgc-gray  { background-color: #ccc }
+
+@media (min-width:$bp_m) {
+	.bgc-white_m { background-color: #fefefe; }
+	.bgc-black_m { background-color: #111; }
+	.bgc-gray_m  { background-color: #ccc }
+}
+
+@media (min-width:$bp_l) {
+	.bgc-white_l { background-color: #fefefe; }
+	.bgc-black_l { background-color: #111; }
+	.bgc-gray_l  { background-color: #ccc }
+}

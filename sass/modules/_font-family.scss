@@ -1,0 +1,18 @@
+// MACROPALPIS
+// font-family module
+
+.ffm  { font-family: monospace }
+.ffs  { font-family: serif }
+.ffss { font-family: sans-serif }
+
+@media (min-width:$bp_m) {
+	.ffm_m  { font-family: monospace }
+	.ffs_m  { font-family: serif }
+	.ffss_m { font-family: sans-serif }
+}
+
+@media (min-width:$bp_l) {
+	.ffm_l  { font-family: monospace }
+	.ffs_l  { font-family: serif }
+	.ffss_l { font-family: sans-serif }
+}

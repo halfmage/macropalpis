@@ -12,7 +12,13 @@
 	@import "modules/background-repeat.scss";
 	@import "modules/background-size.scss";
 
-	// spacing
+	// Font Modules
+	@import "modules/font-family.scss";
+	//@import "modules/font-size.scss";
+	@import "modules/font-style.scss";
+	@import "modules/font-weight.scss";
+
+	// Spacing Modules
 	@import "modules/padding.scss";
 	@import "modules/margin.scss";
 
@@ -38,12 +44,6 @@
 
 	// lists
 	//@import "modules/list-style.scss";
-
-	// font
-	//@import "modules/font-family.scss";
-	//@import "modules/font-size.scss";
-	//@import "modules/font-style.scss";
-	//@import "modules/font-weight.scss";
 
 	// text
 	//@import "modules/letter-spacing.scss";

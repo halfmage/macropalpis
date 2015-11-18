@@ -1,0 +1,18 @@
+// MACROPALPIS
+// font-family module
+
+.fsn { font-style: normal }
+.fsi { font-style: italic } 
+.fso { font-style: oblique }
+
+@media (min-width:$bp_m) {
+	.fsn_m { font-style: normal }
+	.fsi_m { font-style: italic } 
+	.fso_m { font-style: oblique }
+}
+
+@media (min-width:$bp_l) {
+	.fsn_l { font-style: normal }
+	.fsi_l { font-style: italic } 
+	.fso_l { font-style: oblique }
+}

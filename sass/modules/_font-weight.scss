@@ -1,0 +1,18 @@
+// MACROPALPIS
+// font-weight module
+
+.fwn { font-weight: normal }
+.fwb { font-weight: bold }
+.fwl { font-weight: lighter }
+
+@media (min-width:$bp_m) {
+	.fwn_m { font-weight: normal }
+	.fwb_m { font-weight: bold }
+	.fwl_m { font-weight: lighter }
+}
+
+@media (min-width:$bp_l) {
+	.fwn_l { font-weight: normal }
+	.fwb_l { font-weight: bold }
+	.fwl_l { font-weight: lighter }
+}
