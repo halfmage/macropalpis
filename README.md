@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/halfmage/macropalpis/master/macropalpis-logo.png "Macropalpis Logo")
+
 # macropalpis
 collection of ultra-shorthanded utility classes with mobile-first approach
 
