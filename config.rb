@@ -5,6 +5,6 @@ sass_dir = 'sass'
 images_dir = 'img'
 javascripts_dir = 'js'
 relative_assets = true
+
+output_style = :expanded
 line_comments = true
-output_style = :compressed
-# Sass::Script::Number.precision = 10
