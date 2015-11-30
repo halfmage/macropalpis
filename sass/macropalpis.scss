@@ -1,3 +1,5 @@
+// Macropalpis CSS
+
 // importing variables
 @import "modules/breakpoints.scss";
 
@@ -23,7 +25,11 @@
 	@import "modules/margin.scss";
 
 	// layout
-	//@import "modules/position.scss";
+	@import "modules/position.scss";
+		@import "modules/top.scss";
+		//@import "modules/right.scss";
+		@import "modules/bottom.scss";
+		//@import "modules/left.scss";
 	@import "modules/display.scss";
 	@import "modules/float.scss";
 	@import "modules/visibility.scss";
