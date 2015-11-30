@@ -27,16 +27,16 @@
 	// layout
 	@import "modules/position.scss";
 		@import "modules/top.scss";
-		//@import "modules/right.scss";
+		@import "modules/right.scss";
 		@import "modules/bottom.scss";
-		//@import "modules/left.scss";
+		@import "modules/left.scss";
 	@import "modules/display.scss";
 	@import "modules/float.scss";
 	@import "modules/visibility.scss";
 	@import "modules/overflow.scss";
 	@import "modules/clear.scss";
 	@import "modules/opacity.scss";
-	//@import "modules/z-index.scss";
+	@import "modules/z-index.scss";
 	@import "modules/width.scss";
 	@import "modules/max-width.scss";
 	@import "modules/height.scss";

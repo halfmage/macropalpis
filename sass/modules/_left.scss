@@ -1,0 +1,42 @@
+// MACROPALPIS
+// left sub-module
+
+.l0 {top:0}
+
+.l1 {top:1em}
+.l2 {top:2em}
+.l3 {top:3em}
+.l4 {top:4em}
+
+.l-1 {top:-1em}
+.l-2 {top:-2em}
+.l-3 {top:-3em}
+.l-4 {top:-4em}
+
+@media (min-width:$bp_m) {
+	.l0_m {top:0}
+
+	.l1_m {top:1em}
+	.l2_m {top:2em}
+	.l3_m {top:3em}
+	.l4_m {top:4em}
+
+	.l-1_m {top:-1em}
+	.l-2_m {top:-2em}
+	.l-3_m {top:-3em}
+	.l-4_m {top:-4em}
+}
+
+@media (min-width:$bp_l) {
+	.l0_l {top:0}
+
+	.l1_l {top:1em}
+	.l2_l {top:2em}
+	.l3_l {top:3em}
+	.l4_l {top:4em}
+	
+	.l-1_l {top:-1em}
+	.l-2_l {top:-2em}
+	.l-3_l {top:-3em}
+	.l-4_l {top:-4em}
+}
