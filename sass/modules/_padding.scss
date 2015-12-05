@@ -1,92 +1,105 @@
-/* 
+// MACROPALPIS
+// padding module
 
-padding module
-
-	suffix index:
-
-		a = all
+/*
+	suffix guide
+		none = all
 		t = top
 		r = right
 		b = bottom
 		l = left
-
 */
 
-.p1 {padding: 8em;}
-.p2 {padding: 4em;}
-.p3 {padding: 2em;}
-.p4 {padding: 1em;}
+.p0 { padding: 0em }
+.p1 { padding: 1em }
+.p2 { padding: 2em }
+.p3 { padding: 4em }
+.p4 { padding: 8em }
 
-.pt1 {padding-top: 8em;}
-.pt2 {padding-top: 4em;}
-.pt3 {padding-top: 2em;}
-.pt4 {padding-top: 1em;}
+.pt0 { padding-top: 0em }
+.pt1 { padding-top: 1em }
+.pt2 { padding-top: 2em }
+.pt3 { padding-top: 4em }
+.pt4 { padding-top: 8em }
 
-.pr1 {padding-right: 8em;}
-.pr2 {padding-right: 4em;}
-.pr3 {padding-right: 2em;}
-.pr4 {padding-right: 1em;}
+.pr0 { padding-right: 0em }
+.pr1 { padding-right: 1em }
+.pr2 { padding-right: 2em }
+.pr3 { padding-right: 4em }
+.pr4 { padding-right: 8em }
 
-.pb1 {padding-bottom: 8em;}
-.pb2 {padding-bottom: 4em;}
-.pb3 {padding-bottom: 2em;}
-.pb4 {padding-bottom: 1em;}
+.pb0 { padding-bottom: 0em }
+.pb1 { padding-bottom: 1em }
+.pb2 { padding-bottom: 2em }
+.pb3 { padding-bottom: 4em }
+.pb4 { padding-bottom: 8em }
 
-.pl1 {padding-left: 8em;}
-.pl2 {padding-left: 4em;}
-.pl3 {padding-left: 2em;}
-.pl4 {padding-left: 1em;}
+.pl0 { padding-left: 0em }
+.pl1 { padding-left: 1em }
+.pl2 { padding-left: 2em }
+.pl3 { padding-left: 4em }
+.pl4 { padding-left: 8em }
 
 @media (min-width:$bp_m) {
-	.p1_m {padding: 8em;}
-	.p2_m {padding: 4em;} 
-	.p3_m {padding: 2em;}
-	.p4_m {padding: 1em;}
+	.p0_m { padding: 0em }
+	.p1_m { padding: 1em }
+	.p2_m { padding: 2em } 
+	.p3_m { padding: 4em }
+	.p4_m { padding: 8em }
 
-	.pt1_m {padding-top: 8em;}
-	.pt2_m {padding-top: 4em;}
-	.pt3_m {padding-top: 2em;}
-	.pt4_m {padding-top: 1em;}
+	.pt0_m { padding-top: 0em }
+	.pt1_m { padding-top: 1em }
+	.pt2_m { padding-top: 2em }
+	.pt3_m { padding-top: 4em }
+	.pt4_m { padding-top: 8em }
 
-	.pr1_m {padding-right: 8em;}
-	.pr2_m {padding-right: 4em;}
-	.pr3_m {padding-right: 2em;}
-	.pr4_m {padding-right: 1em;}
+	.pr0_m { padding-right: 0em }
+	.pr1_m { padding-right: 1em }
+	.pr2_m { padding-right: 2em }
+	.pr3_m { padding-right: 4em }
+	.pr4_m { padding-right: 8em }
 
-	.pb1_m {padding-bottom: 8em;}
-	.pb2_m {padding-bottom: 4em;}
-	.pb3_m {padding-bottom: 2em;}
-	.pb4_m {padding-bottom: 1em;}
+	.pb0_m { padding-bottom: 0em }
+	.pb1_m { padding-bottom: 1em }
+	.pb2_m { padding-bottom: 2em }
+	.pb3_m { padding-bottom: 4em }
+	.pb4_m { padding-bottom: 8em }
 
-	.pl1_m {padding-left: 8em;}
-	.pl2_m {padding-left: 4em;}
-	.pl3_m {padding-left: 2em;}
-	.pl4_m {padding-left: 1em;}
+	.pl0_m { padding-left: 0em }
+	.pl1_m { padding-left: 1em }
+	.pl2_m { padding-left: 2em }
+	.pl3_m { padding-left: 4em }
+	.pl4_m { padding-left: 8em }
 }
 
 @media (min-width:$bp_l) {
-	.p1_l {padding: 8em;}
-	.p2_l {padding: 4em;}
-	.p3_l {padding: 2em;}
-	.p4_l {padding: 1em;}
+	.p0l { padding: 0em }
+	.p1_l { padding: 1em }
+	.p2_l { padding: 2em }
+	.p3_l { padding: 4em }
+	.p4_l { padding: 8em }
 
-	.pt1_l {padding-top: 8em;}
-	.pt2_l {padding-top: 4em;}
-	.pt3_l {padding-top: 2em;}
-	.pt4_l {padding-top: 1em;}
+	.pt0_l { padding-top: 0em }
+	.pt1_l { padding-top: 1em }
+	.pt2_l { padding-top: 2em }
+	.pt3_l { padding-top: 4em }
+	.pt4_l { padding-top: 8em }
 
-	.pr1_l {padding-right: 8em;}
-	.pr2_l {padding-right: 4em;}
-	.pr3_l {padding-right: 2em;}
-	.pr4_l {padding-right: 1em;}
+	.pr0_l { padding-right: 0em }
+	.pr1_l { padding-right: 1em }
+	.pr2_l { padding-right: 2em }
+	.pr3_l { padding-right: 4em }
+	.pr4_l { padding-right: 8em }
 
-	.pb1_l {padding-bottom: 8em;}
-	.pb2_l {padding-bottom: 4em;}
-	.pb3_l {padding-bottom: 2em;}
-	.pb4_l {padding-bottom: 1em;}
+	.pb0_l { padding-bottom: 0em }
+	.pb1_l { padding-bottom: 1em }
+	.pb2_l { padding-bottom: 2em }
+	.pb3_l { padding-bottom: 4em }
+	.pb4_l { padding-bottom: 8em }
 
-	.pl1_l {padding-left: 8em;}
-	.pl2_l {padding-left: 4em;}
-	.pl3_l {padding-left: 2em;}
-	.pl4_l {padding-left: 1em;}
+	.pl0_l { padding-left: 0em }
+	.pl1_l { padding-left: 1em }
+	.pl2_l { padding-left: 2em }
+	.pl3_l { padding-left: 4em }
+	.pl4_l { padding-left: 8em }
 }
