@@ -1,0 +1,42 @@
+/* 
+	default variables for breakpoints
+	(breakpoints are marked with "_" and size-suffix)
+	
+	x_m = medium (768px)
+	x_l = large (1024px)
+*/
+
+$bp_m : 768px;
+$bp_l : 1024px;
+
+
+// color variables
+$color-primary:		#50E3C2;
+$color-secondary:	#7053FF;
+$color-tertiary:	#222;
+
+// check http://clrs.cc/
+$color-black:		#111;
+$color-gray:		#aaa;
+$color-silver:		#ddd;
+$color-white:		#fff;
+$color-navy:		#001f3f;
+$color-blue:		#0074d9;
+$color-aqua:		#7fdbff;
+$color-teal:		#39cccc;
+$color-olive:		#3d9970;
+$color-green:		#2ecc40;
+$color-lime:		#01ff70;
+$color-yellow:		#ffdc00;
+$color-orange:		#ff851b;
+$color-red:			#ff4136;
+$color-maroon:		#85144b;
+$color-fuchsia:		#f012be;
+$color-purple:		#b10dc9;
+
+// font variables
+$font-serif:	"Georgia", serif;
+$font-sans:		"Helvetica", "Arial", sans-serif;
+$font-mono:		"Lucida Console", "Courier New", monospace;
+
+

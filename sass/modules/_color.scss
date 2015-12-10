@@ -1,24 +1,28 @@
-/* 
+// MACROPALPIS
+// color module
 
-	color module
+// five shades of gray
+.c-black	{ color: $color-black }
+.c-gray		{ color: $color-gray }
+.c-silver	{ color: $color-silver }
+.c-white	{ color: $color-white }
 
-*/
+// brand specific color palette
+.c1 { color: $color-primary }
+.c2 { color: $color-secondary }
+.c3 { color: $color-tertiary }
 
-.white { color: #fff; }
-.black { color: #111; }
-
-.c1 { color: red; }
-.c2 { color: blue; }
-.c3 { color: yellow; }
-
-
-// basic color palette
-.red 	 { color: #111; }
-.green 	 { color: #111; }
-.blue 	 { color: #111; }
-.orange  { color: #111; }
-.brown 	 { color: #111; }
-.purple  { color: #111; }
-.cyan 	 { color: #111; }
-.magenta { color: #111; }
-.yellow  { color: #111; }
+// color palette by http://clrs.cc
+.c-navy		{ color: $color-navy }
+.c-blue		{ color: $color-blue }
+.c-aqua		{ color: $color-aqua }
+.c-teal		{ color: $color-teal }
+.c-olive	{ color: $color-olive }
+.c-green	{ color: $color-green }
+.c-lime		{ color: $color-lime }
+.c-yellow	{ color: $color-yellow }
+.c-orange	{ color: $color-orange }
+.c-red		{ color: $color-red }
+.c-maroon	{ color: $color-maroon }
+.c-fuchsia	{ color: $color-fuchsia }
+.c-purple	{ color: $color-purple }
