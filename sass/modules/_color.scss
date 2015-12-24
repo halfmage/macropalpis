@@ -1,18 +1,15 @@
 // MACROPALPIS
 // color module
 
-// black and white
 .c-black	{ color: $color-black }
 .c-gray		{ color: $color-gray }
 .c-silver	{ color: $color-silver }
 .c-white	{ color: $color-white }
 
-// brand specific color palette
 .c1 		{ color: $color-primary }
 .c2 		{ color: $color-secondary }
 .c3 		{ color: $color-tertiary }
 
-// palette by http://clrs.cc/
 .c-navy		{ color: $color-navy }
 .c-blue		{ color: $color-blue }
 .c-aqua		{ color: $color-aqua }
@@ -61,7 +58,7 @@
 	.c1_l 			{ color: $color-primary }
 	.c2_l 			{ color: $color-secondary }
 	.c3_l 			{ color: $color-tertiary }
-	
+
 	.c-navy_l		{ color: $color-navy }
 	.c-blue_l		{ color: $color-blue }
 	.c-aqua_l		{ color: $color-aqua }
