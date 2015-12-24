@@ -5,14 +5,14 @@
 .fsi { font-style: italic } 
 .fso { font-style: oblique }
 
-@media (min-width:$bp_m) {
-	.fsn_m { font-style: normal }
-	.fsi_m { font-style: italic } 
-	.fso_m { font-style: oblique }
+@media (min-width:$bp--m) {
+	.fsn--m { font-style: normal }
+	.fsi--m { font-style: italic } 
+	.fso--m { font-style: oblique }
 }
 
-@media (min-width:$bp_l) {
-	.fsn_l { font-style: normal }
-	.fsi_l { font-style: italic } 
-	.fso_l { font-style: oblique }
+@media (min-width:$bp--l) {
+	.fsn--l { font-style: normal }
+	.fsi--l { font-style: italic } 
+	.fso--l { font-style: oblique }
 }

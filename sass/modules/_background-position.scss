@@ -11,7 +11,7 @@
 .bgpbl { background-position: bottom left }
 .bgpbr { background-position: bottom right }
 
-@media (min-width:$bp_m) {
+@media (min-width:$bp--m) {
 	.bgpt--M { background-position: top }
 	.bgpb--M { background-position: bottom }
 	.bgpl--M { background-position: left }
@@ -23,7 +23,7 @@
 	.bgpbr--M { background-position: bottom right }
 }
 
-@media (min-width:$bp_l) {
+@media (min-width:$bp--l) {
 	.bgpt--L { background-position: top }
 	.bgpb--L { background-position: bottom }
 	.bgpl--L { background-position: left }

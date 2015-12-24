@@ -24,52 +24,52 @@
 .bgc-fuchsia	{ color: $color-fuchsia }
 .bgc-purple		{ color: $color-purple }
 
-@media (min-width:$bp_m) {
-	.bgc-black_m		{ color: $color-black }
-	.bgc-gray_m			{ color: $color-gray }
-	.bgc-silver_m		{ color: $color-silver }
-	.bgc-white_m		{ color: $color-white }
+@media (min-width:$bp--m) {
+	.bgc-black--m		{ color: $color-black }
+	.bgc-gray--m			{ color: $color-gray }
+	.bgc-silver--m		{ color: $color-silver }
+	.bgc-white--m		{ color: $color-white }
 
-	.bgc1_m 			{ color: $color-primary }
-	.bgc2_m 			{ color: $color-secondary }
-	.bgc3_m 			{ color: $color-tertiary }
+	.bgc1--m 			{ color: $color-primary }
+	.bgc2--m 			{ color: $color-secondary }
+	.bgc3--m 			{ color: $color-tertiary }
 
-	.bgc-navy_m			{ color: $color-navy }
-	.bgc-blue_m			{ color: $color-blue }
-	.bgc-aqua_m			{ color: $color-aqua }
-	.bgc-teal_m			{ color: $color-teal }
-	.bgc-olive_m		{ color: $color-olive }
-	.bgc-green_m		{ color: $color-green }
-	.bgc-lime_m			{ color: $color-lime }
-	.bgc-yellow_m		{ color: $color-yellow }
-	.bgc-orange_m		{ color: $color-orange }
-	.bgc-red_m			{ color: $color-red }
-	.bgc-maroon_m		{ color: $color-maroon }
-	.bgc-fuchsia_m		{ color: $color-fuchsia }
-	.bgc-purple_m		{ color: $color-purple }
+	.bgc-navy--m			{ color: $color-navy }
+	.bgc-blue--m			{ color: $color-blue }
+	.bgc-aqua--m			{ color: $color-aqua }
+	.bgc-teal--m			{ color: $color-teal }
+	.bgc-olive--m		{ color: $color-olive }
+	.bgc-green--m		{ color: $color-green }
+	.bgc-lime--m			{ color: $color-lime }
+	.bgc-yellow--m		{ color: $color-yellow }
+	.bgc-orange--m		{ color: $color-orange }
+	.bgc-red--m			{ color: $color-red }
+	.bgc-maroon--m		{ color: $color-maroon }
+	.bgc-fuchsia--m		{ color: $color-fuchsia }
+	.bgc-purple--m		{ color: $color-purple }
 }
 
-@media (min-width:$bp_l) {
-	.bgc-black_l		{ color: $color-black }
-	.bgc-gray_l			{ color: $color-gray }
-	.bgc-silver_l		{ color: $color-silver }
-	.bgc-white_l		{ color: $color-white }
+@media (min-width:$bp--l) {
+	.bgc-black--l		{ color: $color-black }
+	.bgc-gray--l			{ color: $color-gray }
+	.bgc-silver--l		{ color: $color-silver }
+	.bgc-white--l		{ color: $color-white }
 
-	.bgc1_l 			{ color: $color-primary }
-	.bgc2_l 			{ color: $color-secondary }
-	.bgc3_l 			{ color: $color-tertiary }
+	.bgc1--l 			{ color: $color-primary }
+	.bgc2--l 			{ color: $color-secondary }
+	.bgc3--l 			{ color: $color-tertiary }
 	
-	.bgc-navy_l			{ color: $color-navy }
-	.bgc-blue_l			{ color: $color-blue }
-	.bgc-aqua_l			{ color: $color-aqua }
-	.bgc-teal_l			{ color: $color-teal }
-	.bgc-olive_l		{ color: $color-olive }
-	.bgc-green_l		{ color: $color-green }
-	.bgc-lime_l			{ color: $color-lime }
-	.bgc-yellow_l		{ color: $color-yellow }
-	.bgc-orange_l		{ color: $color-orange }
-	.bgc-red_l			{ color: $color-red }
-	.bgc-maroon_l		{ color: $color-maroon }
-	.bgc-fuchsia_l		{ color: $color-fuchsia }
-	.bgc-purple_l		{ color: $color-purple }
+	.bgc-navy--l			{ color: $color-navy }
+	.bgc-blue--l			{ color: $color-blue }
+	.bgc-aqua--l			{ color: $color-aqua }
+	.bgc-teal--l			{ color: $color-teal }
+	.bgc-olive--l		{ color: $color-olive }
+	.bgc-green--l		{ color: $color-green }
+	.bgc-lime--l			{ color: $color-lime }
+	.bgc-yellow--l		{ color: $color-yellow }
+	.bgc-orange--l		{ color: $color-orange }
+	.bgc-red--l			{ color: $color-red }
+	.bgc-maroon--l		{ color: $color-maroon }
+	.bgc-fuchsia--l		{ color: $color-fuchsia }
+	.bgc-purple--l		{ color: $color-purple }
 }

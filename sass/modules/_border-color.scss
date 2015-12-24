@@ -24,52 +24,52 @@
 .bc-fuchsia		{ border-color: $color-fuchsia }
 .bc-purple		{ border-color: $color-purple }
 
-@media (min-width:$bp_m) {
-	.bc-black_m		{ border-color: $color-black }
-	.bc-gray_m		{ border-color: $color-gray }
-	.bc-silver_m	{ border-color: $color-silver }
-	.bc-white_m		{ border-color: $color-white }
+@media (min-width:$bp--m) {
+	.bc-black--m		{ border-color: $color-black }
+	.bc-gray--m		{ border-color: $color-gray }
+	.bc-silver--m	{ border-color: $color-silver }
+	.bc-white--m		{ border-color: $color-white }
 
-	.bc1_m 			{ border-color: $color-primary }
-	.bc2_m 			{ border-color: $color-secondary }
-	.bc3_m 			{ border-color: $color-tertiary }
+	.bc1--m 			{ border-color: $color-primary }
+	.bc2--m 			{ border-color: $color-secondary }
+	.bc3--m 			{ border-color: $color-tertiary }
 
-	.bc-navy_m		{ border-color: $color-navy }
-	.bc-blue_m		{ border-color: $color-blue }
-	.bc-aqua_m		{ border-color: $color-aqua }
-	.bc-teal_m		{ border-color: $color-teal }
-	.bc-olive_m		{ border-color: $color-olive }
-	.bc-green_m		{ border-color: $color-green }
-	.bc-lime_m		{ border-color: $color-lime }
-	.bc-yellow_m	{ border-color: $color-yellow }
-	.bc-orange_m	{ border-color: $color-orange }
-	.bc-red_m		{ border-color: $color-red }
-	.bc-maroon_m	{ border-color: $color-maroon }
-	.bc-fuchsia_m	{ border-color: $color-fuchsia }
-	.bc-purple_m	{ border-color: $color-purple }
+	.bc-navy--m		{ border-color: $color-navy }
+	.bc-blue--m		{ border-color: $color-blue }
+	.bc-aqua--m		{ border-color: $color-aqua }
+	.bc-teal--m		{ border-color: $color-teal }
+	.bc-olive--m		{ border-color: $color-olive }
+	.bc-green--m		{ border-color: $color-green }
+	.bc-lime--m		{ border-color: $color-lime }
+	.bc-yellow--m	{ border-color: $color-yellow }
+	.bc-orange--m	{ border-color: $color-orange }
+	.bc-red--m		{ border-color: $color-red }
+	.bc-maroon--m	{ border-color: $color-maroon }
+	.bc-fuchsia--m	{ border-color: $color-fuchsia }
+	.bc-purple--m	{ border-color: $color-purple }
 }
 
-@media (min-width:$bp_l) {
-	.bc-black_l		{ border-color: $color-black }
-	.bc-gray_l		{ border-color: $color-gray }
-	.bc-silver_l	{ border-color: $color-silver }
-	.bc-white_l		{ border-color: $color-white }
+@media (min-width:$bp--l) {
+	.bc-black--l		{ border-color: $color-black }
+	.bc-gray--l		{ border-color: $color-gray }
+	.bc-silver--l	{ border-color: $color-silver }
+	.bc-white--l		{ border-color: $color-white }
 
-	.bc1_l 			{ border-color: $color-primary }
-	.bc2_l 			{ border-color: $color-secondary }
-	.bc3_l 			{ border-color: $color-tertiary }
+	.bc1--l 			{ border-color: $color-primary }
+	.bc2--l 			{ border-color: $color-secondary }
+	.bc3--l 			{ border-color: $color-tertiary }
 	
-	.bc-navy_l		{ border-color: $color-navy }
-	.bc-blue_l		{ border-color: $color-blue }
-	.bc-aqua_l		{ border-color: $color-aqua }
-	.bc-teal_l		{ border-color: $color-teal }
-	.bc-olive_l		{ border-color: $color-olive }
-	.bc-green_l		{ border-color: $color-green }
-	.bc-lime_l		{ border-color: $color-lime }
-	.bc-yellow_l	{ border-color: $color-yellow }
-	.bc-orange_l	{ border-color: $color-orange }
-	.bc-red_l		{ border-color: $color-red }
-	.bc-maroon_l	{ border-color: $color-maroon }
-	.bc-fuchsia_l	{ border-color: $color-fuchsia }
-	.bc-purple_l	{ border-color: $color-purple }
+	.bc-navy--l		{ border-color: $color-navy }
+	.bc-blue--l		{ border-color: $color-blue }
+	.bc-aqua--l		{ border-color: $color-aqua }
+	.bc-teal--l		{ border-color: $color-teal }
+	.bc-olive--l		{ border-color: $color-olive }
+	.bc-green--l		{ border-color: $color-green }
+	.bc-lime--l		{ border-color: $color-lime }
+	.bc-yellow--l	{ border-color: $color-yellow }
+	.bc-orange--l	{ border-color: $color-orange }
+	.bc-red--l		{ border-color: $color-red }
+	.bc-maroon--l	{ border-color: $color-maroon }
+	.bc-fuchsia--l	{ border-color: $color-fuchsia }
+	.bc-purple--l	{ border-color: $color-purple }
 }

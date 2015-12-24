@@ -5,14 +5,14 @@
 .ffss { font-family: $font-sans-serif }
 .ffm  { font-family: $font-mono }
 
-@media (min-width:$bp_m) {
-	.ffs_m  { font-family: $font-serif }
-	.ffss_m { font-family: $font-sans-serif }
-	.ffm_m  { font-family: $font-mono }
+@media (min-width:$bp--m) {
+	.ffs--m  { font-family: $font-serif }
+	.ffss--m { font-family: $font-sans-serif }
+	.ffm--m  { font-family: $font-mono }
 }
 
-@media (min-width:$bp_l) {
-	.ffs_l  { font-family: $font-serif }
-	.ffss_l { font-family: $font-sans-serif }
-	.ffm_l  { font-family: $font-mono }
+@media (min-width:$bp--l) {
+	.ffs--l  { font-family: $font-serif }
+	.ffss--l { font-family: $font-sans-serif }
+	.ffm--l  { font-family: $font-mono }
 }

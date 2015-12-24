@@ -9,22 +9,22 @@
 .z5 	{z-index: 2}
 .z6 	{z-index: 1}
 
-@media (min-width:$bp_m) {
-	.z0_m 	{z-index: 0}
-	.z1_m 	{z-index: 999}
-	.z2_m 	{z-index: 998}
-	.z3_m 	{z-index: 997}
-	.z4_m 	{z-index: 3}
-	.z5_m 	{z-index: 2}
-	.z6_m 	{z-index: 1}
+@media (min-width:$bp--m) {
+	.z0--m 	{z-index: 0}
+	.z1--m 	{z-index: 999}
+	.z2--m 	{z-index: 998}
+	.z3--m 	{z-index: 997}
+	.z4--m 	{z-index: 3}
+	.z5--m 	{z-index: 2}
+	.z6--m 	{z-index: 1}
 }
 
-@media (min-width:$bp_l) {
-	.z0_l 	{z-index: 0}
-	.z1_l 	{z-index: 999}
-	.z2_l 	{z-index: 998}
-	.z3_l 	{z-index: 997}
-	.z4_l 	{z-index: 3}
-	.z5_l 	{z-index: 2}
-	.z6_l 	{z-index: 1}
+@media (min-width:$bp--l) {
+	.z0--l 	{z-index: 0}
+	.z1--l 	{z-index: 999}
+	.z2--l 	{z-index: 998}
+	.z3--l 	{z-index: 997}
+	.z4--l 	{z-index: 3}
+	.z5--l 	{z-index: 2}
+	.z6--l 	{z-index: 1}
 }

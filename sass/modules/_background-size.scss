@@ -5,14 +5,14 @@
 .bgzcv { background-size: cover }
 .bgzct { background-size: contain }
 
-@media (min-width:$bp_m) {
-	.bgza_m { background-size: auto }
-	.bgzcv_m { background-size: cover }
-	.bgzct_m { background-size: contain }
+@media (min-width:$bp--m) {
+	.bgza--m { background-size: auto }
+	.bgzcv--m { background-size: cover }
+	.bgzct--m { background-size: contain }
 }
 
-@media (min-width:$bp_l) {
-	.bgza_l { background-size: auto }
-	.bgzcv_l { background-size: cover }
-	.bgzct_l { background-size: contain }
+@media (min-width:$bp--l) {
+	.bgza--l { background-size: auto }
+	.bgzcv--l { background-size: cover }
+	.bgzct--l { background-size: contain }
 }

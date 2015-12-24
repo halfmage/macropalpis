@@ -6,16 +6,16 @@
 .pa {position: absolute}
 .pf {position: fixed}
 
-@media (min-width:$bp_m) {
-	.ps_m {position: static}
-	.pr_m {position: relative}
-	.pa_m {position: absolute}
-	.pf_m {position: fixed}
+@media (min-width:$bp--m) {
+	.ps--m {position: static}
+	.pr--m {position: relative}
+	.pa--m {position: absolute}
+	.pf--m {position: fixed}
 }
 
-@media (min-width:$bp_l) {
-	.ps_l {position: static}
-	.pr_l {position: relative}
-	.pa_l {position: absolute}
-	.pf_l {position: fixed}
+@media (min-width:$bp--l) {
+	.ps--l {position: static}
+	.pr--l {position: relative}
+	.pa--l {position: absolute}
+	.pf--l {position: fixed}
 }

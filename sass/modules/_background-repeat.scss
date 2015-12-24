@@ -5,14 +5,14 @@
 .bgrx { background-repeat: repeat-x }
 .bgry { background-repeat: repeat-y }
 
-@media (min-width:$bp_m) {
-	.bgrn_m { background-repeat: no-repeat }
-	.bgrx_m { background-repeat: repeat-x }
-	.bgry_m { background-repeat: repeat-y }
+@media (min-width:$bp--m) {
+	.bgrn--m { background-repeat: no-repeat }
+	.bgrx--m { background-repeat: repeat-x }
+	.bgry--m { background-repeat: repeat-y }
 }
 
-@media (min-width:$bp_l) {
-	.bgrn_l { background-repeat: no-repeat }
-	.bgrx_l { background-repeat: repeat-x }
-	.bgry_l { background-repeat: repeat-y }
+@media (min-width:$bp--l) {
+	.bgrn--l { background-repeat: no-repeat }
+	.bgrx--l { background-repeat: repeat-x }
+	.bgry--l { background-repeat: repeat-y }
 }

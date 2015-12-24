@@ -2,8 +2,8 @@
 // max-width module
 
 // simply wrappers
-.mw--m { max-width: $bp_m }
-.mw--l { max-width: $bp_l }
+.mw--m { max-width: $bp--m }
+.mw--l { max-width: $bp--l }
 
 .mw1 { max-width: 16em; }
 .mw2 { max-width: 8em; }

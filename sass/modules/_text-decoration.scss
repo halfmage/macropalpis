@@ -6,16 +6,16 @@
 .tdo { text-decoration: overline; }
 .tdl { text-decoration: line-through; }
 
-@media (min-width:$bp_m) {
-	.tdn_m { text-decoration: none; }
-	.tdu_m { text-decoration: underline; }
-	.tdo_m { text-decoration: overline; }
-	.tdl_m { text-decoration: line-through; }
+@media (min-width:$bp--m) {
+	.tdn--m { text-decoration: none; }
+	.tdu--m { text-decoration: underline; }
+	.tdo--m { text-decoration: overline; }
+	.tdl--m { text-decoration: line-through; }
 }
 
-@media (min-width:$bp_l) {
-	.tdn_l { text-decoration: none; }
-	.tdu_l { text-decoration: underline; }
-	.tdo_l { text-decoration: overline; }
-	.tdl_l { text-decoration: line-through; }
+@media (min-width:$bp--l) {
+	.tdn--l { text-decoration: none; }
+	.tdu--l { text-decoration: underline; }
+	.tdo--l { text-decoration: overline; }
+	.tdl--l { text-decoration: line-through; }
 }

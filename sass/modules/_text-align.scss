@@ -6,16 +6,16 @@
 .tac { text-align: center; }
 .taj { text-align: justify; }
 
-@media (min-width:$bp_m) {
-	.tal_m { text-align: left; }
-	.tar_m { text-align: right; }
-	.tac_m { text-align: center; }
-	.taj_m { text-align: justify; }
+@media (min-width:$bp--m) {
+	.tal--m { text-align: left; }
+	.tar--m { text-align: right; }
+	.tac--m { text-align: center; }
+	.taj--m { text-align: justify; }
 }
 
-@media (min-width:$bp_l) {
-	.tal_l { text-align: left; }
-	.tar_l { text-align: right; }
-	.tac_l { text-align: center; }
-	.taj_l { text-align: justify; }
+@media (min-width:$bp--l) {
+	.tal--l { text-align: left; }
+	.tar--l { text-align: right; }
+	.tac--l { text-align: center; }
+	.taj--l { text-align: justify; }
 }

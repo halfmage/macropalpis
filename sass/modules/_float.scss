@@ -5,14 +5,14 @@
 .fr { float: right; }
 .fn { float: none; }
 
-@media (min-width:$bp_m) {
-	.fl_m { float: left; }
-	.fr_m { float: right; }
-	.fn_m { float: none; }
+@media (min-width:$bp--m) {
+	.fl--m { float: left; }
+	.fr--m { float: right; }
+	.fn--m { float: none; }
 }
 
-@media (min-width:$bp_l) {
-	.fl_l { float: left; }
-	.fr_l { float: right; }
-	.fn_l { float: none; }
+@media (min-width:$bp--l) {
+	.fl--l { float: left; }
+	.fr--l { float: right; }
+	.fn--l { float: none; }
 }

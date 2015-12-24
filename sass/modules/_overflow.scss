@@ -16,30 +16,30 @@
 .ovyv { overflow-y: visible; }
 .ovys { overflow-y: scroll; }
 
-@media (min-width:$bp_m) {
-	.ovh_m  { overflow: hidden; }
-	.ovv_m  { overflow: visible; }
-	.ovs_m  { overflow: scroll; }
+@media (min-width:$bp--m) {
+	.ovh--m  { overflow: hidden; }
+	.ovv--m  { overflow: visible; }
+	.ovs--m  { overflow: scroll; }
 
-	.ovxh_m { overflow-x: hidden; }
-	.ovxv_m { overflow-x: visible; }
-	.ovxs_m { overflow-x: scroll; }
+	.ovxh--m { overflow-x: hidden; }
+	.ovxv--m { overflow-x: visible; }
+	.ovxs--m { overflow-x: scroll; }
 
-	.ovyh_m { overflow-y: hidden; }
-	.ovyv_m { overflow-y: visible; }
-	.ovys_m { overflow-y: scroll; }
+	.ovyh--m { overflow-y: hidden; }
+	.ovyv--m { overflow-y: visible; }
+	.ovys--m { overflow-y: scroll; }
 }
 
-@media (min-width:$bp_l) {
-	.ovh_l  { overflow: hidden; }
-	.ovv_l  { overflow: visible; }
-	.ovs_l  { overflow: scroll; }
+@media (min-width:$bp--l) {
+	.ovh--l  { overflow: hidden; }
+	.ovv--l  { overflow: visible; }
+	.ovs--l  { overflow: scroll; }
 
-	.ovxh_l { overflow-x: hidden; }
-	.ovxv_l { overflow-x: visible; }
-	.ovxs_l { overflow-x: scroll; }
+	.ovxh--l { overflow-x: hidden; }
+	.ovxv--l { overflow-x: visible; }
+	.ovxs--l { overflow-x: scroll; }
 
-	.ovyh_l { overflow-y: hidden; }
-	.ovyv_l { overflow-y: visible; }
-	.ovys_l { overflow-y: scroll; }
+	.ovyh--l { overflow-y: hidden; }
+	.ovyv--l { overflow-y: visible; }
+	.ovys--l { overflow-y: scroll; }
 }

@@ -19,16 +19,16 @@
 .cr	{ clear: right; }
 .cb	{ clear: both; }
 
-@media (min-width:$bp_m){
-	.cn_m { clear: none; }
-	.cl_m { clear: left; }
-	.cr_m { clear: right; }
-	.cb_m { clear: both; }
+@media (min-width:$bp--m){
+	.cn--m { clear: none; }
+	.cl--m { clear: left; }
+	.cr--m { clear: right; }
+	.cb--m { clear: both; }
 }
 
-@media (min-width:$bp_l){
-	.cn_l { clear: none; }
-	.cl_l { clear: left; }
-	.cr_l { clear: right; }
-	.cb_l { clear: both; }
+@media (min-width:$bp--l){
+	.cn--l { clear: none; }
+	.cl--l { clear: left; }
+	.cr--l { clear: right; }
+	.cb--l { clear: both; }
 }

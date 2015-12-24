@@ -5,14 +5,14 @@
 .vh { visibility: hidden; }
 .vc { visibility: collapse; }
 
-@media (min-width:$bp_m) {
-	.vv_m { visibility: visible; }
-	.vh_m { visibility: hidden; }
-	.vc_m { visibility: collapse; }
+@media (min-width:$bp--m) {
+	.vv--m { visibility: visible; }
+	.vh--m { visibility: hidden; }
+	.vc--m { visibility: collapse; }
 }
 
-@media (min-width:$bp_l) {
-	.vv_l { visibility: visible; }
-	.vh_l { visibility: hidden; }
-	.vc_l { visibility: collapse; }
+@media (min-width:$bp--l) {
+	.vv--l { visibility: visible; }
+	.vh--l { visibility: hidden; }
+	.vc--l { visibility: collapse; }
 }
