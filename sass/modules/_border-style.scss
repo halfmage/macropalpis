@@ -6,3 +6,19 @@
 .bsds { border-style: dashed }
 .bsdt { border-style: dotted }
 .bsdb { border-style: double }
+
+@media (min-width:$bp_m) {
+	.bsn_m  { border-style: none }
+	.bss_m  { border-style: solid }
+	.bsds_m { border-style: dashed }
+	.bsdt_m { border-style: dotted }
+	.bsdb_m { border-style: double }
+}
+
+@media (min-width:$bp_l) {
+	.bsn_l  { border-style: none }
+	.bss_l  { border-style: solid }
+	.bsds_l { border-style: dashed }
+	.bsdt_l { border-style: dotted }
+	.bsdb_l { border-style: double }
+}
