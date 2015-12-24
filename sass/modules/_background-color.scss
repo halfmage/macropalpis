@@ -1,18 +1,28 @@
 // MACROPALPIS
 // background-color module
 
-.bgc-white { background-color: #fefefe; }
-.bgc-black { background-color: #111; }
-.bgc-gray  { background-color: #ccc }
+// black and white
+.bgc-black		{ background-color: $color-black }
+.bgc-gray		{ background-color: $color-gray }
+.bgc-silver		{ background-color: $color-silver }
+.bgc-white		{ background-color: $color-white }
 
-@media (min-width:$bp_m) {
-	.bgc-white_m { background-color: #fefefe; }
-	.bgc-black_m { background-color: #111; }
-	.bgc-gray_m  { background-color: #ccc }
-}
+// brand specific color palette
+.bgc1 			{ background-color: $color-primary }
+.bgc2 			{ background-color: $color-secondary }
+.bgc3 			{ background-color: $color-tertiary }
 
-@media (min-width:$bp_l) {
-	.bgc-white_l { background-color: #fefefe; }
-	.bgc-black_l { background-color: #111; }
-	.bgc-gray_l  { background-color: #ccc }
-}
+// color palette
+.bgc-navy		{ background-color: $color-navy }
+.bgc-blue		{ background-color: $color-blue }
+.bgc-aqua		{ background-color: $color-aqua }
+.bgc-teal		{ background-color: $color-teal }
+.bgc-olive		{ background-color: $color-olive }
+.bgc-green		{ background-color: $color-green }
+.bgc-lime		{ background-color: $color-lime }
+.bgc-yellow		{ background-color: $color-yellow }
+.bgc-orange		{ background-color: $color-orange }
+.bgc-red		{ background-color: $color-red }
+.bgc-maroon		{ background-color: $color-maroon }
+.bgc-fuchsia	{ background-color: $color-fuchsia }
+.bgc-purple		{ background-color: $color-purple }

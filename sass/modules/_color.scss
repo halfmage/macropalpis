@@ -1,18 +1,18 @@
 // MACROPALPIS
 // color module
 
-// five shades of gray
+// black and white
 .c-black	{ color: $color-black }
 .c-gray		{ color: $color-gray }
 .c-silver	{ color: $color-silver }
 .c-white	{ color: $color-white }
 
 // brand specific color palette
-.c1 { color: $color-primary }
-.c2 { color: $color-secondary }
-.c3 { color: $color-tertiary }
+.c1 		{ color: $color-primary }
+.c2 		{ color: $color-secondary }
+.c3 		{ color: $color-tertiary }
 
-// color palette by http://clrs.cc
+// palette by http://clrs.cc/
 .c-navy		{ color: $color-navy }
 .c-blue		{ color: $color-blue }
 .c-aqua		{ color: $color-aqua }
@@ -26,3 +26,53 @@
 .c-maroon	{ color: $color-maroon }
 .c-fuchsia	{ color: $color-fuchsia }
 .c-purple	{ color: $color-purple }
+
+@media (min-width:$bp_m) {
+	.c-black_m		{ color: $color-black }
+	.c-gray_m		{ color: $color-gray }
+	.c-silver_m		{ color: $color-silver }
+	.c-white_m		{ color: $color-white }
+
+	.c1_m 			{ color: $color-primary }
+	.c2_m 			{ color: $color-secondary }
+	.c3_m 			{ color: $color-tertiary }
+
+	.c-navy_m		{ color: $color-navy }
+	.c-blue_m		{ color: $color-blue }
+	.c-aqua_m		{ color: $color-aqua }
+	.c-teal_m		{ color: $color-teal }
+	.c-olive_m		{ color: $color-olive }
+	.c-green_m		{ color: $color-green }
+	.c-lime_m		{ color: $color-lime }
+	.c-yellow_m		{ color: $color-yellow }
+	.c-orange_m		{ color: $color-orange }
+	.c-red_m		{ color: $color-red }
+	.c-maroon_m		{ color: $color-maroon }
+	.c-fuchsia_m	{ color: $color-fuchsia }
+	.c-purple_m		{ color: $color-purple }
+}
+
+@media (min-width:$bp_l) {
+	.c-black_l		{ color: $color-black }
+	.c-gray_l		{ color: $color-gray }
+	.c-silver_l		{ color: $color-silver }
+	.c-white_l		{ color: $color-white }
+
+	.c1_l 			{ color: $color-primary }
+	.c2_l 			{ color: $color-secondary }
+	.c3_l 			{ color: $color-tertiary }
+	
+	.c-navy_l		{ color: $color-navy }
+	.c-blue_l		{ color: $color-blue }
+	.c-aqua_l		{ color: $color-aqua }
+	.c-teal_l		{ color: $color-teal }
+	.c-olive_l		{ color: $color-olive }
+	.c-green_l		{ color: $color-green }
+	.c-lime_l		{ color: $color-lime }
+	.c-yellow_l		{ color: $color-yellow }
+	.c-orange_l		{ color: $color-orange }
+	.c-red_l		{ color: $color-red }
+	.c-maroon_l		{ color: $color-maroon }
+	.c-fuchsia_l	{ color: $color-fuchsia }
+	.c-purple_l		{ color: $color-purple }
+}
