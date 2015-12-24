@@ -1,12 +1,13 @@
-/* 
+// MACROPALPIS
+// max-width module
 
-	max width module
+// simply wrappers
+.mw--m { max-width: $bp_m }
+.mw--l { max-width: $bp_l }
 
-*/
-
-.mw1 { max-width: 1em; }
-.mw2 { max-width: 2em; }
+.mw1 { max-width: 16em; }
+.mw2 { max-width: 8em; }
 .mw3 { max-width: 4em; }
-.mw4 { max-width: 8em; }
-.mw5 { max-width: 16em; }
-.mw6 { max-width: 32em; }
+.mw4 { max-width: 2em; }
+.mw5 { max-width: 1em; }
+.mw6 { max-width: .5em; }
