@@ -98,7 +98,6 @@ cr - cursor	// crn, crd, crp
 ```
 **Breakpoint Suffix**
 ```SASS
---s //  small
 --m //  medium 
 --l //  large
 ```
