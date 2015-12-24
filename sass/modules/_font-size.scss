@@ -1,0 +1,27 @@
+// MACROPALPIS
+// font-size module
+
+.fz1 { font-size: 16em }
+.fz2 { font-size: 8em }
+.fz3 { font-size: 4em }
+.fz4 { font-size: 2em }
+.fz5 { font-size: 1em }
+.fz6 { font-size: .5em }
+
+@media (min-width:$bp_m) {
+	.fz1_m { font-size: 16em }
+	.fz2_m { font-size: 8em }
+	.fz3_m { font-size: 4em }
+	.fz4_m { font-size: 2em }
+	.fz5_m { font-size: 1em }
+	.fz6_m { font-size: .5em }
+}
+
+@media (min-width:$bp_l) {
+	.fz1_l { font-size: 16em }
+	.fz2_l { font-size: 8em }
+	.fz3_l { font-size: 4em }
+	.fz4_l { font-size: 2em }
+	.fz5_l { font-size: 1em }
+	.fz6_l { font-size: .5em }
+}

@@ -1,42 +1,19 @@
 // MACROPALPIS
 // bottom sub-module
 
-.b0 {bottom:0}
+.b0 { bottom: 0 }
 
-.b1 {bottom:1em}
-.b2 {bottom:2em}
-.b3 {bottom:3em}
-.b4 {bottom:4em}
+.b0 { bottom: 0}
+.b1 { bottom: 16em}
+.b2 { bottom: 8em}
+.b3 { bottom: 4em}
+.b4 { bottom: 2em}
+.b5 { bottom: 1em}
+.b6 { bottom: .5em}
 
-.b-1 {bottom:-1em}
-.b-2 {bottom:-2em}
-.b-3 {bottom:-3em}
-.b-4 {bottom:-4em}
-
-@media (min-width:$bp_m) {
-	.b0_m {bottom:0}
-
-	.b1_m {bottom:1em}
-	.b2_m {bottom:2em}
-	.b3_m {bottom:3em}
-	.b4_m {bottom:4em}
-
-	.b-1_m {bottom:-1em}
-	.b-2_m {bottom:-2em}
-	.b-3_m {bottom:-3em}
-	.b-4_m {bottom:-4em}
-}
-
-@media (min-width:$bp_l) {
-	.b0_l {bottom:0}
-
-	.b1_l {bottom:1em}
-	.b2_l {bottom:2em}
-	.b3_l {bottom:3em}
-	.b4_l {bottom:4em}
-	
-	.b-1_l {bottom:-1em}
-	.b-2_l {bottom:-2em}
-	.b-3_l {bottom:-3em}
-	.b-4_l {bottom:-4em}
-}
+.b-1 { bottom: -16em}
+.b-2 { bottom: -8em}
+.b-3 { bottom: -4em}
+.b-4 { bottom: -2em}
+.b-5 { bottom: -1em}
+.b-6 { bottom: -.5em}

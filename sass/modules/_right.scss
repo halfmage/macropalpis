@@ -1,42 +1,19 @@
 // MACROPALPIS
 // right sub-module
 
-.r0 {top:0}
+.r0 { bottom: 0 }
 
-.r1 {top:1em}
-.r2 {top:2em}
-.r3 {top:3em}
-.r4 {top:4em}
+.r0 { bottom: 0}
+.r1 { bottom: 16em}
+.r2 { bottom: 8em}
+.r3 { bottom: 4em}
+.r4 { bottom: 2em}
+.r5 { bottom: 1em}
+.r6 { bottom: .5em}
 
-.r-1 {top:-1em}
-.r-2 {top:-2em}
-.r-3 {top:-3em}
-.r-4 {top:-4em}
-
-@media (min-width:$bp_m) {
-	.r0_m {top:0}
-
-	.r1_m {top:1em}
-	.r2_m {top:2em}
-	.r3_m {top:3em}
-	.r4_m {top:4em}
-
-	.r-1_m {top:-1em}
-	.r-2_m {top:-2em}
-	.r-3_m {top:-3em}
-	.r-4_m {top:-4em}
-}
-
-@media (min-width:$bp_l) {
-	.r0_l {top:0}
-
-	.r1_l {top:1em}
-	.r2_l {top:2em}
-	.r3_l {top:3em}
-	.r4_l {top:4em}
-	
-	.r-1_l {top:-1em}
-	.r-2_l {top:-2em}
-	.r-3_l {top:-3em}
-	.r-4_l {top:-4em}
-}
+.r-1 { bottom: -16em}
+.r-2 { bottom: -8em}
+.r-3 { bottom: -4em}
+.r-4 { bottom: -2em}
+.r-5 { bottom: -1em}
+.r-6 { bottom: -.5em}

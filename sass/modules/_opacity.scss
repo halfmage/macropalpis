@@ -1,27 +1,30 @@
-/* 
+// MACROPALPIS
+// opacity module
 
-	opacity module
-
-*/
-
-.op0 { opacity: 0; }
-.op3 { opacity: .3; }
-.op5 { opacity: .5; }
-.op7 { opacity: .7; }
-.op1 { opacity: 1; }
+.op0 { opacity: 0 }
+.op1 { opacity: 1 }
+.op2 { opacity: .8 }
+.op3 { opacity: .6 }
+.op4 { opacity: .4 }
+.op5 { opacity: .2 }
+.op6 { opacity: .1 }
 
 @media (min-width:$bp_m) {
-	.op0_m { opacity: 0; }
-	.op3_m { opacity: .3; }
-	.op5_m { opacity: .5; }
-	.op7_m { opacity: .7; }
-	.op1_m { opacity: 1; }
+	.op0_m { opacity: 0 }
+	.op1_m { opacity: 1 }
+	.op2_m { opacity: .8 }
+	.op3_m { opacity: .6 }
+	.op4_m { opacity: .4 }
+	.op5_m { opacity: .2 }
+	.op6_m { opacity: .1 }
 }
 
 @media (min-width:$bp_l) {
-	.op0_l { opacity: 0; }
-	.op3_l { opacity: .3; }
-	.op5_l { opacity: .5; }
-	.op7_l { opacity: .7; }
-	.op1_l { opacity: 1; }
+	.op0_l { opacity: 0 }
+	.op1_l { opacity: 1 }
+	.op2_l { opacity: .8 }
+	.op3_l { opacity: .6 }
+	.op4_l { opacity: .4 }
+	.op5_l { opacity: .2 }
+	.op6_l { opacity: .1 }
 }

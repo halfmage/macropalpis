@@ -1,7 +1,6 @@
 // Macropalpis CSS
 
 // importing variables
-@import "modules/breakpoints.scss";
 @import "modules/variables.scss";
 
 // base modules
@@ -18,7 +17,7 @@
 
 	// Font Modules
 	@import "modules/font-family.scss";
-	//@import "modules/font-size.scss";
+	@import "modules/font-size.scss";
 	@import "modules/font-style.scss";
 	@import "modules/font-weight.scss";
 
@@ -44,7 +43,7 @@
 	@import "modules/height.scss";
 
 	// border
-	//@import "modules/border-color.scss";
+	@import "modules/border-color.scss";
 	@import "modules/border-width.scss";
 	@import "modules/border-style.scss";
 	@import "modules/border-radius.scss";
