@@ -56,7 +56,7 @@
 
 	// text
 	@import "modules/color.scss";
-	//@import "modules/letter-spacing.scss";
+	@import "modules/letter-spacing.scss";
 	//@import "modules/line-height.scss";
 	@import "modules/text-align.scss";
 	@import "modules/text-decoration.scss";
@@ -66,5 +66,5 @@
 	//@import "modules/white-space.scss";
 	//@import "modules/text-shadow.scss";
 
-	// user interface
-	//@import "modules/cursor.scss";
+	// hover / cursor
+	@import "modules/hover.scss";

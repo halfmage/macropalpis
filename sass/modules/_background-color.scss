@@ -1,75 +1,75 @@
 // MACROPALPIS
 // background-color module
 
-.bgc-black		{ color: $color-black }
-.bgc-gray		{ color: $color-gray }
-.bgc-silver		{ color: $color-silver }
-.bgc-white		{ color: $color-white }
+.bgc-black		{ background-color: $color-black }
+.bgc-gray		{ background-color: $color-gray }
+.bgc-silver		{ background-color: $color-silver }
+.bgc-white		{ background-color: $color-white }
 
-.bgc1 			{ color: $color-primary }
-.bgc2 			{ color: $color-secondary }
-.bgc3 			{ color: $color-tertiary }
+.bgc1 			{ background-color: $color-primary }
+.bgc2 			{ background-color: $color-secondary }
+.bgc3 			{ background-color: $color-tertiary }
 
-.bgc-navy		{ color: $color-navy }
-.bgc-blue		{ color: $color-blue }
-.bgc-aqua		{ color: $color-aqua }
-.bgc-teal		{ color: $color-teal }
-.bgc-olive		{ color: $color-olive }
-.bgc-green		{ color: $color-green }
-.bgc-lime		{ color: $color-lime }
-.bgc-yellow		{ color: $color-yellow }
-.bgc-orange		{ color: $color-orange }
-.bgc-red		{ color: $color-red }
-.bgc-maroon		{ color: $color-maroon }
-.bgc-fuchsia	{ color: $color-fuchsia }
-.bgc-purple		{ color: $color-purple }
+.bgc-navy		{ background-color: $color-navy }
+.bgc-blue		{ background-color: $color-blue }
+.bgc-aqua		{ background-color: $color-aqua }
+.bgc-teal		{ background-color: $color-teal }
+.bgc-olive		{ background-color: $color-olive }
+.bgc-green		{ background-color: $color-green }
+.bgc-lime		{ background-color: $color-lime }
+.bgc-yellow		{ background-color: $color-yellow }
+.bgc-orange		{ background-color: $color-orange }
+.bgc-red		{ background-color: $color-red }
+.bgc-maroon		{ background-color: $color-maroon }
+.bgc-fuchsia	{ background-color: $color-fuchsia }
+.bgc-purple		{ background-color: $color-purple }
 
 @media (min-width:$bp--m) {
-	.bgc-black--m		{ color: $color-black }
-	.bgc-gray--m			{ color: $color-gray }
-	.bgc-silver--m		{ color: $color-silver }
-	.bgc-white--m		{ color: $color-white }
+	.bgc-black--m		{ background-color: $color-black }
+	.bgc-gray--m			{ background-color: $color-gray }
+	.bgc-silver--m		{ background-color: $color-silver }
+	.bgc-white--m		{ background-color: $color-white }
 
-	.bgc1--m 			{ color: $color-primary }
-	.bgc2--m 			{ color: $color-secondary }
-	.bgc3--m 			{ color: $color-tertiary }
+	.bgc1--m 			{ background-color: $color-primary }
+	.bgc2--m 			{ background-color: $color-secondary }
+	.bgc3--m 			{ background-color: $color-tertiary }
 
-	.bgc-navy--m			{ color: $color-navy }
-	.bgc-blue--m			{ color: $color-blue }
-	.bgc-aqua--m			{ color: $color-aqua }
-	.bgc-teal--m			{ color: $color-teal }
-	.bgc-olive--m		{ color: $color-olive }
-	.bgc-green--m		{ color: $color-green }
-	.bgc-lime--m			{ color: $color-lime }
-	.bgc-yellow--m		{ color: $color-yellow }
-	.bgc-orange--m		{ color: $color-orange }
-	.bgc-red--m			{ color: $color-red }
-	.bgc-maroon--m		{ color: $color-maroon }
-	.bgc-fuchsia--m		{ color: $color-fuchsia }
-	.bgc-purple--m		{ color: $color-purple }
+	.bgc-navy--m			{ background-color: $color-navy }
+	.bgc-blue--m			{ background-color: $color-blue }
+	.bgc-aqua--m			{ background-color: $color-aqua }
+	.bgc-teal--m			{ background-color: $color-teal }
+	.bgc-olive--m		{ background-color: $color-olive }
+	.bgc-green--m		{ background-color: $color-green }
+	.bgc-lime--m			{ background-color: $color-lime }
+	.bgc-yellow--m		{ background-color: $color-yellow }
+	.bgc-orange--m		{ background-color: $color-orange }
+	.bgc-red--m			{ background-color: $color-red }
+	.bgc-maroon--m		{ background-color: $color-maroon }
+	.bgc-fuchsia--m		{ background-color: $color-fuchsia }
+	.bgc-purple--m		{ background-color: $color-purple }
 }
 
 @media (min-width:$bp--l) {
-	.bgc-black--l		{ color: $color-black }
-	.bgc-gray--l			{ color: $color-gray }
-	.bgc-silver--l		{ color: $color-silver }
-	.bgc-white--l		{ color: $color-white }
+	.bgc-black--l		{ background-color: $color-black }
+	.bgc-gray--l			{ background-color: $color-gray }
+	.bgc-silver--l		{ background-color: $color-silver }
+	.bgc-white--l		{ background-color: $color-white }
 
-	.bgc1--l 			{ color: $color-primary }
-	.bgc2--l 			{ color: $color-secondary }
-	.bgc3--l 			{ color: $color-tertiary }
+	.bgc1--l 			{ background-color: $color-primary }
+	.bgc2--l 			{ background-color: $color-secondary }
+	.bgc3--l 			{ background-color: $color-tertiary }
 	
-	.bgc-navy--l			{ color: $color-navy }
-	.bgc-blue--l			{ color: $color-blue }
-	.bgc-aqua--l			{ color: $color-aqua }
-	.bgc-teal--l			{ color: $color-teal }
-	.bgc-olive--l		{ color: $color-olive }
-	.bgc-green--l		{ color: $color-green }
-	.bgc-lime--l			{ color: $color-lime }
-	.bgc-yellow--l		{ color: $color-yellow }
-	.bgc-orange--l		{ color: $color-orange }
-	.bgc-red--l			{ color: $color-red }
-	.bgc-maroon--l		{ color: $color-maroon }
-	.bgc-fuchsia--l		{ color: $color-fuchsia }
-	.bgc-purple--l		{ color: $color-purple }
+	.bgc-navy--l			{ background-color: $color-navy }
+	.bgc-blue--l			{ background-color: $color-blue }
+	.bgc-aqua--l			{ background-color: $color-aqua }
+	.bgc-teal--l			{ background-color: $color-teal }
+	.bgc-olive--l		{ background-color: $color-olive }
+	.bgc-green--l		{ background-color: $color-green }
+	.bgc-lime--l			{ background-color: $color-lime }
+	.bgc-yellow--l		{ background-color: $color-yellow }
+	.bgc-orange--l		{ background-color: $color-orange }
+	.bgc-red--l			{ background-color: $color-red }
+	.bgc-maroon--l		{ background-color: $color-maroon }
+	.bgc-fuchsia--l		{ background-color: $color-fuchsia }
+	.bgc-purple--l		{ background-color: $color-purple }
 }

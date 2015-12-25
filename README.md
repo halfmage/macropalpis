@@ -89,15 +89,16 @@ cl - clear // cln, cll, clr, clb
 bsh - box-shadow // bshn, bsh1, bsh2, bsh3, bsh4 
 
 w - width // w0, w20, w25, w33, w40, w50, w60, w75, w80, w100
-m - max-width // mw0, mw50, mw100, mwbp
+mw - max-width // mw0, mw50, mw100, mwbp
 h - height // h0, h25, h50, h75, h100
 ```
 **User Interface**
 ```SASS
-cr - cursor	// crn, crd, crp
+cr - cursor	// crd, crp
+hvr - hover // dimm on hover
 ```
 **Breakpoint Suffix**
 ```SASS
---m //  medium 
---l //  large
+--m // medium 
+--l // large
 ```

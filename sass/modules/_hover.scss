@@ -1,0 +1,26 @@
+// MACROPALPIS
+// hover module
+
+.hvr {
+	transition: opacity .2s;
+	&:hover {
+		opacity: .7
+	}
+}
+
+
+
+// MACROPALPIS
+// cursor module
+
+.crd {
+	&:hover {
+		cursor: default
+	}
+}
+
+.crp {
+	&:hover {
+		cursor: pointer;
+	}
+}

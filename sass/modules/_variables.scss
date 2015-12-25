@@ -1,9 +1,9 @@
 /* 
 	default variables for breakpoints
-	(breakpoints are marked with "_" and size-suffix)
+	(breakpoints are marked with "--" and size-suffix)
 	
-	x--m = medium (768px)
-	x--l = large (1024px)
+	x--m = medium starts from (768px) width
+	x--l = large starts from (1024px) width
 */
 
 $bp--m : 768px;
@@ -42,3 +42,4 @@ $font-sans-serif:	"Helvetica", "Arial", sans-serif;
 $font-mono:			"Lucida Console", "Courier New", monospace;
 
 
+$body-bg:			#f7f7f7;
