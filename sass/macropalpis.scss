@@ -42,6 +42,7 @@
 	@import "modules/z-index.scss";
 	@import "modules/width.scss";
 	@import "modules/max-width.scss";
+	@import "modules/icon.scss";
 	@import "modules/height.scss";
 
 	// border
@@ -57,7 +58,7 @@
 	// text
 	@import "modules/color.scss";
 	@import "modules/letter-spacing.scss";
-	//@import "modules/line-height.scss";
+	@import "modules/line-height.scss";
 	@import "modules/text-align.scss";
 	@import "modules/text-decoration.scss";
 	//@import "modules/text-indent.scss";
