@@ -1,18 +1,16 @@
 // MACROPALPIS
 // base module
 
-html {
-  box-sizing: border-box;
-}
-
 html, body {
 	height: 100%;
 	min-height: 100%;
 }
 
-*, 
-*:before, 
-*:after {
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -21,9 +19,4 @@ body {
 	color: $color-black;
 	font-size: 16px;
 	line-height: 1.5em;
-}
-
-img {
-	width: 100%;
-	height: auto;
 }
