@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/halfmage/macropalpis/master/macropalpis-logo.png "Macropalpis Logo")
+![alt text](http://i.imgur.com/YE2jEzv.png "Macropalpis Logo")
 
 # macropalpis
 **v. 0.7** - A concept of ultra-shorthanded utility classes with mobile-first approach for css fixes and minimal css.
