@@ -1,17 +1,24 @@
-// MACROPALPIS
-// hover module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	hover Module
+
+*/
+
+
+// basic dim hover
 
 .hvr {
 	transition: opacity .2s;
 	&:hover {
-		opacity: .7
+		opacity: .75;
 	}
 }
 
 
 
-// MACROPALPIS
-// cursor module
+// change cursor on hover
 
 .crd {
 	&:hover {

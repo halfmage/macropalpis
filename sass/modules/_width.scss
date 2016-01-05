@@ -1,8 +1,28 @@
-// MACROPALPIS
-// width module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	width Module
+	
+
+	class	suffix			result
+	------------------------------
+	w		alphabetic		width
+	w		numeric			width
+
+
+	numeric/alphabetic index
+	------------------------
+	a	=  auto
+	0	=  zero
+	xx	=  percentage value
+
+*/
 
 .wa		{ width: auto; }
-.w0		{ width: 0%; }
+
+.w0		{ width: 0px; }
+
 .w10	{ width: 10%; }
 .w16	{ width: 16.66%; }
 .w20	{ width: 20%; }
@@ -14,7 +34,10 @@
 .w100 	{ width: 100%; }
 
 @media (min-width:$bp--m) {
-	.w0--m	{ width: 0%; }
+	.wa--m	{ width: auto; }
+
+	.w0--m	{ width: 0px; }
+
 	.w10--m	{ width: 10%; }
 	.w16--m	{ width: 16.66%; }
 	.w20--m	{ width: 20%; }
@@ -27,7 +50,10 @@
 }
 
 @media (min-width:$bp--l) {
-	.w0--l	{ width: 0%; }
+	.wa--l	{ width: auto; }
+
+	.w0--l	{ width: 0px; }
+
 	.w10--l	{ width: 10%; }
 	.w16--l	{ width: 16.66%; }
 	.w20--l	{ width: 20%; }

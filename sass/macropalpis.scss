@@ -1,71 +1,121 @@
-/*! macropalpis.css v1 | MIT License | git.io/vEucl */
+/*! macropalpis.css v1.0.0 | MIT License | git.io/vEucl */
 
-// Macropalpis CSS
+/*
 
-// importing variables
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	Module Imports
+
+	- Variables
+	- Normalize
+	- Base
+	- Background
+	- Typography
+	- Spacing
+	- Position
+	- Layout
+	- Dimensions
+	- Border
+	- List
+	- Text
+	- Hover
+
+*/
+
+
+// Variables
+
 @import "modules/variables.scss";
 
-// base modules
+
+// Normalize
+
 @import "modules/normalize.scss";
+
+
+// Base
+
 @import "modules/base.scss";
 
-// importing modules
 
-	// Background Modules
-	@import "modules/background-color.scss";
-	@import "modules/background-position.scss";
-	@import "modules/background-repeat.scss";
-	@import "modules/background-size.scss";
+// Background
 
-	// Font Modules
-	@import "modules/font-family.scss";
-	@import "modules/font-size.scss";
-	@import "modules/font-style.scss";
-	@import "modules/font-weight.scss";
+@import "modules/background-color.scss";
+@import "modules/background-position.scss";
+@import "modules/background-repeat.scss";
+@import "modules/background-size.scss";
 
-	// Spacing Modules
-	@import "modules/padding.scss";
-	@import "modules/margin.scss";
 
-	// layout
-	@import "modules/position.scss";
-		@import "modules/top.scss";
-		@import "modules/right.scss";
-		@import "modules/bottom.scss";
-		@import "modules/left.scss";
-	@import "modules/display.scss";
-	@import "modules/float.scss";
-	@import "modules/visibility.scss";
-	@import "modules/overflow.scss";
-	@import "modules/clear.scss";
-	@import "modules/opacity.scss";
-	@import "modules/z-index.scss";
-	@import "modules/width.scss";
-	@import "modules/max-width.scss";
-	@import "modules/icon.scss";
-	@import "modules/height.scss";
+// Typography
 
-	// border
-	@import "modules/border-color.scss";
-	@import "modules/border-width.scss";
-	@import "modules/border-style.scss";
-	@import "modules/border-radius.scss";
+@import "modules/font-family.scss";
+@import "modules/font-size.scss";
+@import "modules/font-style.scss";
+@import "modules/font-weight.scss";
 
-	// lists
-	//@import "modules/list-style.scss";
-	//@import "modules/list-type.scss";
 
-	// text
-	@import "modules/color.scss";
-	@import "modules/letter-spacing.scss";
-	@import "modules/line-height.scss";
-	@import "modules/text-align.scss";
-	@import "modules/text-decoration.scss";
-	//@import "modules/text-indent.scss";
-	//@import "modules/text-transform.scss";
-	//@import "modules/vertical-align.scss";
-	//@import "modules/white-space.scss";
-	//@import "modules/text-shadow.scss";
+// Spacing
 
-	// hover / cursor
-	@import "modules/hover.scss";
+@import "modules/padding.scss";
+@import "modules/margin.scss";
+
+
+// Position
+
+@import "modules/position.scss";
+@import "modules/top.scss";
+@import "modules/right.scss";
+@import "modules/bottom.scss";
+@import "modules/left.scss";
+
+
+// Layout
+
+@import "modules/display.scss";
+@import "modules/float.scss";
+@import "modules/visibility.scss";
+@import "modules/overflow.scss";
+@import "modules/clear.scss";
+@import "modules/opacity.scss";
+@import "modules/z-index.scss";
+
+
+// Dimensions
+
+@import "modules/width.scss";
+@import "modules/max-width.scss";
+@import "modules/height.scss";
+@import "modules/icon.scss";
+
+
+// Border
+
+@import "modules/border-color.scss";
+@import "modules/border-width.scss";
+@import "modules/border-style.scss";
+@import "modules/border-radius.scss";
+
+
+// List 
+
+//@import "modules/list-style.scss";
+//@import "modules/list-type.scss";
+
+
+// Text
+
+@import "modules/color.scss";
+@import "modules/letter-spacing.scss";
+@import "modules/line-height.scss";
+@import "modules/text-align.scss";
+@import "modules/text-decoration.scss";
+//@import "modules/text-indent.scss";
+//@import "modules/text-transform.scss";
+//@import "modules/vertical-align.scss";
+//@import "modules/white-space.scss";
+//@import "modules/text-shadow.scss";
+
+
+// Hover
+
+@import "modules/hover.scss";

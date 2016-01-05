@@ -1,5 +1,23 @@
-// MACROPALPIS
-// text-decoration module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	text-decoration Module
+	
+
+	class	suffix			result
+	---------------------------------------------
+	td 		alphabetic		text decoration style
+
+
+	alphabetic index
+	----------------
+	n   =  none
+	u	=  underline
+	o  	=  overline
+	l  	=  line-through
+
+*/
 
 .tdn { text-decoration: none; }
 .tdu { text-decoration: underline; }

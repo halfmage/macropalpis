@@ -1,14 +1,30 @@
-// MACROPALPIS
-// border-color module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	background-color Module
+	
+
+	class	suffix		result
+	------------------------------------
+	bc 		numeric		brand color
+	bc-		color		interface color
+
+*/
+
+// Brand Colors
+
+.bc1 			{ border-color: $color-primary } 	// Primary Brand Color
+.bc2 			{ border-color: $color-secondary } 	// Secondary 
+.bc3 			{ border-color: $color-tertiary } 	// Tertiary
+
+
+// Interface Colors
 
 .bc-black		{ border-color: $color-black }
 .bc-gray		{ border-color: $color-gray }
 .bc-silver		{ border-color: $color-silver }
 .bc-white		{ border-color: $color-white }
-
-.bc1 			{ border-color: $color-primary }
-.bc2 			{ border-color: $color-secondary }
-.bc3 			{ border-color: $color-tertiary }
 
 .bc-navy		{ border-color: $color-navy }
 .bc-blue		{ border-color: $color-blue }
@@ -25,21 +41,21 @@
 .bc-purple		{ border-color: $color-purple }
 
 @media (min-width:$bp--m) {
-	.bc-black--m		{ border-color: $color-black }
+	.bc1--m 		{ border-color: $color-primary }
+	.bc2--m 		{ border-color: $color-secondary }
+	.bc3--m 		{ border-color: $color-tertiary }
+
+	.bc-black--m	{ border-color: $color-black }
 	.bc-gray--m		{ border-color: $color-gray }
 	.bc-silver--m	{ border-color: $color-silver }
-	.bc-white--m		{ border-color: $color-white }
-
-	.bc1--m 			{ border-color: $color-primary }
-	.bc2--m 			{ border-color: $color-secondary }
-	.bc3--m 			{ border-color: $color-tertiary }
+	.bc-white--m	{ border-color: $color-white }
 
 	.bc-navy--m		{ border-color: $color-navy }
 	.bc-blue--m		{ border-color: $color-blue }
 	.bc-aqua--m		{ border-color: $color-aqua }
 	.bc-teal--m		{ border-color: $color-teal }
-	.bc-olive--m		{ border-color: $color-olive }
-	.bc-green--m		{ border-color: $color-green }
+	.bc-olive--m	{ border-color: $color-olive }
+	.bc-green--m	{ border-color: $color-green }
 	.bc-lime--m		{ border-color: $color-lime }
 	.bc-yellow--m	{ border-color: $color-yellow }
 	.bc-orange--m	{ border-color: $color-orange }
@@ -50,21 +66,21 @@
 }
 
 @media (min-width:$bp--l) {
-	.bc-black--l		{ border-color: $color-black }
+	.bc1--l 		{ border-color: $color-primary }
+	.bc2--l 		{ border-color: $color-secondary }
+	.bc3--l 		{ border-color: $color-tertiary }
+
+	.bc-black--l	{ border-color: $color-black }
 	.bc-gray--l		{ border-color: $color-gray }
 	.bc-silver--l	{ border-color: $color-silver }
-	.bc-white--l		{ border-color: $color-white }
-
-	.bc1--l 			{ border-color: $color-primary }
-	.bc2--l 			{ border-color: $color-secondary }
-	.bc3--l 			{ border-color: $color-tertiary }
+	.bc-white--l	{ border-color: $color-white }
 	
 	.bc-navy--l		{ border-color: $color-navy }
 	.bc-blue--l		{ border-color: $color-blue }
 	.bc-aqua--l		{ border-color: $color-aqua }
 	.bc-teal--l		{ border-color: $color-teal }
-	.bc-olive--l		{ border-color: $color-olive }
-	.bc-green--l		{ border-color: $color-green }
+	.bc-olive--l	{ border-color: $color-olive }
+	.bc-green--l	{ border-color: $color-green }
 	.bc-lime--l		{ border-color: $color-lime }
 	.bc-yellow--l	{ border-color: $color-yellow }
 	.bc-orange--l	{ border-color: $color-orange }

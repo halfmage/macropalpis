@@ -1,27 +1,56 @@
-/* 
-	default variables for breakpoints
-	(breakpoints are marked with "--" and size-suffix)
-	
-	x--m = medium starts from (768px) width
-	x--l = large starts from (1024px) width
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	Variables
+
+	1.	Base
+	2.	Breakpoints
+	3.	Color
+	4.	Typography
+
 */
+
+
+// 1. Base
+// -------
+
+$body-bg:			#f7f7f7;
+$body-color:		#111;
+$body-font-size:	16px;
+$body-line-height:	1.6;
+
+
+// 2. Breakpoints
+// --------------
+
+// Starting from tablet / small desktop
 
 $bp--m : 768px;
 $bp--l : 1024px;
 
 
-// color variables
+// 3. Color
+// -------- 
+
+// Grayscales
+
 $color-black:		#111;
 $color-gray:		#aaa;
 $color-silver:		#ddd;
 $color-white:		#fff;
 
-// brand colors
+
+// Brand colors
+
 $color-primary:		#50E3C2;
 $color-secondary:	#7053FF;
 $color-tertiary:	#222;
 
-// palette by http://clrs.cc/
+
+// Better standard css colors
+// credits to http://clrs.cc/
+
 $color-navy:		#001f3f;
 $color-blue:		#0074d9;
 $color-aqua:		#7fdbff;
@@ -36,10 +65,12 @@ $color-maroon:		#85144b;
 $color-fuchsia:		#f012be;
 $color-purple:		#b10dc9;
 
-// font variables
+
+// 4. Typography 
+// -------------
+
+// Font families
+
 $font-serif:		"Georgia", serif;
 $font-sans-serif:	"Helvetica", "Arial", sans-serif;
 $font-mono:			"Lucida Console", "Courier New", monospace;
-
-
-$body-bg:			#f7f7f7;

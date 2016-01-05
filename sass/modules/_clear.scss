@@ -1,8 +1,30 @@
-// MACROPALPIS
-// clear module
+/*
 
-// Nicolas Gallaghers Clearfix
-// http://nicolasgallagher.com/micro-clearfix-hack/
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	clear Module
+
+
+	class	suffix			result
+	---------------------------------------
+	c 		alphabetic		clear alignment
+
+
+	alphabetic index
+	----------------
+	n   =  none
+	l	=  left
+	r  	=  right
+	b  	=  both
+
+	f  	=  fix
+
+	Nicolas Gallaghers Clearfix --------------------
+	http://nicolasgallagher.com/micro-clearfix-hack/
+
+*/
+
+
 
 .cf	{ 
 	&:before, &:after {

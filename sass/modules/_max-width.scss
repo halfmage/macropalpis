@@ -1,7 +1,26 @@
-// MACROPALPIS
-// max-width module
+/*
 
-// simply wrappers
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	max-width Module
+	
+
+	class	suffix			result
+	-------------------------------------
+	mw		breakpoint		maximum width
+	mw		numeric			maximum width
+
+
+	numeric index
+	----------------
+	--x	=  breakpoint specific
+	x	=  em value
+
+*/
+
+
+// Breakpoint specific wrappers
+
 .mw--m { max-width: $bp--m }
 .mw--l { max-width: $bp--l }
 

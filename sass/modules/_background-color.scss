@@ -1,14 +1,29 @@
-// MACROPALPIS
-// background-color module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	background-color Module
+
+	class	suffix		result
+	------------------------------------
+	bgc 	numeric		brand color
+	bgc- 	color		interface color
+
+*/
+
+// Brand Colors
+
+.bgc1 			{ background-color: $color-primary } 	// Primary Brand Color
+.bgc2 			{ background-color: $color-secondary } 	// Secondary 
+.bgc3 			{ background-color: $color-tertiary } 	// Tertiary
+
+
+// Interface Colors
 
 .bgc-black		{ background-color: $color-black }
 .bgc-gray		{ background-color: $color-gray }
 .bgc-silver		{ background-color: $color-silver }
 .bgc-white		{ background-color: $color-white }
-
-.bgc1 			{ background-color: $color-primary }
-.bgc2 			{ background-color: $color-secondary }
-.bgc3 			{ background-color: $color-tertiary }
 
 .bgc-navy		{ background-color: $color-navy }
 .bgc-blue		{ background-color: $color-blue }
@@ -24,6 +39,7 @@
 .bgc-fuchsia	{ background-color: $color-fuchsia }
 .bgc-purple		{ background-color: $color-purple }
 
+
 @media (min-width:$bp--m) {
 	.bgc-black--m		{ background-color: $color-black }
 	.bgc-gray--m			{ background-color: $color-gray }
@@ -34,13 +50,13 @@
 	.bgc2--m 			{ background-color: $color-secondary }
 	.bgc3--m 			{ background-color: $color-tertiary }
 
-	.bgc-navy--m			{ background-color: $color-navy }
-	.bgc-blue--m			{ background-color: $color-blue }
-	.bgc-aqua--m			{ background-color: $color-aqua }
-	.bgc-teal--m			{ background-color: $color-teal }
+	.bgc-navy--m		{ background-color: $color-navy }
+	.bgc-blue--m		{ background-color: $color-blue }
+	.bgc-aqua--m		{ background-color: $color-aqua }
+	.bgc-teal--m		{ background-color: $color-teal }
 	.bgc-olive--m		{ background-color: $color-olive }
 	.bgc-green--m		{ background-color: $color-green }
-	.bgc-lime--m			{ background-color: $color-lime }
+	.bgc-lime--m		{ background-color: $color-lime }
 	.bgc-yellow--m		{ background-color: $color-yellow }
 	.bgc-orange--m		{ background-color: $color-orange }
 	.bgc-red--m			{ background-color: $color-red }
@@ -49,9 +65,10 @@
 	.bgc-purple--m		{ background-color: $color-purple }
 }
 
+
 @media (min-width:$bp--l) {
 	.bgc-black--l		{ background-color: $color-black }
-	.bgc-gray--l			{ background-color: $color-gray }
+	.bgc-gray--l		{ background-color: $color-gray }
 	.bgc-silver--l		{ background-color: $color-silver }
 	.bgc-white--l		{ background-color: $color-white }
 
@@ -59,13 +76,13 @@
 	.bgc2--l 			{ background-color: $color-secondary }
 	.bgc3--l 			{ background-color: $color-tertiary }
 	
-	.bgc-navy--l			{ background-color: $color-navy }
-	.bgc-blue--l			{ background-color: $color-blue }
-	.bgc-aqua--l			{ background-color: $color-aqua }
-	.bgc-teal--l			{ background-color: $color-teal }
+	.bgc-navy--l		{ background-color: $color-navy }
+	.bgc-blue--l		{ background-color: $color-blue }
+	.bgc-aqua--l		{ background-color: $color-aqua }
+	.bgc-teal--l		{ background-color: $color-teal }
 	.bgc-olive--l		{ background-color: $color-olive }
 	.bgc-green--l		{ background-color: $color-green }
-	.bgc-lime--l			{ background-color: $color-lime }
+	.bgc-lime--l		{ background-color: $color-lime }
 	.bgc-yellow--l		{ background-color: $color-yellow }
 	.bgc-orange--l		{ background-color: $color-orange }
 	.bgc-red--l			{ background-color: $color-red }

@@ -1,5 +1,22 @@
-// MACROPALPIS
-// visibility module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	visibility Module
+	
+
+	class	suffix			result
+	---------------------------------------
+	v 		alphabetic		visibility mode
+
+
+	alphabetic index
+	----------------
+	v   =  visible
+	h	=  hidden
+	c  	=  collapse
+
+*/
 
 .vv { visibility: visible; }
 .vh { visibility: hidden; }

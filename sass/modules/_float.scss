@@ -1,18 +1,35 @@
-// MACROPALPIS
-// float module
+/*
 
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	float Module
+	
+
+	class	suffix			result
+	---------------------------------------
+	f 		alphabetic		float alignment
+
+
+	alphabetic index
+	----------------
+	n   =  none
+	r	=  right
+	l  	=  left
+
+*/
+
+.fn { float: none; }
 .fl	{ float: left; }
 .fr { float: right; }
-.fn { float: none; }
 
 @media (min-width:$bp--m) {
+	.fn--m { float: none; }
 	.fl--m { float: left; }
 	.fr--m { float: right; }
-	.fn--m { float: none; }
 }
 
 @media (min-width:$bp--l) {
+	.fn--l { float: none; }
 	.fl--l { float: left; }
 	.fr--l { float: right; }
-	.fn--l { float: none; }
 }

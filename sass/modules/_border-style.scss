@@ -1,5 +1,24 @@
-// MACROPALPIS
-// border-style module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	border-radius Module
+	
+
+	class	suffix			result
+	------------------------------------
+	bs 		alphabetic		border-style
+
+
+	alphabetic index
+	----------------
+	n   =  none
+	s	=  solid
+	ds  =  dashed
+	dt  =  dotted
+	db  =  double
+
+*/
 
 .bsn  { border-style: none }
 .bss  { border-style: solid }

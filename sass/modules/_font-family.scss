@@ -1,5 +1,22 @@
-// MACROPALPIS
-// font-family module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	font-family Module
+	
+
+	class	suffix			result
+	---------------------------------------
+	ff 		alphabetic		font-family
+
+
+	alphabetic index
+	----------------
+	s   =  serif
+	ss	=  sans-serif
+	m  	=  monospaced
+
+*/
 
 .ffs  { font-family: $font-serif }
 .ffss { font-family: $font-sans-serif }

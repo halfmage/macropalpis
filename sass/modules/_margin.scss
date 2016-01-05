@@ -1,18 +1,34 @@
-// MACROPALPIS
-// margin module
-
-
 /*
-	suffix index
-		none = all
-		t = top
-		r = right
-		b = bottom
-		l = left
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	margin Module
+
+	class	suffix		result
+	---------------------------------
+	m 		numeric		margin all
+	mt 		numeric		margin top
+	mr 		numeric		margin right
+	mb 		numeric		margin bottom
+	ml 		numeric		margin all
+
+
+	alphabetic index
+	----------------
+	_  =  all
+
+	t  =  top
+	r  =  right
+	b  =  bottom
+	l  =  left
+
+	c  =  center
+
 */
 
 
-//special centering class
+// centering suffix class
+
 .mc 	{ margin-right: auto; margin-left: auto }
 
 .m0 	{ margin: 0 }

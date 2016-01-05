@@ -1,5 +1,21 @@
-// MACROPALPIS
-// background-repeat module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	background-repeat Module
+
+	class	suffix			result
+	------------------------------------
+	bgr 	alphabetic		repeat-style
+
+
+	alphabetic index
+	----------------
+	n   =  no-repeat
+	rx  =  repeat-x
+	ry  =  repeat-y
+
+*/
 
 .bgrn { background-repeat: no-repeat }
 .bgrx { background-repeat: repeat-x }

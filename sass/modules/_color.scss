@@ -1,14 +1,26 @@
-// MACROPALPIS
-// color module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	color Module
+	
+
+	class	suffix		result
+	------------------------------------
+	c 		numeric		brand color
+	c-		color		interface color
+
+*/
+
+
+.c1 		{ color: $color-primary }
+.c2 		{ color: $color-secondary }
+.c3 		{ color: $color-tertiary }
 
 .c-black	{ color: $color-black }
 .c-gray		{ color: $color-gray }
 .c-silver	{ color: $color-silver }
 .c-white	{ color: $color-white }
-
-.c1 		{ color: $color-primary }
-.c2 		{ color: $color-secondary }
-.c3 		{ color: $color-tertiary }
 
 .c-navy		{ color: $color-navy }
 .c-blue		{ color: $color-blue }
@@ -25,14 +37,14 @@
 .c-purple	{ color: $color-purple }
 
 @media (min-width:$bp--m) {
+	.c1--m 			{ color: $color-primary }
+	.c2--m 			{ color: $color-secondary }
+	.c3--m 			{ color: $color-tertiary }
+
 	.c-black--m		{ color: $color-black }
 	.c-gray--m		{ color: $color-gray }
 	.c-silver--m		{ color: $color-silver }
 	.c-white--m		{ color: $color-white }
-
-	.c1--m 			{ color: $color-primary }
-	.c2--m 			{ color: $color-secondary }
-	.c3--m 			{ color: $color-tertiary }
 
 	.c-navy--m		{ color: $color-navy }
 	.c-blue--m		{ color: $color-blue }
@@ -50,14 +62,14 @@
 }
 
 @media (min-width:$bp--l) {
+	.c1--l 			{ color: $color-primary }
+	.c2--l 			{ color: $color-secondary }
+	.c3--l 			{ color: $color-tertiary }
+
 	.c-black--l		{ color: $color-black }
 	.c-gray--l		{ color: $color-gray }
 	.c-silver--l		{ color: $color-silver }
 	.c-white--l		{ color: $color-white }
-
-	.c1--l 			{ color: $color-primary }
-	.c2--l 			{ color: $color-secondary }
-	.c3--l 			{ color: $color-tertiary }
 
 	.c-navy--l		{ color: $color-navy }
 	.c-blue--l		{ color: $color-blue }

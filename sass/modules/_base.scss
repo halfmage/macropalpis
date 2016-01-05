@@ -1,25 +1,42 @@
-// MACROPALPIS
-// base module
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	base Module
+
+*/
+
+
+// make .h100 possible
 
 html, body {
 	height: 100%;
 	min-height: 100%;
 }
 
+
+// Fix box-model
+
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
+
+// Basic body styles
+
 body {
-	background-color: $body-bg;
-	color: $color-black;
-	font-size: 16px;
-	line-height: 1.5em;
+	color: $body-color;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	background: $body-bg;
 }
+
+
+// Fix aligning list indicators
 
 ul {
 	list-style-position: inside;

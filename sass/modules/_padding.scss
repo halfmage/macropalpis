@@ -1,19 +1,28 @@
-// MACROPALPIS
-// padding module
-
-
 /*
-	suffix index
-		none = all
-		t = top
-		r = right
-		b = bottom
-		l = left
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	padding Module
+
+	class	suffix		result
+	----------------------------------
+	p 		numeric		padding all
+	pt 		numeric		padding top
+	pr 		numeric		padding right
+	pb 		numeric		padding bottom
+	pl 		numeric		padding all
+
+
+	alphabetic index
+	----------------
+	_  =  all
+
+	t  =  top
+	r  =  right
+	b  =  bottom
+	l  =  left
+
 */
-
-
-//special centering class
-.pc 	{ padding-right: auto; padding-left: auto }
 
 .p0 	{ padding: 0 }
 .p1 	{ padding: 16em }
@@ -56,8 +65,6 @@
 .pl6 	{ padding-left: .25em }
 
 @media (min-width:$bp--m) {
-	.pc--m 	{ padding-right: auto; padding-left: auto }
-
 	.p0--m 	{ padding: 0 }
 	.p1--m 	{ padding: 16em }
 	.p2--m 	{ padding: 4em }
@@ -100,8 +107,6 @@
 }
 
 @media (min-width:$bp--l) {
-	.pc--l 	{ padding-right: auto; padding-left: auto }
-
 	.p0--l 	{ padding: 0 }
 	.p1--l 	{ padding: 16em }
 	.p2--l 	{ padding: 4em }
