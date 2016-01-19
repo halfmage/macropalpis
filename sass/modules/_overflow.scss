@@ -7,7 +7,7 @@
 
 	class	suffix			result
 	-------------------------------------
-	ov 		alphabetic		overflow mode
+	o 		alphabetic		overflow mode
 
 
 	alphabetic index
@@ -26,42 +26,42 @@
 
 */
 
-.ovh  { overflow: hidden; }
-.ovv  { overflow: visible; }
-.ovs  { overflow: scroll; }
+.oh  { overflow: hidden; }
+.ov  { overflow: visible; }
+.os  { overflow: scroll; }
 
-.ovxh { overflow-x: hidden; }
-.ovxv { overflow-x: visible; }
-.ovxs { overflow-x: scroll; }
+.oxh { overflow-x: hidden; }
+.oxv { overflow-x: visible; }
+.oxs { overflow-x: scroll; }
 
-.ovyh { overflow-y: hidden; }
-.ovyv { overflow-y: visible; }
-.ovys { overflow-y: scroll; }
+.oyh { overflow-y: hidden; }
+.oyv { overflow-y: visible; }
+.oys { overflow-y: scroll; }
 
 @media (min-width:$bp--m) {
-	.ovh--m  { overflow: hidden; }
-	.ovv--m  { overflow: visible; }
-	.ovs--m  { overflow: scroll; }
+	.oh--m  { overflow: hidden; }
+	.ov--m  { overflow: visible; }
+	.os--m  { overflow: scroll; }
 
-	.ovxh--m { overflow-x: hidden; }
-	.ovxv--m { overflow-x: visible; }
-	.ovxs--m { overflow-x: scroll; }
+	.oxh--m { overflow-x: hidden; }
+	.oxv--m { overflow-x: visible; }
+	.oxs--m { overflow-x: scroll; }
 
-	.ovyh--m { overflow-y: hidden; }
-	.ovyv--m { overflow-y: visible; }
-	.ovys--m { overflow-y: scroll; }
+	.oyh--m { overflow-y: hidden; }
+	.oyv--m { overflow-y: visible; }
+	.oys--m { overflow-y: scroll; }
 }
 
 @media (min-width:$bp--l) {
-	.ovh--l  { overflow: hidden; }
-	.ovv--l  { overflow: visible; }
-	.ovs--l  { overflow: scroll; }
+	.oh--l  { overflow: hidden; }
+	.ov--l  { overflow: visible; }
+	.os--l  { overflow: scroll; }
 
-	.ovxh--l { overflow-x: hidden; }
-	.ovxv--l { overflow-x: visible; }
-	.ovxs--l { overflow-x: scroll; }
+	.oxh--l { overflow-x: hidden; }
+	.oxv--l { overflow-x: visible; }
+	.oxs--l { overflow-x: scroll; }
 
-	.ovyh--l { overflow-y: hidden; }
-	.ovyv--l { overflow-y: visible; }
-	.ovys--l { overflow-y: scroll; }
+	.oyh--l { overflow-y: hidden; }
+	.oyv--l { overflow-y: visible; }
+	.oys--l { overflow-y: scroll; }
 }

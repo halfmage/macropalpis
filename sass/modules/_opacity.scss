@@ -7,34 +7,34 @@
 
 	class	suffix		result
 	--------------------------------------
-	op		numeric		transparency value
+	o		numeric		transparency value
 
 */
 
-.op0 { opacity: 0 }
-.op1 { opacity: 1 }
-.op2 { opacity: .8 }
-.op3 { opacity: .6 }
-.op4 { opacity: .4 }
-.op5 { opacity: .2 }
-.op6 { opacity: .1 }
+.o0 { opacity: 0 }
+.o1 { opacity: 1 }
+.o2 { opacity: .8 }
+.o3 { opacity: .6 }
+.o4 { opacity: .4 }
+.o5 { opacity: .2 }
+.o6 { opacity: .1 }
 
 @media (min-width:$bp--m) {
-	.op0--m { opacity: 0 }
-	.op1--m { opacity: 1 }
-	.op2--m { opacity: .8 }
-	.op3--m { opacity: .6 }
-	.op4--m { opacity: .4 }
-	.op5--m { opacity: .2 }
-	.op6--m { opacity: .1 }
+	.o0--m { opacity: 0 }
+	.o1--m { opacity: 1 }
+	.o2--m { opacity: .8 }
+	.o3--m { opacity: .6 }
+	.o4--m { opacity: .4 }
+	.o5--m { opacity: .2 }
+	.o6--m { opacity: .1 }
 }
 
 @media (min-width:$bp--l) {
-	.op0--l { opacity: 0 }
-	.op1--l { opacity: 1 }
-	.op2--l { opacity: .8 }
-	.op3--l { opacity: .6 }
-	.op4--l { opacity: .4 }
-	.op5--l { opacity: .2 }
-	.op6--l { opacity: .1 }
+	.o0--l { opacity: 0 }
+	.o1--l { opacity: 1 }
+	.o2--l { opacity: .8 }
+	.o3--l { opacity: .6 }
+	.o4--l { opacity: .4 }
+	.o5--l { opacity: .2 }
+	.o6--l { opacity: .1 }
 }

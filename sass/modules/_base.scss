@@ -39,6 +39,13 @@ body {
 }
 
 
+// Securing image viewports
+
+img {
+	max-width: 100%;
+}
+
+
 // Fix aligning list indicators
 
 ul {
