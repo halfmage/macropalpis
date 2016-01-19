@@ -1,0 +1,35 @@
+/*
+
+	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+
+	text-transform Module
+	
+
+	class	suffix			result
+	-------------------------------------------
+	tt 		alphabetic		text transformation
+
+
+	alphabetic index
+	----------------
+	u   =  uppercase
+	l	=  lowercase
+	c  	=  capitalize
+
+*/
+
+.ttu { text-transform: uppercase; }
+.ttl { text-transform: lowercase; }
+.ttc { text-transform: capitalize; }
+
+@media (min-width:$bp--m) {
+	.ttu--m { text-transform: uppercase; }
+	.ttl--m { text-transform: lowercase; }
+	.ttc--m { text-transform: capitalize; }
+}
+
+@media (min-width:$bp--l) {
+	.ttu--l { text-transform: uppercase; }
+	.ttl--l { text-transform: lowercase; }
+	.ttc--l { text-transform: capitalize; }
+}
