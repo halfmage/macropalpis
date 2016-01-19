@@ -21,20 +21,29 @@
 .i64	{ width: 64px; }
 .i128	{ width: 128px; }
 
-.i16, .i32, .i64, .i128 {
+.i16,
+.i24,
+.i32,
+.i48,
+.i64,
+.i128 {
 	height: auto;
 }
 
 @media (min-width:$bp--m) {
 	.i16--m		{ width: 16px; }
+	.i24--m		{ width: 24px; }
 	.i32--m		{ width: 32px; }
+	.i48--m		{ width: 48px; }
 	.i64--m		{ width: 64px; }
 	.i128--m	{ width: 128px; }
 }
 
 @media (min-width:$bp--l) {
 	.i16--l		{ width: 16px; }
+	.i24--l		{ width: 24px; }
 	.i32--l		{ width: 32px; }
+	.i48--l		{ width: 48px; }
 	.i64--l		{ width: 64px; }
 	.i128--l	{ width: 128px; }
 }
