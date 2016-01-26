@@ -7,61 +7,73 @@
 
 	class	suffix			result
 	-------------------------------------
-	o 		alphabetic		overflow mode
+	ov 		alphabetic		overflow mode
 
 
 	alphabetic index
 	----------------
+	a   =  auto
 	h   =  hidden
 	v	=  visible
 	s  	=  scroll
 
-	xh	=  hidden horizontally
+	xa	=  auto horizontally
+	xh	=  hidden ..
 	xv	=  visible ..
 	xs	=  scroll ..
 
-	yh	=  hidden vertically
+	ya	=  auto vertically
+	yh	=  hidden ..
 	yv	=  visible ..
 	ys	=  scroll ..
 
 */
 
-.oh  { overflow: hidden; }
-.ov  { overflow: visible; }
-.os  { overflow: scroll; }
+.ova  { overflow: auto; }
+.ovh  { overflow: hidden; }
+.ovv  { overflow: visible; }
+.ovs  { overflow: scroll; }
 
-.oxh { overflow-x: hidden; }
-.oxv { overflow-x: visible; }
-.oxs { overflow-x: scroll; }
+.ovxa { overflow-x: auto; }
+.ovxh { overflow-x: hidden; }
+.ovxv { overflow-x: visible; }
+.ovxs { overflow-x: scroll; }
 
-.oyh { overflow-y: hidden; }
-.oyv { overflow-y: visible; }
-.oys { overflow-y: scroll; }
+.ovya { overflow-y: auto; }
+.ovyh { overflow-y: hidden; }
+.ovyv { overflow-y: visible; }
+.ovys { overflow-y: scroll; }
 
 @media (min-width:$bp--m) {
-	.oh--m  { overflow: hidden; }
-	.ov--m  { overflow: visible; }
-	.os--m  { overflow: scroll; }
+	.ova--m  { overflow: auto; }
+	.ovh--m  { overflow: hidden; }
+	.ovv--m  { overflow: visible; }
+	.ovs--m  { overflow: scroll; }
 
-	.oxh--m { overflow-x: hidden; }
-	.oxv--m { overflow-x: visible; }
-	.oxs--m { overflow-x: scroll; }
+	.ovxa--m { overflow-x: auto; }
+	.ovxh--m { overflow-x: hidden; }
+	.ovxv--m { overflow-x: visible; }
+	.ovxs--m { overflow-x: scroll; }
 
-	.oyh--m { overflow-y: hidden; }
-	.oyv--m { overflow-y: visible; }
-	.oys--m { overflow-y: scroll; }
+	.ovya--m { overflow-y: auto; }
+	.ovyh--m { overflow-y: hidden; }
+	.ovyv--m { overflow-y: visible; }
+	.ovys--m { overflow-y: scroll; }
 }
 
 @media (min-width:$bp--l) {
-	.oh--l  { overflow: hidden; }
-	.ov--l  { overflow: visible; }
-	.os--l  { overflow: scroll; }
+	.ova--l  { overflow: auto; }
+	.ovh--l  { overflow: hidden; }
+	.ovv--l  { overflow: visible; }
+	.ovs--l  { overflow: scroll; }
 
-	.oxh--l { overflow-x: hidden; }
-	.oxv--l { overflow-x: visible; }
-	.oxs--l { overflow-x: scroll; }
+	.ovxa--l { overflow-x: auto; }
+	.ovxh--l { overflow-x: hidden; }
+	.ovxv--l { overflow-x: visible; }
+	.ovxs--l { overflow-x: scroll; }
 
-	.oyh--l { overflow-y: hidden; }
-	.oyv--l { overflow-y: visible; }
-	.oys--l { overflow-y: scroll; }
+	.ovya--l { overflow-y: auto; }
+	.ovyh--l { overflow-y: hidden; }
+	.ovyv--l { overflow-y: visible; }
+	.ovys--l { overflow-y: scroll; }
 }

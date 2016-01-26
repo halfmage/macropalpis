@@ -1,12 +1,16 @@
 ![alt text](http://i.imgur.com/YE2jEzv.png "Macropalpis Logo")
 
 # macropalpis.css
-**v. 0.0.9** - A CSS concept of ultra-shorthanded utility classes with focus on mobile-first and minimal effort prototyping.
+**v. 1.0** - A CSS concept of ultra-shorthanded utility classes with focus on mobile-first and minimal effort prototyping.
 
 ### Background Information
 Paratarsotomus **macropalpis** is a species of mite. It is quite small — 0.7 mm — but has been recorded as the world's fastest land animal relative to body length. The mite has been recorded at a speed of 322 body lengths per second (0.225 metres per second (0.50 mph)). Source: [sciencedaily](www.sciencedaily.com/releases/2014/04/140427191124.htm), [wikipedia](www.sciencedaily.com/releases/2014/04/140427191124.htm)
 
 This Project is also highly inspired by [Tachyons by Adam Morse](https://github.com/tachyons-css/tachyons)
+
+### Rem-based Scaling System
+- 0 / .25rem / .5rem / 1rem / 2rem / 4rem / 8rem / 16rem
+- 16px are 1rem by default but can be modified with the variable $body-font-size 
 
 ### Approaches and Goles
 - CSS declarations as seperated class modules

@@ -6,33 +6,33 @@
 	
 
 	class	suffix		result
-	------------------------------------
+	-----------------------------
 	fz 		numeric		font-size
 
 
 */
 
-.fz1 { font-size: 4em }
-.fz2 { font-size: 2em }
-.fz3 { font-size: 1em }
-.fz4 { font-size: .875em }
-.fz5 { font-size: .75em }
-.fz6 { font-size: .625em }
+.fz1 { font-size: .625rem }
+.fz2 { font-size: .75rem }
+.fz3 { font-size: .875rem  }
+.fz4 { font-size: 1rem }
+.fz5 { font-size: 2rem }
+.fz6 { font-size: 4rem }
 
 @media (min-width:$bp--m) {
-	.fz1--m { font-size: 16em }
-	.fz2--m { font-size: 8em }
-	.fz3--m { font-size: 4em }
-	.fz4--m { font-size: 2em }
-	.fz5--m { font-size: 1em }
-	.fz6--m { font-size: .5em }
+	.fz1--m { font-size: .625rem }
+	.fz2--m { font-size: .75rem }
+	.fz3--m { font-size: .875rem  }
+	.fz4--m { font-size: 1rem }
+	.fz5--m { font-size: 2rem }
+	.fz6--m { font-size: 4rem }
 }
 
 @media (min-width:$bp--l) {
-	.fz1--l { font-size: 16em }
-	.fz2--l { font-size: 8em }
-	.fz3--l { font-size: 4em }
-	.fz4--l { font-size: 2em }
-	.fz5--l { font-size: 1em }
-	.fz6--l { font-size: .5em }
+	.fz1--l { font-size: .625rem }
+	.fz2--l { font-size: .75rem }
+	.fz3--l { font-size: .875rem  }
+	.fz4--l { font-size: 1rem }
+	.fz5--l { font-size: 2rem }
+	.fz6--l { font-size: 4rem }
 }
