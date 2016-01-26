@@ -24,9 +24,10 @@
 .mw--m { max-width: $bp--m }
 .mw--l { max-width: $bp--l }
 
-.mw1 { max-width: 16em; }
-.mw2 { max-width: 8em; }
-.mw3 { max-width: 4em; }
-.mw4 { max-width: 2em; }
-.mw5 { max-width: 1em; }
-.mw6 { max-width: .5em; }
+.mw1 { bottom: .25rem }
+.mw2 { bottom: .5rem }
+.mw3 { bottom: 1rem }
+.mw4 { bottom: 2rem }
+.mw5 { bottom: 4rem }
+.mw6 { bottom: 8rem }
+.mw7 { bottom: 16rem }
