@@ -34,8 +34,8 @@ html {
 body {
 	color: $body-color;
 	font-size: $body-font-size;
-	line-height: $body-line-height;
 	background: $body-bg;
+	line-height: 1.5;
 }
 
 
@@ -50,4 +50,8 @@ img {
 
 ul {
 	list-style-position: inside;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1.25;
 }
