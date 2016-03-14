@@ -3,7 +3,7 @@
 	Macropalpis v1.0.0 | MIT License | git.io/vEucl
 
 	color Module
-	
+
 
 	class	suffix		result
 	------------------------------------
@@ -43,7 +43,7 @@
 
 	.c-black--m		{ color: $color-black }
 	.c-gray--m		{ color: $color-gray }
-	.c-silver--m		{ color: $color-silver }
+	.c-silver--m	{ color: $color-silver }
 	.c-white--m		{ color: $color-white }
 
 	.c-navy--m		{ color: $color-navy }
@@ -53,12 +53,12 @@
 	.c-olive--m		{ color: $color-olive }
 	.c-green--m		{ color: $color-green }
 	.c-lime--m		{ color: $color-lime }
-	.c-yellow--m		{ color: $color-yellow }
-	.c-orange--m		{ color: $color-orange }
+	.c-yellow--m	{ color: $color-yellow }
+	.c-orange--m	{ color: $color-orange }
 	.c-red--m		{ color: $color-red }
-	.c-maroon--m		{ color: $color-maroon }
+	.c-maroon--m	{ color: $color-maroon }
 	.c-fuchsia--m	{ color: $color-fuchsia }
-	.c-purple--m		{ color: $color-purple }
+	.c-purple--m	{ color: $color-purple }
 }
 
 @media (min-width:$bp--l) {
@@ -68,7 +68,7 @@
 
 	.c-black--l		{ color: $color-black }
 	.c-gray--l		{ color: $color-gray }
-	.c-silver--l		{ color: $color-silver }
+	.c-silver--l	{ color: $color-silver }
 	.c-white--l		{ color: $color-white }
 
 	.c-navy--l		{ color: $color-navy }
@@ -78,10 +78,10 @@
 	.c-olive--l		{ color: $color-olive }
 	.c-green--l		{ color: $color-green }
 	.c-lime--l		{ color: $color-lime }
-	.c-yellow--l		{ color: $color-yellow }
-	.c-orange--l		{ color: $color-orange }
+	.c-yellow--l	{ color: $color-yellow }
+	.c-orange--l	{ color: $color-orange }
 	.c-red--l		{ color: $color-red }
-	.c-maroon--l		{ color: $color-maroon }
+	.c-maroon--l	{ color: $color-maroon }
 	.c-fuchsia--l	{ color: $color-fuchsia }
-	.c-purple--l		{ color: $color-purple }
+	.c-purple--l	{ color: $color-purple }
 }

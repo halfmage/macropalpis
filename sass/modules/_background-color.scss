@@ -14,7 +14,7 @@
 // Brand Colors
 
 .bgc1 			{ background-color: $color-primary } 	// Primary Brand Color
-.bgc2 			{ background-color: $color-secondary } 	// Secondary 
+.bgc2 			{ background-color: $color-secondary } 	// Secondary
 .bgc3 			{ background-color: $color-tertiary } 	// Tertiary
 
 
@@ -42,7 +42,7 @@
 
 @media (min-width:$bp--m) {
 	.bgc-black--m		{ background-color: $color-black }
-	.bgc-gray--m			{ background-color: $color-gray }
+	.bgc-gray--m		{ background-color: $color-gray }
 	.bgc-silver--m		{ background-color: $color-silver }
 	.bgc-white--m		{ background-color: $color-white }
 
@@ -75,7 +75,7 @@
 	.bgc1--l 			{ background-color: $color-primary }
 	.bgc2--l 			{ background-color: $color-secondary }
 	.bgc3--l 			{ background-color: $color-tertiary }
-	
+
 	.bgc-navy--l		{ background-color: $color-navy }
 	.bgc-blue--l		{ background-color: $color-blue }
 	.bgc-aqua--l		{ background-color: $color-aqua }

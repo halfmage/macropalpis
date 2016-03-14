@@ -9,7 +9,7 @@
 
 // make .h100 possible
 
-html, 
+html,
 body {
 	height: 100%;
 	min-height: 100%;
@@ -22,8 +22,8 @@ html {
 	box-sizing: border-box;
 }
 
-*, 
-*:before, 
+*,
+*:before,
 *:after {
 	box-sizing: inherit;
 }
@@ -35,7 +35,7 @@ body {
 	color: $body-color;
 	font-size: $body-font-size;
 	background: $body-bg;
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 
