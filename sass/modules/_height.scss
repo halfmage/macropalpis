@@ -17,13 +17,39 @@
 
 */
 
+.h1 { height: .5em; }
+.h2 { height: 1em; }
+.h3 { height: 2em; }
+.h4 { height: 4em; }
+.h5 { height: 8em; }
+.h6 { height: 16em; }
+
 .h100 { height: 100%; }
 .h50  { height: 50%; }
 .ha   { height: auto; }	
 
-.h1 { height: 16em;}
-.h2 { height: 8em;}
-.h3 { height: 4em;}
-.h4 { height: 2em;}
-.h5 { height: 1em;}
-.h6 { height: .5em;}
+@media (min-width:$bp--m) {
+	.h1--m { height: .5em; }
+	.h2--m { height: 1em; }
+	.h3--m { height: 2em; }
+	.h4--m { height: 4em; }
+	.h5--m { height: 8em; }
+	.h6--m { height: 16em; }
+
+	.h100--m { height: 100%; }
+	.h50--m  { height: 50%; }
+	.ha--m   { height: auto; }	
+}
+
+@media (min-width:$bp--l) {
+	.h1--l { height: .5em; }
+	.h2--l { height: 1em; }
+	.h3--l { height: 2em; }
+	.h4--l { height: 4em; }
+	.h5--l { height: 8em; }
+	.h6--l { height: 16em; }
+
+	.h100--l { height: 100%; }
+	.h50--l  { height: 50%; }
+	.ha--l   { height: auto; }	
+}

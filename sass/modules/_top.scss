@@ -29,3 +29,39 @@
 .t-5 { top: -4rem }
 .t-6 { top: -8rem }
 .t-7 { top: -16rem }
+
+@media (min-width:$bp--m) {
+	.t0--m { top: 0 }
+	.t1--m { top: .25rem }
+	.t2--m { top: .5rem }
+	.t3--m { top: 1rem }
+	.t4--m { top: 2rem }
+	.t5--m { top: 4rem }
+	.t6--m { top: 8rem }
+	.t7--m { top: 16rem }
+	.t-1--m { top: -.25rem }
+	.t-2--m { top: -.5rem }
+	.t-3--m { top: -1rem }
+	.t-4--m { top: -2rem }
+	.t-5--m { top: -4rem }
+	.t-6--m { top: -8rem }
+	.t-7--m { top: -16rem }
+}
+
+@media (min-width:$bp--l) {
+	.t0--l { top: 0 }
+	.t1--l { top: .25rem }
+	.t2--l { top: .5rem }
+	.t3--l { top: 1rem }
+	.t4--l { top: 2rem }
+	.t5--l { top: 4rem }
+	.t6--l { top: 8rem }
+	.t7--l { top: 16rem }
+	.t-1--l { top: -.25rem }
+	.t-2--l { top: -.5rem }
+	.t-3--l { top: -1rem }
+	.t-4--l { top: -2rem }
+	.t-5--l { top: -4rem }
+	.t-6--l { top: -8rem }
+	.t-7--l { top: -16rem }
+}

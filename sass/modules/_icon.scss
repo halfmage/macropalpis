@@ -14,13 +14,6 @@
 
 // common icon sizes
 
-.i16	{ width: 1rem; } 	// 16px
-.i24	{ width: 1.5rem; } 	// 24px
-.i32	{ width: 2rem; } 	// 32px
-.i48	{ width: 3rem; } 	// 48px
-.i64	{ width: 4rem; } 	// 64px
-.i128	{ width: 8rem; } 	// 128px
-
 .i16,
 .i24,
 .i32,
@@ -29,6 +22,13 @@
 .i128 {
 	height: auto;
 }
+
+.i16	{ width: 1rem; } 	// 16px
+.i24	{ width: 1.5rem; } 	// 24px
+.i32	{ width: 2rem; } 	// 32px
+.i48	{ width: 3rem; } 	// 48px
+.i64	{ width: 4rem; } 	// 64px
+.i128	{ width: 8rem; } 	// 128px
 
 @media (min-width:$bp--m) {
 	.i16--m		{ width: 1rem; }

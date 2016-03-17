@@ -22,10 +22,46 @@
 .l6 { left: 8rem }
 .l7 { left: 16rem }
 
-.l-1 {left: -.25rem }
-.l-2 {left: -.5rem }
-.l-3 {left: -1rem }
-.l-4 {left: -2rem }
-.l-5 {left: -4rem }
-.l-6 {left: -8rem }
-.l-7 {left: -16rem }
+.l-1 { left: -.25rem }
+.l-2 { left: -.5rem }
+.l-3 { left: -1rem }
+.l-4 { left: -2rem }
+.l-5 { left: -4rem }
+.l-6 { left: -8rem }
+.l-7 { left: -16rem }
+
+@media (min-width:$bp--m) {
+	.l0--m { left: 0 }
+	.l1--m { left: .25rem }
+	.l2--m { left: .5rem }
+	.l3--m { left: 1rem }
+	.l4--m { left: 2rem }
+	.l5--m { left: 4rem }
+	.l6--m { left: 8rem }
+	.l7--m { left: 16rem }
+	.l-1--m { left: -.25rem }
+	.l-2--m { left: -.5rem }
+	.l-3--m { left: -1rem }
+	.l-4--m { left: -2rem }
+	.l-5--m { left: -4rem }
+	.l-6--m { left: -8rem }
+	.l-7--m { left: -16rem }
+}
+
+@media (min-width:$bp--l) {
+	.l0--l { left: 0 }
+	.l1--l { left: .25rem }
+	.l2--l { left: .5rem }
+	.l3--l { left: 1rem }
+	.l4--l { left: 2rem }
+	.l5--l { left: 4rem }
+	.l6--l { left: 8rem }
+	.l7--l { left: 16rem }
+	.l-1--l { left: -.25rem }
+	.l-2--l { left: -.5rem }
+	.l-3--l { left: -1rem }
+	.l-4--l { left: -2rem }
+	.l-5--l { left: -4rem }
+	.l-6--l { left: -8rem }
+	.l-7--l { left: -16rem }
+}

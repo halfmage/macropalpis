@@ -29,3 +29,39 @@
 .r-5 { right: -4rem }
 .r-6 { right: -8rem }
 .r-7 { right: -16rem }
+
+@media (min-width:$bp--m) {
+	.r0--m { right: 0 }
+	.r1--m { right: .25rem }
+	.r2--m { right: .5rem }
+	.r3--m { right: 1rem }
+	.r4--m { right: 2rem }
+	.r5--m { right: 4rem }
+	.r6--m { right: 8rem }
+	.r7--m { right: 16rem }
+	.r-1--m { right: -.25rem }
+	.r-2--m { right: -.5rem }
+	.r-3--m { right: -1rem }
+	.r-4--m { right: -2rem }
+	.r-5--m { right: -4rem }
+	.r-6--m { right: -8rem }
+	.r-7--m { right: -16rem }
+}
+
+@media (min-width:$bp--l) {
+	.r0--l { right: 0 }
+	.r1--l { right: .25rem }
+	.r2--l { right: .5rem }
+	.r3--l { right: 1rem }
+	.r4--l { right: 2rem }
+	.r5--l { right: 4rem }
+	.r6--l { right: 8rem }
+	.r7--l { right: 16rem }
+	.r-1--l { right: -.25rem }
+	.r-2--l { right: -.5rem }
+	.r-3--l { right: -1rem }
+	.r-4--l { right: -2rem }
+	.r-5--l { right: -4rem }
+	.r-6--l { right: -8rem }
+	.r-7--l { right: -16rem }
+}
