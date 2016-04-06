@@ -26,7 +26,7 @@
 .bsdt { border-style: dotted }
 .bsdb { border-style: double }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.bsn--m  { border-style: none }
 	.bss--m  { border-style: solid }
 	.bsds--m { border-style: dashed }

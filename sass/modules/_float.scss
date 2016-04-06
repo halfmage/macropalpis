@@ -22,7 +22,7 @@
 .fl	{ float: left; }
 .fr { float: right; }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.fn--m { float: none; }
 	.fl--m { float: left; }
 	.fr--m { float: right; }

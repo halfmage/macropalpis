@@ -40,7 +40,7 @@
 .bc-fuchsia		{ border-color: $color-fuchsia }
 .bc-purple		{ border-color: $color-purple }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.bc1--m 		{ border-color: $color-primary }
 	.bc2--m 		{ border-color: $color-secondary }
 	.bc3--m 		{ border-color: $color-tertiary }

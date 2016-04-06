@@ -40,7 +40,7 @@
 .bgc-purple		{ background-color: $color-purple }
 
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.bgc-black--m		{ background-color: $color-black }
 	.bgc-gray--m		{ background-color: $color-gray }
 	.bgc-silver--m		{ background-color: $color-silver }

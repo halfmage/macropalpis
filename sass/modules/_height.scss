@@ -28,7 +28,7 @@
 .h50  { height: 50%; }
 .ha   { height: auto; }	
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.h1--m { height: .5em; }
 	.h2--m { height: 1em; }
 	.h3--m { height: 2em; }

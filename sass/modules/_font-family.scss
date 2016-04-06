@@ -22,7 +22,7 @@
 .ffss { font-family: $font-sans-serif }
 .ffm  { font-family: $font-mono }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.ffs--m  { font-family: $font-serif }
 	.ffss--m { font-family: $font-sans-serif }
 	.ffm--m  { font-family: $font-mono }

@@ -24,7 +24,7 @@
 .tdo { text-decoration: overline; }
 .tdl { text-decoration: line-through; }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.tdn--m { text-decoration: none; }
 	.tdu--m { text-decoration: underline; }
 	.tdo--m { text-decoration: overline; }

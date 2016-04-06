@@ -22,7 +22,7 @@
 .ttl { text-transform: lowercase; }
 .ttc { text-transform: capitalize; }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.ttu--m { text-transform: uppercase; }
 	.ttl--m { text-transform: lowercase; }
 	.ttc--m { text-transform: capitalize; }

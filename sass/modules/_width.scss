@@ -39,7 +39,7 @@
 .w66	{ width: 66.66%; }
 .w100 	{ width: 100%; }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.wa--m	{ width: auto; }
 	.w0--m	{ width: 0px; }
 

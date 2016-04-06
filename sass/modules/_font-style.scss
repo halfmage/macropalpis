@@ -23,7 +23,7 @@
 .fsi { font-style: italic } 
 .fso { font-style: oblique }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.fsn--m { font-style: normal }
 	.fsi--m { font-style: italic } 
 	.fso--m { font-style: oblique }

@@ -20,7 +20,7 @@
 .bw5 { border-width: 4em}
 .bw6 { border-width: 8em }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.bw0--m { border-width: 0 }
 	.bw1--m { border-width: .25em }
 	.bw2--m { border-width: .5em }

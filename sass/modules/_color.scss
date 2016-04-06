@@ -36,7 +36,7 @@
 .c-fuchsia	{ color: $color-fuchsia }
 .c-purple	{ color: $color-purple }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.c1--m 			{ color: $color-primary }
 	.c2--m 			{ color: $color-secondary }
 	.c3--m 			{ color: $color-tertiary }

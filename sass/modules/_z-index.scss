@@ -19,7 +19,7 @@
 .z5 	{z-index: 5 }
 .z6 	{z-index: 999 }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.z0--m 	{z-index: 0 }
 	.z1--m 	{z-index: 1 }
 	.z2--m 	{z-index: 2 }

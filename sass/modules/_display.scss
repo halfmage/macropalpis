@@ -24,7 +24,7 @@
 .di { display: inline }
 .dib { display: inline-block }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.dn--m { display: none }
 	.db--m { display: block }
 	.di--m { display: inline }

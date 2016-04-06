@@ -24,7 +24,7 @@
 .pa {position: absolute}
 .pf {position: fixed}
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.ps--m {position: static}
 	.pr--m {position: relative}
 	.pa--m {position: absolute}

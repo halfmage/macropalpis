@@ -22,7 +22,7 @@
 .vh { visibility: hidden; }
 .vc { visibility: collapse; }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.vv--m { visibility: visible; }
 	.vh--m { visibility: hidden; }
 	.vc--m { visibility: collapse; }

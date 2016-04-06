@@ -41,7 +41,7 @@
 .cr	{ clear: right; }
 .cb	{ clear: both; }
 
-@media (min-width:$bp--m){
+@media (min-width:$M){
 	.cn--m { clear: none; }
 	.cl--m { clear: left; }
 	.cr--m { clear: right; }

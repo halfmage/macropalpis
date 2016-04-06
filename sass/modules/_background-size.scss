@@ -21,7 +21,7 @@
 .bgzcv	{ background-size: cover }
 .bgzct	{ background-size: contain }
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.bgza--m	{ background-size: auto }
 	.bgzcv--m	{ background-size: cover }
 	.bgzct--m	{ background-size: contain }

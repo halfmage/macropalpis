@@ -30,7 +30,7 @@
 .i64	{ width: 4rem; } 	// 64px
 .i128	{ width: 8rem; } 	// 128px
 
-@media (min-width:$bp--m) {
+@media (min-width:$M) {
 	.i16--m		{ width: 1rem; }
 	.i24--m		{ width: 1.5rem; }
 	.i32--m		{ width: 2rem; }
