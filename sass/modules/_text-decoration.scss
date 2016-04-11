@@ -25,10 +25,10 @@
 .tdl { text-decoration: line-through; }
 
 @media (min-width:$M) {
-	.tdn--m { text-decoration: none; }
-	.tdu--m { text-decoration: underline; }
-	.tdo--m { text-decoration: overline; }
-	.tdl--m { text-decoration: line-through; }
+	.tdn-M { text-decoration: none; }
+	.tdu-M { text-decoration: underline; }
+	.tdo-M { text-decoration: overline; }
+	.tdl-M { text-decoration: line-through; }
 }
 
 @media (min-width:$L) {

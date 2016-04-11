@@ -20,14 +20,14 @@
 .br00 	{ border-radius: 100% }
 
 @media (min-width:$M) {
-	.br0--m		{ border-radius: 0 }
-	.br1--m		{ border-radius: .125em }
-	.br2--m		{ border-radius: .5em }
-	.br3--m		{ border-radius: 1em }
-	.br4--m		{ border-radius: 2em }
-	.br5--m		{ border-radius: 4em } 
-	.br6--m		{ border-radius: 8em }
-	.br00--m	{ border-radius: 100% }
+	.br0-M		{ border-radius: 0 }
+	.br1-M		{ border-radius: .125em }
+	.br2-M		{ border-radius: .5em }
+	.br3-M		{ border-radius: 1em }
+	.br4-M		{ border-radius: 2em }
+	.br5-M		{ border-radius: 4em } 
+	.br6-M		{ border-radius: 8em }
+	.br00-M	{ border-radius: 100% }
 }
 
 @media (min-width:$L) {

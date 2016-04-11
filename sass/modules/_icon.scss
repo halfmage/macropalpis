@@ -31,12 +31,12 @@
 .i128	{ width: 8rem; } 	// 128px
 
 @media (min-width:$M) {
-	.i16--m		{ width: 1rem; }
-	.i24--m		{ width: 1.5rem; }
-	.i32--m		{ width: 2rem; }
-	.i48--m		{ width: 3rem; }
-	.i64--m		{ width: 4rem; }
-	.i128--m	{ width: 8rem; }
+	.i16-M		{ width: 1rem; }
+	.i24-M		{ width: 1.5rem; }
+	.i32-M		{ width: 2rem; }
+	.i48-M		{ width: 3rem; }
+	.i64-M		{ width: 4rem; }
+	.i128-M	{ width: 8rem; }
 }
 
 @media (min-width:$L) {

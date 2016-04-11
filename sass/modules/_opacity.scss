@@ -20,13 +20,13 @@
 .op6 { opacity: 1 }
 
 @media (min-width:$M) {
-	.op0--m { opacity: 0 }
-	.op1--m { opacity: .2 }
-	.op2--m { opacity: .35 }
-	.op3--m { opacity: .5 }
-	.op4--m { opacity: .65 }
-	.op5--m { opacity: .8 }
-	.op6--m { opacity: 1 }
+	.op0-M { opacity: 0 }
+	.op1-M { opacity: .2 }
+	.op2-M { opacity: .35 }
+	.op3-M { opacity: .5 }
+	.op4-M { opacity: .65 }
+	.op5-M { opacity: .8 }
+	.op6-M { opacity: 1 }
 }
 
 @media (min-width:$L) {

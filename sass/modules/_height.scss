@@ -29,16 +29,16 @@
 .ha   { height: auto; }	
 
 @media (min-width:$M) {
-	.h1--m { height: .5em; }
-	.h2--m { height: 1em; }
-	.h3--m { height: 2em; }
-	.h4--m { height: 4em; }
-	.h5--m { height: 8em; }
-	.h6--m { height: 16em; }
+	.h1-M { height: .5em; }
+	.h2-M { height: 1em; }
+	.h3-M { height: 2em; }
+	.h4-M { height: 4em; }
+	.h5-M { height: 8em; }
+	.h6-M { height: 16em; }
 
-	.h100--m { height: 100%; }
-	.h50--m  { height: 50%; }
-	.ha--m   { height: auto; }	
+	.h100-M { height: 100%; }
+	.h50-M  { height: 50%; }
+	.ha-M   { height: auto; }	
 }
 
 @media (min-width:$L) {

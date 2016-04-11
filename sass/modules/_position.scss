@@ -25,10 +25,10 @@
 .pf {position: fixed}
 
 @media (min-width:$M) {
-	.ps--m {position: static}
-	.pr--m {position: relative}
-	.pa--m {position: absolute}
-	.pf--m {position: fixed}
+	.ps-M {position: static}
+	.pr-M {position: relative}
+	.pa-M {position: absolute}
+	.pf-M {position: fixed}
 }
 
 @media (min-width:$L) {

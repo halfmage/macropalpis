@@ -27,14 +27,14 @@
 .bc-white		{ border-color: $c-white }
 
 @media (min-width:$M) {
-	.bc1--m 		{ border-color: $c-primary }
-	.bc2--m 		{ border-color: $c-secondary }
-	.bc3--m 		{ border-color: $c-tertiary }
+	.bc1-M 		{ border-color: $c-primary }
+	.bc2-M 		{ border-color: $c-secondary }
+	.bc3-M 		{ border-color: $c-tertiary }
 
-	.bc-black--m	{ border-color: $c-black }
-	.bc-gray--m		{ border-color: $c-gray }
-	.bc-silver--m	{ border-color: $c-silver }
-	.bc-white--m	{ border-color: $c-white }
+	.bc-black-M	{ border-color: $c-black }
+	.bc-gray-M		{ border-color: $c-gray }
+	.bc-silver-M	{ border-color: $c-silver }
+	.bc-white-M	{ border-color: $c-white }
 }
 
 @media (min-width:$L) {

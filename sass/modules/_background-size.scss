@@ -22,9 +22,9 @@
 .bgzct	{ background-size: contain }
 
 @media (min-width:$M) {
-	.bgza--m	{ background-size: auto }
-	.bgzcv--m	{ background-size: cover }
-	.bgzct--m	{ background-size: contain }
+	.bgza-M	{ background-size: auto }
+	.bgzcv-M	{ background-size: cover }
+	.bgzct-M	{ background-size: contain }
 }
 
 @media (min-width:$L) {

@@ -24,9 +24,9 @@
 .fso { font-style: oblique }
 
 @media (min-width:$M) {
-	.fsn--m { font-style: normal }
-	.fsi--m { font-style: italic } 
-	.fso--m { font-style: oblique }
+	.fsn-M { font-style: normal }
+	.fsi-M { font-style: italic } 
+	.fso-M { font-style: oblique }
 }
 
 @media (min-width:$L) {

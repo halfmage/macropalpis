@@ -21,13 +21,13 @@
 .bw6 { border-width: 8em }
 
 @media (min-width:$M) {
-	.bw0--m { border-width: 0 }
-	.bw1--m { border-width: .25em }
-	.bw2--m { border-width: .5em }
-	.bw3--m { border-width: 1em }
-	.bw4--m { border-width: 2em }
-	.bw5--m { border-width: 4em}
-	.bw6--m { border-width: 8em }
+	.bw0-M { border-width: 0 }
+	.bw1-M { border-width: .25em }
+	.bw2-M { border-width: .5em }
+	.bw3-M { border-width: 1em }
+	.bw4-M { border-width: 2em }
+	.bw5-M { border-width: 4em}
+	.bw6-M { border-width: 8em }
 }
 
 @media (min-width:$L) {

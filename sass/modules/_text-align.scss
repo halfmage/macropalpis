@@ -25,10 +25,10 @@
 .taj { text-align: justify; }
 
 @media (min-width:$M) {
-	.tal--m { text-align: left; }
-	.tar--m { text-align: right; }
-	.tac--m { text-align: center; }
-	.taj--m { text-align: justify; }
+	.tal-M { text-align: left; }
+	.tar-M { text-align: right; }
+	.tac-M { text-align: center; }
+	.taj-M { text-align: justify; }
 }
 
 @media (min-width:$L) {

@@ -34,15 +34,15 @@
 .bgpbr { background-position: bottom right }
 
 @media (min-width:$M) {
-	.bgpt--m { background-position: top }
-	.bgpr--m { background-position: right }
-	.bgpb--m { background-position: bottom }
-	.bgpl--m { background-position: left }
+	.bgpt-M { background-position: top }
+	.bgpr-M { background-position: right }
+	.bgpb-M { background-position: bottom }
+	.bgpl-M { background-position: left }
 
-	.bgptl--m { background-position: top left }
-	.bgptr--m { background-position: top right }
-	.bgpbl--m { background-position: bottom left }
-	.bgpbr--m { background-position: bottom right }
+	.bgptl-M { background-position: top left }
+	.bgptr-M { background-position: top right }
+	.bgpbl-M { background-position: bottom left }
+	.bgpbr-M { background-position: bottom right }
 }
 
 @media (min-width:$L) {

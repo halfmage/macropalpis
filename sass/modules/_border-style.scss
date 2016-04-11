@@ -27,11 +27,11 @@
 .bsdb { border-style: double }
 
 @media (min-width:$M) {
-	.bsn--m  { border-style: none }
-	.bss--m  { border-style: solid }
-	.bsds--m { border-style: dashed }
-	.bsdt--m { border-style: dotted }
-	.bsdb--m { border-style: double }
+	.bsn-M  { border-style: none }
+	.bss-M  { border-style: solid }
+	.bsds-M { border-style: dashed }
+	.bsdt-M { border-style: dotted }
+	.bsdb-M { border-style: double }
 }
 
 @media (min-width:$L) {

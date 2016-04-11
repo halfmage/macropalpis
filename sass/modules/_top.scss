@@ -31,21 +31,21 @@
 .t-7 { top: -16rem }
 
 @media (min-width:$M) {
-	.t0--m { top: 0 }
-	.t1--m { top: .25rem }
-	.t2--m { top: .5rem }
-	.t3--m { top: 1rem }
-	.t4--m { top: 2rem }
-	.t5--m { top: 4rem }
-	.t6--m { top: 8rem }
-	.t7--m { top: 16rem }
-	.t-1--m { top: -.25rem }
-	.t-2--m { top: -.5rem }
-	.t-3--m { top: -1rem }
-	.t-4--m { top: -2rem }
-	.t-5--m { top: -4rem }
-	.t-6--m { top: -8rem }
-	.t-7--m { top: -16rem }
+	.t0-M { top: 0 }
+	.t1-M { top: .25rem }
+	.t2-M { top: .5rem }
+	.t3-M { top: 1rem }
+	.t4-M { top: 2rem }
+	.t5-M { top: 4rem }
+	.t6-M { top: 8rem }
+	.t7-M { top: 16rem }
+	.t-1-M { top: -.25rem }
+	.t-2-M { top: -.5rem }
+	.t-3-M { top: -1rem }
+	.t-4-M { top: -2rem }
+	.t-5-M { top: -4rem }
+	.t-6-M { top: -8rem }
+	.t-7-M { top: -16rem }
 }
 
 @media (min-width:$L) {

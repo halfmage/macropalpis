@@ -24,8 +24,6 @@
 
 */
 
-
-
 .cf	{ 
 	&:before, &:after {
 	    content: " ";
@@ -42,10 +40,10 @@
 .cb	{ clear: both; }
 
 @media (min-width:$M){
-	.cn--m { clear: none; }
-	.cl--m { clear: left; }
-	.cr--m { clear: right; }
-	.cb--m { clear: both; }
+	.cn-M { clear: none; }
+	.cl-M { clear: left; }
+	.cr-M { clear: right; }
+	.cb-M { clear: both; }
 }
 
 @media (min-width:$L){

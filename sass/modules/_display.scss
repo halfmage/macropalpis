@@ -25,10 +25,10 @@
 .dib { display: inline-block }
 
 @media (min-width:$M) {
-	.dn--m { display: none }
-	.db--m { display: block }
-	.di--m { display: inline }
-	.dib--m { display: inline-block }
+	.dn-M { display: none }
+	.db-M { display: block }
+	.di-M { display: inline }
+	.dib-M { display: inline-block }
 }
 
 @media (min-width:$L) {

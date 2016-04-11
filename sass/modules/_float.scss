@@ -23,9 +23,9 @@
 .fr { float: right; }
 
 @media (min-width:$M) {
-	.fn--m { float: none; }
-	.fl--m { float: left; }
-	.fr--m { float: right; }
+	.fn-M { float: none; }
+	.fl-M { float: left; }
+	.fr-M { float: right; }
 }
 
 @media (min-width:$L) {

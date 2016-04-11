@@ -31,21 +31,21 @@
 .b-7 { bottom: -16rem }
 
 @media (min-width:$M) {
-	.b0--m { bottom: 0 }
-	.b1--m { bottom: .25rem }
-	.b2--m { bottom: .5rem }
-	.b3--m { bottom: 1rem }
-	.b4--m { bottom: 2rem }
-	.b5--m { bottom: 4rem }
-	.b6--m { bottom: 8rem }
-	.b7--m { bottom: 16rem }
-	.b-1--m { bottom: -.25rem }
-	.b-2--m { bottom: -.5rem }
-	.b-3--m { bottom: -1rem }
-	.b-4--m { bottom: -2rem }
-	.b-5--m { bottom: -4rem }
-	.b-6--m { bottom: -8rem }
-	.b-7--m { bottom: -16rem }
+	.b0-M { bottom: 0 }
+	.b1-M { bottom: .25rem }
+	.b2-M { bottom: .5rem }
+	.b3-M { bottom: 1rem }
+	.b4-M { bottom: 2rem }
+	.b5-M { bottom: 4rem }
+	.b6-M { bottom: 8rem }
+	.b7-M { bottom: 16rem }
+	.b-1-M { bottom: -.25rem }
+	.b-2-M { bottom: -.5rem }
+	.b-3-M { bottom: -1rem }
+	.b-4-M { bottom: -2rem }
+	.b-5-M { bottom: -4rem }
+	.b-6-M { bottom: -8rem }
+	.b-7-M { bottom: -16rem }
 }
 
 @media (min-width:$L) {

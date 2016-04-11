@@ -23,14 +23,14 @@
 .c-white	{ color: $c-white }
 
 @media (min-width:$M) {
-	.c1--m 			{ color: $c-primary }
-	.c2--m 			{ color: $c-secondary }
-	.c3--m 			{ color: $c-tertiary }
+	.c1-M 			{ color: $c-primary }
+	.c2-M 			{ color: $c-secondary }
+	.c3-M 			{ color: $c-tertiary }
 
-	.c-black--m		{ color: $c-black }
-	.c-gray--m		{ color: $c-gray }
-	.c-silver--m	{ color: $c-silver }
-	.c-white--m		{ color: $c-white }
+	.c-black-M		{ color: $c-black }
+	.c-gray-M		{ color: $c-gray }
+	.c-silver-M	{ color: $c-silver }
+	.c-white-M		{ color: $c-white }
 }
 
 @media (min-width:$L) {

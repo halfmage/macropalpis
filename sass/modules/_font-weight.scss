@@ -23,9 +23,9 @@
 .fwl { font-weight: lighter }
 
 @media (min-width:$M) {
-	.fwn--m { font-weight: normal }
-	.fwb--m { font-weight: bold }
-	.fwl--m { font-weight: lighter }
+	.fwn-M { font-weight: normal }
+	.fwb-M { font-weight: bold }
+	.fwl-M { font-weight: lighter }
 }
 
 @media (min-width:$L) {

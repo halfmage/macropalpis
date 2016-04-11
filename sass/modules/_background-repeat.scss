@@ -22,9 +22,9 @@
 .bgry { background-repeat: repeat-y }
 
 @media (min-width:$M) {
-	.bgrn--m { background-repeat: no-repeat }
-	.bgrx--m { background-repeat: repeat-x }
-	.bgry--m { background-repeat: repeat-y }
+	.bgrn-M { background-repeat: no-repeat }
+	.bgrx-M { background-repeat: repeat-x }
+	.bgry-M { background-repeat: repeat-y }
 }
 
 @media (min-width:$L) {

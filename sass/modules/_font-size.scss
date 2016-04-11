@@ -20,12 +20,12 @@
 .fz6 { font-size: 6rem }
 
 @media (min-width:$M) {
-	.fz1--m { font-size: .75rem }
-	.fz2--m { font-size: 1rem }
-	.fz3--m { font-size: 2rem }
-	.fz4--m { font-size: 2.5rem }
-	.fz5--m { font-size: 4rem }
-	.fz6--m { font-size: 6rem }
+	.fz1-M { font-size: .75rem }
+	.fz2-M { font-size: 1rem }
+	.fz3-M { font-size: 2rem }
+	.fz4-M { font-size: 2.5rem }
+	.fz5-M { font-size: 4rem }
+	.fz6-M { font-size: 6rem }
 }
 
 @media (min-width:$L) {

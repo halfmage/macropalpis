@@ -20,13 +20,13 @@
 .z6 	{z-index: 999 }
 
 @media (min-width:$M) {
-	.z0--m 	{z-index: 0 }
-	.z1--m 	{z-index: 1 }
-	.z2--m 	{z-index: 2 }
-	.z3--m 	{z-index: 3 }
-	.z4--m 	{z-index: 4 }
-	.z5--m 	{z-index: 5 }
-	.z6--m 	{z-index: 999 }
+	.z0-M 	{z-index: 0 }
+	.z1-M 	{z-index: 1 }
+	.z2-M 	{z-index: 2 }
+	.z3-M 	{z-index: 3 }
+	.z4-M 	{z-index: 4 }
+	.z5-M 	{z-index: 5 }
+	.z6-M 	{z-index: 999 }
 }
 
 @media (min-width:$L) {

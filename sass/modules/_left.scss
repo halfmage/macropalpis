@@ -31,21 +31,21 @@
 .l-7 { left: -16rem }
 
 @media (min-width:$M) {
-	.l0--m { left: 0 }
-	.l1--m { left: .25rem }
-	.l2--m { left: .5rem }
-	.l3--m { left: 1rem }
-	.l4--m { left: 2rem }
-	.l5--m { left: 4rem }
-	.l6--m { left: 8rem }
-	.l7--m { left: 16rem }
-	.l-1--m { left: -.25rem }
-	.l-2--m { left: -.5rem }
-	.l-3--m { left: -1rem }
-	.l-4--m { left: -2rem }
-	.l-5--m { left: -4rem }
-	.l-6--m { left: -8rem }
-	.l-7--m { left: -16rem }
+	.l0-M { left: 0 }
+	.l1-M { left: .25rem }
+	.l2-M { left: .5rem }
+	.l3-M { left: 1rem }
+	.l4-M { left: 2rem }
+	.l5-M { left: 4rem }
+	.l6-M { left: 8rem }
+	.l7-M { left: 16rem }
+	.l-1-M { left: -.25rem }
+	.l-2-M { left: -.5rem }
+	.l-3-M { left: -1rem }
+	.l-4-M { left: -2rem }
+	.l-5-M { left: -4rem }
+	.l-6-M { left: -8rem }
+	.l-7-M { left: -16rem }
 }
 
 @media (min-width:$L) {

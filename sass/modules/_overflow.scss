@@ -45,20 +45,20 @@
 .ovys { overflow-y: scroll; }
 
 @media (min-width:$M) {
-	.ova--m  { overflow: auto; }
-	.ovh--m  { overflow: hidden; }
-	.ovv--m  { overflow: visible; }
-	.ovs--m  { overflow: scroll; }
+	.ova-M  { overflow: auto; }
+	.ovh-M  { overflow: hidden; }
+	.ovv-M  { overflow: visible; }
+	.ovs-M  { overflow: scroll; }
 
-	.ovxa--m { overflow-x: auto; }
-	.ovxh--m { overflow-x: hidden; }
-	.ovxv--m { overflow-x: visible; }
-	.ovxs--m { overflow-x: scroll; }
+	.ovxa-M { overflow-x: auto; }
+	.ovxh-M { overflow-x: hidden; }
+	.ovxv-M { overflow-x: visible; }
+	.ovxs-M { overflow-x: scroll; }
 
-	.ovya--m { overflow-y: auto; }
-	.ovyh--m { overflow-y: hidden; }
-	.ovyv--m { overflow-y: visible; }
-	.ovys--m { overflow-y: scroll; }
+	.ovya-M { overflow-y: auto; }
+	.ovyh-M { overflow-y: hidden; }
+	.ovyv-M { overflow-y: visible; }
+	.ovys-M { overflow-y: scroll; }
 }
 
 @media (min-width:$L) {
