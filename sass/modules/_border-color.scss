@@ -38,12 +38,12 @@
 }
 
 @media (min-width:$L) {
-	.bc1--l 		{ border-color: $c-primary }
-	.bc2--l 		{ border-color: $c-secondary }
-	.bc3--l 		{ border-color: $c-tertiary }
+	.bc1-L 		{ border-color: $c-primary }
+	.bc2-L 		{ border-color: $c-secondary }
+	.bc3-L 		{ border-color: $c-tertiary }
 
-	.bc-black--l	{ border-color: $c-black }
-	.bc-gray--l		{ border-color: $c-gray }
-	.bc-silver--l	{ border-color: $c-silver }
-	.bc-white--l	{ border-color: $c-white }
+	.bc-black-L	{ border-color: $c-black }
+	.bc-gray-L		{ border-color: $c-gray }
+	.bc-silver-L	{ border-color: $c-silver }
+	.bc-white-L	{ border-color: $c-white }
 }

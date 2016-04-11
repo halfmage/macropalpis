@@ -22,7 +22,7 @@
 // Breakpoint specific wrappers
 
 .mw-M { max-width: $M }
-.mw--l { max-width: $L }
+.mw-L { max-width: $L }
 
 .mw1 { max-width: .25rem }
 .mw2 { max-width: .5rem }
@@ -46,12 +46,12 @@
 }
 
 @media (min-width:$L) {
-	.mw1--l { max-width: .25rem }
-	.mw2--l { max-width: .5rem }
-	.mw3--l { max-width: 1rem }
-	.mw4--l { max-width: 2rem }
-	.mw5--l { max-width: 4rem }
-	.mw6--l { max-width: 8rem }
-	.mw7--l { max-width: 16rem }
-	.mw-100--l { max-width: 100% }
+	.mw1-L { max-width: .25rem }
+	.mw2-L { max-width: .5rem }
+	.mw3-L { max-width: 1rem }
+	.mw4-L { max-width: 2rem }
+	.mw5-L { max-width: 4rem }
+	.mw6-L { max-width: 8rem }
+	.mw7-L { max-width: 16rem }
+	.mw-100-L { max-width: 100% }
 }

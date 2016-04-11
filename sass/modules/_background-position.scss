@@ -46,13 +46,13 @@
 }
 
 @media (min-width:$L) {
-	.bgpt--l { background-position: top }
-	.bgpr--l { background-position: right }
-	.bgpb--l { background-position: bottom }
-	.bgpl--l { background-position: left }
+	.bgpt-L { background-position: top }
+	.bgpr-L { background-position: right }
+	.bgpb-L { background-position: bottom }
+	.bgpl-L { background-position: left }
 
-	.bgptl--l { background-position: top left }
-	.bgptr--l { background-position: top right }
-	.bgpbl--l { background-position: bottom left }
-	.bgpbr--l { background-position: bottom right }
+	.bgptl-L { background-position: top left }
+	.bgptr-L { background-position: top right }
+	.bgpbl-L { background-position: bottom left }
+	.bgpbr-L { background-position: bottom right }
 }

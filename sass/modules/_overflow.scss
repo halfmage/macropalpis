@@ -62,18 +62,18 @@
 }
 
 @media (min-width:$L) {
-	.ova--l  { overflow: auto; }
-	.ovh--l  { overflow: hidden; }
-	.ovv--l  { overflow: visible; }
-	.ovs--l  { overflow: scroll; }
+	.ova-L  { overflow: auto; }
+	.ovh-L  { overflow: hidden; }
+	.ovv-L  { overflow: visible; }
+	.ovs-L  { overflow: scroll; }
 
-	.ovxa--l { overflow-x: auto; }
-	.ovxh--l { overflow-x: hidden; }
-	.ovxv--l { overflow-x: visible; }
-	.ovxs--l { overflow-x: scroll; }
+	.ovxa-L { overflow-x: auto; }
+	.ovxh-L { overflow-x: hidden; }
+	.ovxv-L { overflow-x: visible; }
+	.ovxs-L { overflow-x: scroll; }
 
-	.ovya--l { overflow-y: auto; }
-	.ovyh--l { overflow-y: hidden; }
-	.ovyv--l { overflow-y: visible; }
-	.ovys--l { overflow-y: scroll; }
+	.ovya-L { overflow-y: auto; }
+	.ovyh-L { overflow-y: hidden; }
+	.ovyv-L { overflow-y: visible; }
+	.ovys-L { overflow-y: scroll; }
 }

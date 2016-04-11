@@ -42,14 +42,14 @@
 }
 
 @media (min-width:$L) {
-	.h1--l { height: .5em; }
-	.h2--l { height: 1em; }
-	.h3--l { height: 2em; }
-	.h4--l { height: 4em; }
-	.h5--l { height: 8em; }
-	.h6--l { height: 16em; }
+	.h1-L { height: .5em; }
+	.h2-L { height: 1em; }
+	.h3-L { height: 2em; }
+	.h4-L { height: 4em; }
+	.h5-L { height: 8em; }
+	.h6-L { height: 16em; }
 
-	.h100--l { height: 100%; }
-	.h50--l  { height: 50%; }
-	.ha--l   { height: auto; }	
+	.h100-L { height: 100%; }
+	.h50-L  { height: 50%; }
+	.ha-L   { height: auto; }	
 }
