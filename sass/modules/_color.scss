@@ -13,75 +13,33 @@
 */
 
 
-.c1 		{ color: $color-primary }
-.c2 		{ color: $color-secondary }
-.c3 		{ color: $color-tertiary }
+.c1 		{ color: $c-primary }
+.c2 		{ color: $c-secondary }
+.c3 		{ color: $c-tertiary }
 
-.c-black	{ color: $color-black }
-.c-gray		{ color: $color-gray }
-.c-silver	{ color: $color-silver }
-.c-white	{ color: $color-white }
-
-.c-navy		{ color: $color-navy }
-.c-blue		{ color: $color-blue }
-.c-aqua		{ color: $color-aqua }
-.c-teal		{ color: $color-teal }
-.c-olive	{ color: $color-olive }
-.c-green	{ color: $color-green }
-.c-lime		{ color: $color-lime }
-.c-yellow	{ color: $color-yellow }
-.c-orange	{ color: $color-orange }
-.c-red		{ color: $color-red }
-.c-maroon	{ color: $color-maroon }
-.c-fuchsia	{ color: $color-fuchsia }
-.c-purple	{ color: $color-purple }
+.c-black	{ color: $c-black }
+.c-gray		{ color: $c-gray }
+.c-silver	{ color: $c-silver }
+.c-white	{ color: $c-white }
 
 @media (min-width:$M) {
-	.c1--m 			{ color: $color-primary }
-	.c2--m 			{ color: $color-secondary }
-	.c3--m 			{ color: $color-tertiary }
+	.c1--m 			{ color: $c-primary }
+	.c2--m 			{ color: $c-secondary }
+	.c3--m 			{ color: $c-tertiary }
 
-	.c-black--m		{ color: $color-black }
-	.c-gray--m		{ color: $color-gray }
-	.c-silver--m	{ color: $color-silver }
-	.c-white--m		{ color: $color-white }
-
-	.c-navy--m		{ color: $color-navy }
-	.c-blue--m		{ color: $color-blue }
-	.c-aqua--m		{ color: $color-aqua }
-	.c-teal--m		{ color: $color-teal }
-	.c-olive--m		{ color: $color-olive }
-	.c-green--m		{ color: $color-green }
-	.c-lime--m		{ color: $color-lime }
-	.c-yellow--m	{ color: $color-yellow }
-	.c-orange--m	{ color: $color-orange }
-	.c-red--m		{ color: $color-red }
-	.c-maroon--m	{ color: $color-maroon }
-	.c-fuchsia--m	{ color: $color-fuchsia }
-	.c-purple--m	{ color: $color-purple }
+	.c-black--m		{ color: $c-black }
+	.c-gray--m		{ color: $c-gray }
+	.c-silver--m	{ color: $c-silver }
+	.c-white--m		{ color: $c-white }
 }
 
 @media (min-width:$L) {
-	.c1--l 			{ color: $color-primary }
-	.c2--l 			{ color: $color-secondary }
-	.c3--l 			{ color: $color-tertiary }
+	.c1--l 			{ color: $c-primary }
+	.c2--l 			{ color: $c-secondary }
+	.c3--l 			{ color: $c-tertiary }
 
-	.c-black--l		{ color: $color-black }
-	.c-gray--l		{ color: $color-gray }
-	.c-silver--l	{ color: $color-silver }
-	.c-white--l		{ color: $color-white }
-
-	.c-navy--l		{ color: $color-navy }
-	.c-blue--l		{ color: $color-blue }
-	.c-aqua--l		{ color: $color-aqua }
-	.c-teal--l		{ color: $color-teal }
-	.c-olive--l		{ color: $color-olive }
-	.c-green--l		{ color: $color-green }
-	.c-lime--l		{ color: $color-lime }
-	.c-yellow--l	{ color: $color-yellow }
-	.c-orange--l	{ color: $color-orange }
-	.c-red--l		{ color: $color-red }
-	.c-maroon--l	{ color: $color-maroon }
-	.c-fuchsia--l	{ color: $color-fuchsia }
-	.c-purple--l	{ color: $color-purple }
+	.c-black--l		{ color: $c-black }
+	.c-gray--l		{ color: $c-gray }
+	.c-silver--l	{ color: $c-silver }
+	.c-white--l		{ color: $c-white }
 }

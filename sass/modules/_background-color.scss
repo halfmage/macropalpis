@@ -13,80 +13,38 @@
 
 // Brand Colors
 
-.bgc1 			{ background-color: $color-primary } 	// Primary Brand Color
-.bgc2 			{ background-color: $color-secondary } 	// Secondary
-.bgc3 			{ background-color: $color-tertiary } 	// Tertiary
+.bgc1 			{ background-color: $c-primary } 	// Primary Brand Color
+.bgc2 			{ background-color: $c-secondary } 	// Secondary
+.bgc3 			{ background-color: $c-tertiary } 	// Tertiary
 
 
 // Interface Colors
 
-.bgc-black		{ background-color: $color-black }
-.bgc-gray		{ background-color: $color-gray }
-.bgc-silver		{ background-color: $color-silver }
-.bgc-white		{ background-color: $color-white }
-
-.bgc-navy		{ background-color: $color-navy }
-.bgc-blue		{ background-color: $color-blue }
-.bgc-aqua		{ background-color: $color-aqua }
-.bgc-teal		{ background-color: $color-teal }
-.bgc-olive		{ background-color: $color-olive }
-.bgc-green		{ background-color: $color-green }
-.bgc-lime		{ background-color: $color-lime }
-.bgc-yellow		{ background-color: $color-yellow }
-.bgc-orange		{ background-color: $color-orange }
-.bgc-red		{ background-color: $color-red }
-.bgc-maroon		{ background-color: $color-maroon }
-.bgc-fuchsia	{ background-color: $color-fuchsia }
-.bgc-purple		{ background-color: $color-purple }
+.bgc-black		{ background-color: $c-black }
+.bgc-gray		{ background-color: $c-gray }
+.bgc-silver		{ background-color: $c-silver }
+.bgc-white		{ background-color: $c-white }
 
 
 @media (min-width:$M) {
-	.bgc-black--m		{ background-color: $color-black }
-	.bgc-gray--m		{ background-color: $color-gray }
-	.bgc-silver--m		{ background-color: $color-silver }
-	.bgc-white--m		{ background-color: $color-white }
+	.bgc1--m 			{ background-color: $c-primary }
+	.bgc2--m 			{ background-color: $c-secondary }
+	.bgc3--m 			{ background-color: $c-tertiary }
 
-	.bgc1--m 			{ background-color: $color-primary }
-	.bgc2--m 			{ background-color: $color-secondary }
-	.bgc3--m 			{ background-color: $color-tertiary }
-
-	.bgc-navy--m		{ background-color: $color-navy }
-	.bgc-blue--m		{ background-color: $color-blue }
-	.bgc-aqua--m		{ background-color: $color-aqua }
-	.bgc-teal--m		{ background-color: $color-teal }
-	.bgc-olive--m		{ background-color: $color-olive }
-	.bgc-green--m		{ background-color: $color-green }
-	.bgc-lime--m		{ background-color: $color-lime }
-	.bgc-yellow--m		{ background-color: $color-yellow }
-	.bgc-orange--m		{ background-color: $color-orange }
-	.bgc-red--m			{ background-color: $color-red }
-	.bgc-maroon--m		{ background-color: $color-maroon }
-	.bgc-fuchsia--m		{ background-color: $color-fuchsia }
-	.bgc-purple--m		{ background-color: $color-purple }
+	.bgc-black--m		{ background-color: $c-black }
+	.bgc-gray--m		{ background-color: $c-gray }
+	.bgc-silver--m		{ background-color: $c-silver }
+	.bgc-white--m		{ background-color: $c-white }
 }
 
 
 @media (min-width:$L) {
-	.bgc-black--l		{ background-color: $color-black }
-	.bgc-gray--l		{ background-color: $color-gray }
-	.bgc-silver--l		{ background-color: $color-silver }
-	.bgc-white--l		{ background-color: $color-white }
+	.bgc1--l 			{ background-color: $c-primary }
+	.bgc2--l 			{ background-color: $c-secondary }
+	.bgc3--l 			{ background-color: $c-tertiary }
 
-	.bgc1--l 			{ background-color: $color-primary }
-	.bgc2--l 			{ background-color: $color-secondary }
-	.bgc3--l 			{ background-color: $color-tertiary }
-
-	.bgc-navy--l		{ background-color: $color-navy }
-	.bgc-blue--l		{ background-color: $color-blue }
-	.bgc-aqua--l		{ background-color: $color-aqua }
-	.bgc-teal--l		{ background-color: $color-teal }
-	.bgc-olive--l		{ background-color: $color-olive }
-	.bgc-green--l		{ background-color: $color-green }
-	.bgc-lime--l		{ background-color: $color-lime }
-	.bgc-yellow--l		{ background-color: $color-yellow }
-	.bgc-orange--l		{ background-color: $color-orange }
-	.bgc-red--l			{ background-color: $color-red }
-	.bgc-maroon--l		{ background-color: $color-maroon }
-	.bgc-fuchsia--l		{ background-color: $color-fuchsia }
-	.bgc-purple--l		{ background-color: $color-purple }
+	.bgc-black--l		{ background-color: $c-black }
+	.bgc-gray--l		{ background-color: $c-gray }
+	.bgc-silver--l		{ background-color: $c-silver }
+	.bgc-white--l		{ background-color: $c-white }
 }

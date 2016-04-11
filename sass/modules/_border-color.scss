@@ -14,78 +14,36 @@
 
 // Brand Colors
 
-.bc1 			{ border-color: $color-primary } 	// Primary Brand Color
-.bc2 			{ border-color: $color-secondary } 	// Secondary 
-.bc3 			{ border-color: $color-tertiary } 	// Tertiary
+.bc1 			{ border-color: $c-primary } 	// Primary Brand Color
+.bc2 			{ border-color: $c-secondary } 	// Secondary 
+.bc3 			{ border-color: $c-tertiary } 	// Tertiary
 
 
 // Interface Colors
 
-.bc-black		{ border-color: $color-black }
-.bc-gray		{ border-color: $color-gray }
-.bc-silver		{ border-color: $color-silver }
-.bc-white		{ border-color: $color-white }
-
-.bc-navy		{ border-color: $color-navy }
-.bc-blue		{ border-color: $color-blue }
-.bc-aqua		{ border-color: $color-aqua }
-.bc-teal		{ border-color: $color-teal }
-.bc-olive		{ border-color: $color-olive }
-.bc-green		{ border-color: $color-green }
-.bc-lime		{ border-color: $color-lime }
-.bc-yellow		{ border-color: $color-yellow }
-.bc-orange		{ border-color: $color-orange }
-.bc-red			{ border-color: $color-red }
-.bc-maroon		{ border-color: $color-maroon }
-.bc-fuchsia		{ border-color: $color-fuchsia }
-.bc-purple		{ border-color: $color-purple }
+.bc-black		{ border-color: $c-black }
+.bc-gray		{ border-color: $c-gray }
+.bc-silver		{ border-color: $c-silver }
+.bc-white		{ border-color: $c-white }
 
 @media (min-width:$M) {
-	.bc1--m 		{ border-color: $color-primary }
-	.bc2--m 		{ border-color: $color-secondary }
-	.bc3--m 		{ border-color: $color-tertiary }
+	.bc1--m 		{ border-color: $c-primary }
+	.bc2--m 		{ border-color: $c-secondary }
+	.bc3--m 		{ border-color: $c-tertiary }
 
-	.bc-black--m	{ border-color: $color-black }
-	.bc-gray--m		{ border-color: $color-gray }
-	.bc-silver--m	{ border-color: $color-silver }
-	.bc-white--m	{ border-color: $color-white }
-
-	.bc-navy--m		{ border-color: $color-navy }
-	.bc-blue--m		{ border-color: $color-blue }
-	.bc-aqua--m		{ border-color: $color-aqua }
-	.bc-teal--m		{ border-color: $color-teal }
-	.bc-olive--m	{ border-color: $color-olive }
-	.bc-green--m	{ border-color: $color-green }
-	.bc-lime--m		{ border-color: $color-lime }
-	.bc-yellow--m	{ border-color: $color-yellow }
-	.bc-orange--m	{ border-color: $color-orange }
-	.bc-red--m		{ border-color: $color-red }
-	.bc-maroon--m	{ border-color: $color-maroon }
-	.bc-fuchsia--m	{ border-color: $color-fuchsia }
-	.bc-purple--m	{ border-color: $color-purple }
+	.bc-black--m	{ border-color: $c-black }
+	.bc-gray--m		{ border-color: $c-gray }
+	.bc-silver--m	{ border-color: $c-silver }
+	.bc-white--m	{ border-color: $c-white }
 }
 
 @media (min-width:$L) {
-	.bc1--l 		{ border-color: $color-primary }
-	.bc2--l 		{ border-color: $color-secondary }
-	.bc3--l 		{ border-color: $color-tertiary }
+	.bc1--l 		{ border-color: $c-primary }
+	.bc2--l 		{ border-color: $c-secondary }
+	.bc3--l 		{ border-color: $c-tertiary }
 
-	.bc-black--l	{ border-color: $color-black }
-	.bc-gray--l		{ border-color: $color-gray }
-	.bc-silver--l	{ border-color: $color-silver }
-	.bc-white--l	{ border-color: $color-white }
-	
-	.bc-navy--l		{ border-color: $color-navy }
-	.bc-blue--l		{ border-color: $color-blue }
-	.bc-aqua--l		{ border-color: $color-aqua }
-	.bc-teal--l		{ border-color: $color-teal }
-	.bc-olive--l	{ border-color: $color-olive }
-	.bc-green--l	{ border-color: $color-green }
-	.bc-lime--l		{ border-color: $color-lime }
-	.bc-yellow--l	{ border-color: $color-yellow }
-	.bc-orange--l	{ border-color: $color-orange }
-	.bc-red--l		{ border-color: $color-red }
-	.bc-maroon--l	{ border-color: $color-maroon }
-	.bc-fuchsia--l	{ border-color: $color-fuchsia }
-	.bc-purple--l	{ border-color: $color-purple }
+	.bc-black--l	{ border-color: $c-black }
+	.bc-gray--l		{ border-color: $c-gray }
+	.bc-silver--l	{ border-color: $c-silver }
+	.bc-white--l	{ border-color: $c-white }
 }
