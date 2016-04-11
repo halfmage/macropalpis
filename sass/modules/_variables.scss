@@ -6,8 +6,8 @@
 
 	1.	Base
 	2.	Breakpoints
-	3.	Color
-	4.	Typography
+	3.	Typography
+	4.	Color
 
 */
 
@@ -24,13 +24,21 @@ $body-line-height:	1.6;
 // 2. Breakpoints
 // --------------
 
-// Starting from tablet / small desktop
-
-$M : 768px;
-$bp--l : 1024px;
+$M : 768px; 	// Breakpoint Medium
+$L : 1024px; 	// Breakpoint Large
 
 
-// 3. Color
+// 3. Typography 
+// -------------
+
+// Font families
+
+$font-serif:		"Georgia", serif;
+$font-sans-serif:	"Helvetica", "Arial", sans-serif;
+$font-mono:			"Lucida Console", "Courier New", monospace;
+
+
+// 4. Color
 // -------- 
 
 // Grayscales
@@ -64,13 +72,3 @@ $color-red:			#ff4136;
 $color-maroon:		#85144b;
 $color-fuchsia:		#f012be;
 $color-purple:		#b10dc9;
-
-
-// 4. Typography 
-// -------------
-
-// Font families
-
-$font-serif:		"Georgia", serif;
-$font-sans-serif:	"Helvetica", "Arial", sans-serif;
-$font-mono:			"Lucida Console", "Courier New", monospace;

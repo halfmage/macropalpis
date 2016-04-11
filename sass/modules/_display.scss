@@ -31,7 +31,7 @@
 	.dib--m { display: inline-block }
 }
 
-@media (min-width:$bp--l) {
+@media (min-width:$L) {
 	.dn--l { display: none }
 	.db--l { display: block }
 	.di--l { display: inline }

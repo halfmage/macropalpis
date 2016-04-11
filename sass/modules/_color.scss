@@ -61,7 +61,7 @@
 	.c-purple--m	{ color: $color-purple }
 }
 
-@media (min-width:$bp--l) {
+@media (min-width:$L) {
 	.c1--l 			{ color: $color-primary }
 	.c2--l 			{ color: $color-secondary }
 	.c3--l 			{ color: $color-tertiary }

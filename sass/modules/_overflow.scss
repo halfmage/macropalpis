@@ -61,7 +61,7 @@
 	.ovys--m { overflow-y: scroll; }
 }
 
-@media (min-width:$bp--l) {
+@media (min-width:$L) {
 	.ova--l  { overflow: auto; }
 	.ovh--l  { overflow: hidden; }
 	.ovv--l  { overflow: visible; }

@@ -65,7 +65,7 @@
 	.bc-purple--m	{ border-color: $color-purple }
 }
 
-@media (min-width:$bp--l) {
+@media (min-width:$L) {
 	.bc1--l 		{ border-color: $color-primary }
 	.bc2--l 		{ border-color: $color-secondary }
 	.bc3--l 		{ border-color: $color-tertiary }

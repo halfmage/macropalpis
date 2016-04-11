@@ -28,7 +28,7 @@
 	.vc--m { visibility: collapse; }
 }
 
-@media (min-width:$bp--l) {
+@media (min-width:$L) {
 	.vv--l { visibility: visible; }
 	.vh--l { visibility: hidden; }
 	.vc--l { visibility: collapse; }

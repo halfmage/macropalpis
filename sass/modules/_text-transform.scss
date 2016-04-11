@@ -28,7 +28,7 @@
 	.ttc--m { text-transform: capitalize; }
 }
 
-@media (min-width:$bp--l) {
+@media (min-width:$L) {
 	.ttu--l { text-transform: uppercase; }
 	.ttl--l { text-transform: lowercase; }
 	.ttc--l { text-transform: capitalize; }

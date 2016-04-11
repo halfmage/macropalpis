@@ -28,7 +28,7 @@
 	.ffm--m  { font-family: $font-mono }
 }
 
-@media (min-width:$bp--l) {
+@media (min-width:$L) {
 	.ffs--l  { font-family: $font-serif }
 	.ffss--l { font-family: $font-sans-serif }
 	.ffm--l  { font-family: $font-mono }
