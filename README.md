@@ -1,4 +1,4 @@
-![alt text](http://i.imgur.com/YE2jEzv.png "Macropalpis Logo")
+![alt text](http://i.imgur.com/dQq7BHF.png "Macropalpis Logo")
 
 # macropalpis.css
 **v. 1.0** - A CSS concept of ultra-shorthanded utility classes with focus on mobile-first and minimal effort prototyping.
