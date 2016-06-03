@@ -30,7 +30,7 @@
 .l-6 { left: -8rem }
 .l-7 { left: -16rem }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.l0-M { left: 0 }
 	.l1-M { left: .25rem }
 	.l2-M { left: .5rem }
@@ -48,7 +48,7 @@
 	.l-7-M { left: -16rem }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.l0-L { left: 0 }
 	.l1-L { left: .25rem }
 	.l2-L { left: .5rem }

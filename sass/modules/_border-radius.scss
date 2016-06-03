@@ -19,7 +19,7 @@
 .br6 	{ border-radius: 8em }
 .br00 	{ border-radius: 100% }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.br0-M		{ border-radius: 0 }
 	.br1-M		{ border-radius: .125em }
 	.br2-M		{ border-radius: .5em }
@@ -30,7 +30,7 @@
 	.br00-M	{ border-radius: 100% }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.br0-L 	{ border-radius: 0 }
 	.br1-L 	{ border-radius: .125em }
 	.br2-L 	{ border-radius: .5em }

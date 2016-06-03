@@ -22,13 +22,13 @@
 .fl	{ float: left; }
 .fr { float: right; }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.fn-M { float: none; }
 	.fl-M { float: left; }
 	.fr-M { float: right; }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.fn-L { float: none; }
 	.fl-L { float: left; }
 	.fr-L { float: right; }

@@ -21,13 +21,13 @@
 .bgzcv	{ background-size: cover }
 .bgzct	{ background-size: contain }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.bgza-M	{ background-size: auto }
 	.bgzcv-M	{ background-size: cover }
 	.bgzct-M	{ background-size: contain }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.bgza-L	{ background-size: auto }
 	.bgzcv-L	{ background-size: cover }
 	.bgzct-L	{ background-size: contain }

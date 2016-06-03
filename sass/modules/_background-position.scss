@@ -33,7 +33,7 @@
 .bgpbl { background-position: bottom left }
 .bgpbr { background-position: bottom right }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.bgpt-M { background-position: top }
 	.bgpr-M { background-position: right }
 	.bgpb-M { background-position: bottom }
@@ -45,7 +45,7 @@
 	.bgpbr-M { background-position: bottom right }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.bgpt-L { background-position: top }
 	.bgpr-L { background-position: right }
 	.bgpb-L { background-position: bottom }

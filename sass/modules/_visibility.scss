@@ -22,13 +22,13 @@
 .vh { visibility: hidden; }
 .vc { visibility: collapse; }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.vv-M { visibility: visible; }
 	.vh-M { visibility: hidden; }
 	.vc-M { visibility: collapse; }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.vv-L { visibility: visible; }
 	.vh-L { visibility: hidden; }
 	.vc-L { visibility: collapse; }

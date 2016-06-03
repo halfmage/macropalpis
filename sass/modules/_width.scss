@@ -39,7 +39,7 @@
 .w66	{ width: 66.66%; }
 .w100 	{ width: 100%; }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.wa-M	{ width: auto; }
 	.w0-M	{ width: 0px; }
 
@@ -61,7 +61,7 @@
 	.w100-M	{ width: 100%; }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.wa-L	{ width: auto; }
 	.w0-L	{ width: 0px; }
 

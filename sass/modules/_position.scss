@@ -24,14 +24,14 @@
 .pa {position: absolute}
 .pf {position: fixed}
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.ps-M {position: static}
 	.pr-M {position: relative}
 	.pa-M {position: absolute}
 	.pf-M {position: fixed}
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.ps-L {position: static}
 	.pr-L {position: relative}
 	.pa-L {position: absolute}

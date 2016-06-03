@@ -18,18 +18,18 @@
 
 */
 
-.ffs  { font-family: $font-serif }
-.ffss { font-family: $font-sans-serif }
-.ffm  { font-family: $font-mono }
+.ffs  { font-family: serif; }
+.ffss { font-family: sans-serif; }
+.ffm  { font-family: monospace }
 
-@media (min-width:$M) {
-	.ffs-M  { font-family: $font-serif }
-	.ffss-M { font-family: $font-sans-serif }
-	.ffm-M  { font-family: $font-mono }
+@media (min-width:768px) {
+	.ffs-M  { font-family: serif; }
+	.ffss-M { font-family: sans-serif; }
+	.ffm-M  { font-family: monospace }
 }
 
-@media (min-width:$L) {
-	.ffs-L  { font-family: $font-serif }
-	.ffss-L { font-family: $font-sans-serif }
-	.ffm-L  { font-family: $font-mono }
+@media (min-width:1024px) {
+	.ffs-L  { font-family: serif; }
+	.ffss-L { font-family: sans-serif; }
+	.ffm-L  { font-family: monospace }
 }

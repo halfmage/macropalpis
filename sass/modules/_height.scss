@@ -28,7 +28,7 @@
 .h50  { height: 50%; }
 .ha   { height: auto; }	
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.h1-M { height: .5em; }
 	.h2-M { height: 1em; }
 	.h3-M { height: 2em; }
@@ -41,7 +41,7 @@
 	.ha-M   { height: auto; }	
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.h1-L { height: .5em; }
 	.h2-L { height: 1em; }
 	.h3-L { height: 2em; }

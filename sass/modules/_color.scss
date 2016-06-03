@@ -12,34 +12,39 @@
 
 */
 
+.c0 { color: #222; }
+.c1 { color: #666; }
+.c2 { color: #aaa; }
+.c3 { color: #ccc; }
+.c4 { color: #ddd; }
+.c5 { color: #eee; }
 
-.c1 		{ color: $c-primary }
-.c2 		{ color: $c-secondary }
-.c3 		{ color: $c-tertiary }
+.cred { color: #f00; }
+.cblue { color: #00f; }
+.cgreen { color: #0f0; }
 
-.c-black	{ color: $c-black }
-.c-gray		{ color: $c-gray }
-.c-silver	{ color: $c-silver }
-.c-white	{ color: $c-white }
+@media (min-width:768px) {
+	.c0-M { color: #222; }
+	.c1-M { color: #666; }
+	.c2-M { color: #aaa; }
+	.c3-M { color: #ccc; }
+	.c4-M { color: #ddd; }
+	.c5-M { color: #eee; }
 
-@media (min-width:$M) {
-	.c1-M 			{ color: $c-primary }
-	.c2-M 			{ color: $c-secondary }
-	.c3-M 			{ color: $c-tertiary }
-
-	.c-black-M		{ color: $c-black }
-	.c-gray-M		{ color: $c-gray }
-	.c-silver-M	{ color: $c-silver }
-	.c-white-M		{ color: $c-white }
+	.cred-M { color: #f00; }
+	.cblue-M { color: #00f; }
+	.cgreen-M { color: #0f0; }
 }
 
-@media (min-width:$L) {
-	.c1-L 			{ color: $c-primary }
-	.c2-L 			{ color: $c-secondary }
-	.c3-L 			{ color: $c-tertiary }
+@media (min-width:1024px) {
+	.c0-L { color: #222; }
+	.c1-L { color: #666; }
+	.c2-L { color: #aaa; }
+	.c3-L { color: #ccc; }
+	.c4-L { color: #ddd; }
+	.c5-L { color: #eee; }
 
-	.c-black-L		{ color: $c-black }
-	.c-gray-L		{ color: $c-gray }
-	.c-silver-L	{ color: $c-silver }
-	.c-white-L		{ color: $c-white }
+	.cred-L { color: #f00; }
+	.cblue-L { color: #00f; }
+	.cgreen-L { color: #0f0; }
 }

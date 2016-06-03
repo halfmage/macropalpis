@@ -2,7 +2,7 @@
 
 	Macropalpis v1.0.0 | MIT License | git.io/vEucl
 
-	background-color Module
+	border-color Module
 	
 
 	class	suffix		result
@@ -12,38 +12,39 @@
 
 */
 
-// Brand Colors
+.bc0 { border-color: #222; }
+.bc1 { border-color: #666; }
+.bc2 { border-color: #aaa; }
+.bc3 { border-color: #ccc; }
+.bc4 { border-color: #ddd; }
+.bc5 { border-color: #eee; }
 
-.bc1 			{ border-color: $c-primary } 	// Primary Brand Color
-.bc2 			{ border-color: $c-secondary } 	// Secondary 
-.bc3 			{ border-color: $c-tertiary } 	// Tertiary
+.bc-red { border-color: #f00; }
+.bc-blue { border-color: #00f; }
+.bc-green { border-color: #0f0; }
 
+@media (min-width:768px) {
+	.bc0-M { border-color: #222; }
+	.bc1-M { border-color: #666; }
+	.bc2-M { border-color: #aaa; }
+	.bc3-M { border-color: #ccc; }
+	.bc4-M { border-color: #ddd; }
+	.bc5-M { border-color: #eee; }
 
-// Interface Colors
-
-.bc-black		{ border-color: $c-black }
-.bc-gray		{ border-color: $c-gray }
-.bc-silver		{ border-color: $c-silver }
-.bc-white		{ border-color: $c-white }
-
-@media (min-width:$M) {
-	.bc1-M 		{ border-color: $c-primary }
-	.bc2-M 		{ border-color: $c-secondary }
-	.bc3-M 		{ border-color: $c-tertiary }
-
-	.bc-black-M	{ border-color: $c-black }
-	.bc-gray-M		{ border-color: $c-gray }
-	.bc-silver-M	{ border-color: $c-silver }
-	.bc-white-M	{ border-color: $c-white }
+	.bc-red-M { border-color: #f00; }
+	.bc-blue-M { border-color: #00f; }
+	.bc-green-M { border-color: #0f0; }
 }
 
-@media (min-width:$L) {
-	.bc1-L 		{ border-color: $c-primary }
-	.bc2-L 		{ border-color: $c-secondary }
-	.bc3-L 		{ border-color: $c-tertiary }
+@media (min-width:1024px) {
+	.bc0-L { border-color: #222; }
+	.bc1-L { border-color: #666; }
+	.bc2-L { border-color: #aaa; }
+	.bc3-L { border-color: #ccc; }
+	.bc4-L { border-color: #ddd; }
+	.bc5-L { border-color: #eee; }
 
-	.bc-black-L	{ border-color: $c-black }
-	.bc-gray-L		{ border-color: $c-gray }
-	.bc-silver-L	{ border-color: $c-silver }
-	.bc-white-L	{ border-color: $c-white }
+	.bc-red-L { border-color: #f00; }
+	.bc-blue-L { border-color: #00f; }
+	.bc-green-L { border-color: #0f0; }
 }

@@ -24,14 +24,14 @@
 .di { display: inline }
 .dib { display: inline-block }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.dn-M { display: none }
 	.db-M { display: block }
 	.di-M { display: inline }
 	.dib-M { display: inline-block }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.dn-L { display: none }
 	.db-L { display: block }
 	.di-L { display: inline }

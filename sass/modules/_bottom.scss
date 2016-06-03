@@ -30,7 +30,7 @@
 .b-6 { bottom: -8rem }
 .b-7 { bottom: -16rem }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.b0-M { bottom: 0 }
 	.b1-M { bottom: .25rem }
 	.b2-M { bottom: .5rem }
@@ -48,7 +48,7 @@
 	.b-7-M { bottom: -16rem }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.b0-L { bottom: 0 }
 	.b1-L { bottom: .25rem }
 	.b2-L { bottom: .5rem }

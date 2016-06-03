@@ -11,40 +11,39 @@
 
 */
 
-// Brand Colors
+.bgc0 { background-color: #222; }
+.bgc1 { background-color: #666; }
+.bgc2 { background-color: #aaa; }
+.bgc3 { background-color: #ccc; }
+.bgc4 { background-color: #ddd; }
+.bgc5 { background-color: #eee; }
 
-.bgc1 			{ background-color: $c-primary } 	// Primary Brand Color
-.bgc2 			{ background-color: $c-secondary } 	// Secondary
-.bgc3 			{ background-color: $c-tertiary } 	// Tertiary
+.bgc-red { background-color: #f00; }
+.bgc-blue { background-color: #00f; }
+.bgc-green { background-color: #0f0; }
 
+@media (min-width:768px) {
+	.bgc0-M { background-color: #222; }
+	.bgc1-M { background-color: #666; }
+	.bgc2-M { background-color: #aaa; }
+	.bgc3-M { background-color: #ccc; }
+	.bgc4-M { background-color: #ddd; }
+	.bgc5-M { background-color: #eee; }
 
-// Interface Colors
-
-.bgc-black		{ background-color: $c-black }
-.bgc-gray		{ background-color: $c-gray }
-.bgc-silver		{ background-color: $c-silver }
-.bgc-white		{ background-color: $c-white }
-
-
-@media (min-width:$M) {
-	.bgc1-M 			{ background-color: $c-primary }
-	.bgc2-M 			{ background-color: $c-secondary }
-	.bgc3-M 			{ background-color: $c-tertiary }
-
-	.bgc-black-M		{ background-color: $c-black }
-	.bgc-gray-M		{ background-color: $c-gray }
-	.bgc-silver-M		{ background-color: $c-silver }
-	.bgc-white-M		{ background-color: $c-white }
+	.bgc-red-M { background-color: #f00; }
+	.bgc-blue-M { background-color: #00f; }
+	.bgc-green-M { background-color: #0f0; }
 }
 
+@media (min-width:1024px) {
+	.bgc0-L { background-color: #222; }
+	.bgc1-L { background-color: #666; }
+	.bgc2-L { background-color: #aaa; }
+	.bgc3-L { background-color: #ccc; }
+	.bgc4-L { background-color: #ddd; }
+	.bgc5-L { background-color: #eee; }
 
-@media (min-width:$L) {
-	.bgc1-L 			{ background-color: $c-primary }
-	.bgc2-L 			{ background-color: $c-secondary }
-	.bgc3-L 			{ background-color: $c-tertiary }
-
-	.bgc-black-L		{ background-color: $c-black }
-	.bgc-gray-L		{ background-color: $c-gray }
-	.bgc-silver-L		{ background-color: $c-silver }
-	.bgc-white-L		{ background-color: $c-white }
+	.bgc-red-L { background-color: #f00; }
+	.bgc-blue-L { background-color: #00f; }
+	.bgc-green-L { background-color: #0f0; }
 }

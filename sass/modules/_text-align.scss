@@ -24,14 +24,14 @@
 .tac { text-align: center; }
 .taj { text-align: justify; }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.tal-M { text-align: left; }
 	.tar-M { text-align: right; }
 	.tac-M { text-align: center; }
 	.taj-M { text-align: justify; }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.tal-L { text-align: left; }
 	.tar-L { text-align: right; }
 	.tac-L { text-align: center; }

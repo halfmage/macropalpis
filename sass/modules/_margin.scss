@@ -73,7 +73,7 @@
 .ml6 	{ margin-left: 8rem }
 .ml7 	{ margin-left: 16rem }
 
-@media (min-width:$M) {
+@media (min-width:768px) {
 	.mc-M 	{ margin-right: auto; margin-left: auto; }
 
 	.m0-M	{ margin: 0 }
@@ -122,7 +122,7 @@
 	.ml7-M	{ margin-left: 16rem }
 }
 
-@media (min-width:$L) {
+@media (min-width:1024px) {
 	.mc-L 	{ margin-right: auto; margin-left: auto; }
 
 	.m0-L	{ margin: 0 }
