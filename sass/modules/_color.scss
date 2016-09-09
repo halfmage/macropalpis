@@ -23,7 +23,7 @@
 .cblue { color: #00f; }
 .cgreen { color: #0f0; }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.c0-M { color: #222; }
 	.c1-M { color: #666; }
 	.c2-M { color: #aaa; }
@@ -36,7 +36,7 @@
 	.cgreen-M { color: #0f0; }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.c0-L { color: #222; }
 	.c1-L { color: #666; }
 	.c2-L { color: #aaa; }

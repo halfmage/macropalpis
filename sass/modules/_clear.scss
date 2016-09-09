@@ -39,14 +39,14 @@
 .cr	{ clear: right; }
 .cb	{ clear: both; }
 
-@media (min-width:768px){
+@media (min-width:48em){
 	.cn-M { clear: none; }
 	.cl-M { clear: left; }
 	.cr-M { clear: right; }
 	.cb-M { clear: both; }
 }
 
-@media (min-width:1024px){
+@media (min-width:64em){
 	.cn-L { clear: none; }
 	.cl-L { clear: left; }
 	.cr-L { clear: right; }

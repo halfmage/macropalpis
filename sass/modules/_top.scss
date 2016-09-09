@@ -30,7 +30,7 @@
 .t-6 { top: -8em }
 .t-7 { top: -16em }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.t0-M { top: 0 }
 	.t1-M { top: .25em }
 	.t2-M { top: .5em }
@@ -48,7 +48,7 @@
 	.t-7-M { top: -16em }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.t0-L { top: 0 }
 	.t1-L { top: .25em }
 	.t2-L { top: .5em }

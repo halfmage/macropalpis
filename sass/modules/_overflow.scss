@@ -44,7 +44,7 @@
 .ovyv { overflow-y: visible; }
 .ovys { overflow-y: scroll; }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.ova-M  { overflow: auto; }
 	.ovh-M  { overflow: hidden; }
 	.ovv-M  { overflow: visible; }
@@ -61,7 +61,7 @@
 	.ovys-M { overflow-y: scroll; }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.ova-L  { overflow: auto; }
 	.ovh-L  { overflow: hidden; }
 	.ovv-L  { overflow: visible; }

@@ -22,13 +22,13 @@
 .ffss { font-family: sans-serif; }
 .ffm  { font-family: monospace }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.ffs-M  { font-family: serif; }
 	.ffss-M { font-family: sans-serif; }
 	.ffm-M  { font-family: monospace }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.ffs-L  { font-family: serif; }
 	.ffss-L { font-family: sans-serif; }
 	.ffm-L  { font-family: monospace }

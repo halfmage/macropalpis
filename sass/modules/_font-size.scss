@@ -19,7 +19,7 @@
 .fz5 { font-size: 4em }
 .fz6 { font-size: 6em }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.fz1-M { font-size: .75em }
 	.fz2-M { font-size: 1em }
 	.fz3-M { font-size: 2em }
@@ -28,7 +28,7 @@
 	.fz6-M { font-size: 6em }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.fz1-L { font-size: .75em }
 	.fz2-L { font-size: 1em }
 	.fz3-L { font-size: 2em }

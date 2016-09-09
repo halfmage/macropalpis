@@ -20,7 +20,7 @@
 .bw5 { border-width: 4em}
 .bw6 { border-width: 8em }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.bw0-M { border-width: 0 }
 	.bw1-M { border-width: .25em }
 	.bw2-M { border-width: .5em }
@@ -30,7 +30,7 @@
 	.bw6-M { border-width: 8em }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.bw0-L { border-width: 0 }
 	.bw1-L { border-width: .25em }
 	.bw2-L { border-width: .5em }

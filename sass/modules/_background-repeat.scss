@@ -21,13 +21,13 @@
 .bgrx { background-repeat: repeat-x }
 .bgry { background-repeat: repeat-y }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.bgrn-M { background-repeat: no-repeat }
 	.bgrx-M { background-repeat: repeat-x }
 	.bgry-M { background-repeat: repeat-y }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.bgrn-L { background-repeat: no-repeat }
 	.bgrx-L { background-repeat: repeat-x }
 	.bgry-L { background-repeat: repeat-y }

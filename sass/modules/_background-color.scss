@@ -22,10 +22,10 @@
 .bgc-blue { background-color: #00f; }
 .bgc-green { background-color: #0f0; }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.bgc0-M { background-color: #222; }
 	.bgc1-M { background-color: #666; }
-	.bgc2-M { background-color: #aaa; }
+    .bgc2-M { background-color: #aaa; }
 	.bgc3-M { background-color: #ccc; }
 	.bgc4-M { background-color: #ddd; }
 	.bgc5-M { background-color: #eee; }
@@ -35,7 +35,7 @@
 	.bgc-green-M { background-color: #0f0; }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.bgc0-L { background-color: #222; }
 	.bgc1-L { background-color: #666; }
 	.bgc2-L { background-color: #aaa; }

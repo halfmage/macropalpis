@@ -30,7 +30,7 @@
 .r-6 { right: -8em }
 .r-7 { right: -16em }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.r0-M { right: 0 }
 	.r1-M { right: .25em }
 	.r2-M { right: .5em }
@@ -48,7 +48,7 @@
 	.r-7-M { right: -16em }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.r0-L { right: 0 }
 	.r1-L { right: .25em }
 	.r2-L { right: .5em }

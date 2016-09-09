@@ -19,7 +19,7 @@
 .op5 { opacity: .8 }
 .op6 { opacity: 1 }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.op0-M { opacity: 0 }
 	.op1-M { opacity: .2 }
 	.op2-M { opacity: .35 }
@@ -29,7 +29,7 @@
 	.op6-M { opacity: 1 }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.op0-L { opacity: 0 }
 	.op1-L { opacity: .2 }
 	.op2-L { opacity: .35 }

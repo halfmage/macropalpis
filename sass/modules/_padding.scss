@@ -69,7 +69,7 @@
 .pl6 	{ padding-left: 8em }
 .pl7 	{ padding-left: 16em }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.p0-M	{ padding: 0 }
 	.p1-M	{ padding: .25em }
 	.p2-M	{ padding: .5em }
@@ -116,7 +116,7 @@
 	.pl7-M	{ padding-left: 16em }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.p0-L	{ padding: 0 }
 	.p1-L	{ padding: .25em }
 	.p2-L	{ padding: .5em }

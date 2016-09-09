@@ -30,7 +30,7 @@
 .i64	{ width: 4em; } 	// 64px
 .i128	{ width: 8em; } 	// 128px
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.i16-M		{ width: 1em; }
 	.i24-M		{ width: 1.5em; }
 	.i32-M		{ width: 2em; }
@@ -39,7 +39,7 @@
 	.i128-M	{ width: 8em; }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.i16-L		{ width: 1em; }
 	.i24-L		{ width: 1.5em; }
 	.i32-L		{ width: 2em; }

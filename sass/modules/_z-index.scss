@@ -19,7 +19,7 @@
 .z5 	{z-index: 5 }
 .z6 	{z-index: 999 }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.z0-M 	{z-index: 0 }
 	.z1-M 	{z-index: 1 }
 	.z2-M 	{z-index: 2 }
@@ -29,7 +29,7 @@
 	.z6-M 	{z-index: 999 }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.z0-L 	{z-index: 0 }
 	.z1-L 	{z-index: 1 }
 	.z2-L 	{z-index: 2 }

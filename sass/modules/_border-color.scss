@@ -23,7 +23,7 @@
 .bc-blue { border-color: #00f; }
 .bc-green { border-color: #0f0; }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.bc0-M { border-color: #222; }
 	.bc1-M { border-color: #666; }
 	.bc2-M { border-color: #aaa; }
@@ -36,7 +36,7 @@
 	.bc-green-M { border-color: #0f0; }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.bc0-L { border-color: #222; }
 	.bc1-L { border-color: #666; }
 	.bc2-L { border-color: #aaa; }

@@ -21,8 +21,8 @@
 
 // Breakpoint specific wrappers
 
-.mw-M { max-width: 768px }
-.mw-L { max-width: 1024px }
+.mw-M { max-width: 48em }
+.mw-L { max-width: 64em }
 
 .mw1 { max-width: .25em }
 .mw2 { max-width: .5em }
@@ -34,7 +34,7 @@
 
 .mw-100 { max-width: 100% }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.mw1-M { max-width: .25em }
 	.mw2-M { max-width: .5em }
 	.mw3-M { max-width: 1em }
@@ -45,7 +45,7 @@
 	.mw-100-M { max-width: 100% }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.mw1-L { max-width: .25em }
 	.mw2-L { max-width: .5em }
 	.mw3-L { max-width: 1em }

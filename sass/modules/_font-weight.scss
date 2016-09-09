@@ -22,13 +22,13 @@
 .fwb { font-weight: bold }
 .fwl { font-weight: lighter }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.fwn-M { font-weight: normal }
 	.fwb-M { font-weight: bold }
 	.fwl-M { font-weight: lighter }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.fwn-L { font-weight: normal }
 	.fwb-L { font-weight: bold }
 	.fwl-L { font-weight: lighter }

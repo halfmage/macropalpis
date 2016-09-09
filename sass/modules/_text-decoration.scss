@@ -24,14 +24,14 @@
 .tdo { text-decoration: overline; }
 .tdl { text-decoration: line-through; }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.tdn-M { text-decoration: none; }
 	.tdu-M { text-decoration: underline; }
 	.tdo-M { text-decoration: overline; }
 	.tdl-M { text-decoration: line-through; }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.tdn-L { text-decoration: none; }
 	.tdu-L { text-decoration: underline; }
 	.tdo-L { text-decoration: overline; }

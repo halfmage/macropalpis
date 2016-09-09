@@ -20,7 +20,7 @@
 */
 
 .wa		{ width: auto; }
-.w0		{ width: 0px; }
+.w0		{ width: 0; }
 
 .w1 	{ width: .5em; }
 .w2 	{ width: 1em; }
@@ -39,9 +39,9 @@
 .w66	{ width: 66.66%; }
 .w100 	{ width: 100%; }
 
-@media (min-width:768px) {
+@media (min-width:48em) {
 	.wa-M	{ width: auto; }
-	.w0-M	{ width: 0px; }
+	.w0-M	{ width: 0; }
 
 	.w1-M 	{ width: .5em; }
 	.w2-M 	{ width: 1em; }
@@ -61,9 +61,9 @@
 	.w100-M	{ width: 100%; }
 }
 
-@media (min-width:1024px) {
+@media (min-width:64em) {
 	.wa-L	{ width: auto; }
-	.w0-L	{ width: 0px; }
+	.w0-L	{ width: 0; }
 
 	.w1-L 	{ width: .5em; }
 	.w2-L 	{ width: 1em; }
