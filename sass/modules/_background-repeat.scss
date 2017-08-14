@@ -1,34 +1,36 @@
-/*
+/* 
 
-	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+	macropalpis 08/14/17
 
-	background-repeat Module
-
-	class	suffix			result
-	------------------------------------
-	bgr 	alphabetic		repeat-style
-
-
-	alphabetic index
-	----------------
-	n   =  no-repeat
-	rx  =  repeat-x
-	ry  =  repeat-y
+	background-repeat module: v1
+	class, value = no-repeat, repeat-*
 
 */
 
-.bgrn { background-repeat: no-repeat }
-.bgrx { background-repeat: repeat-x }
-.bgry { background-repeat: repeat-y }
-
-@media (min-width:48em) {
-	.bgrn-M { background-repeat: no-repeat }
-	.bgrx-M { background-repeat: repeat-x }
-	.bgry-M { background-repeat: repeat-y }
+.no-repeat {
+	background-repeat: no-repeat;
 }
 
-@media (min-width:64em) {
-	.bgrn-L { background-repeat: no-repeat }
-	.bgrx-L { background-repeat: repeat-x }
-	.bgry-L { background-repeat: repeat-y }
+.repeat-x {
+	background-repeat: repeat-x;
+}
+
+.repeat-y {
+	background-repeat: repeat-y;
+}
+
+@media (min-width:48rem) {
+
+	.no-repeat-l {
+		background-repeat: no-repeat;
+	}
+
+	.repeat-x-l {
+		background-repeat: repeat-x;
+	}
+
+	.repeat-y-l {
+		background-repeat: repeat-y;
+	}
+
 }

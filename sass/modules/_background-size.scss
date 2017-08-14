@@ -1,34 +1,36 @@
-/*
+/* 
 
-	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+	macropalpis 08/14/17
 
-	background-position Module
-
-	class	suffix			result
-	---------------------------------------
-	bgz 	alphabetic		background-size
-
-
-	alphabetic index
-	----------------
-	a   =  auto
-	cv  =  cover
-	ct  =  contain
+	background-size module: v1
+	class, value = cover, contain, bg-auto
 
 */
 
-.bgza	{ background-size: auto }
-.bgzcv	{ background-size: cover }
-.bgzct	{ background-size: contain }
-
-@media (min-width:48em) {
-	.bgza-M	{ background-size: auto }
-	.bgzcv-M	{ background-size: cover }
-	.bgzct-M	{ background-size: contain }
+.cover {
+	background-size: cover;
 }
 
-@media (min-width:64em) {
-	.bgza-L	{ background-size: auto }
-	.bgzcv-L	{ background-size: cover }
-	.bgzct-L	{ background-size: contain }
+.contain {
+	background-size: contain;
+}
+
+.bg-auto {
+	background-size: auto;
+}
+
+@media (min-width:48rem) {
+
+	.cover-l {
+		background-size: cover;
+	}
+
+	.contain-l {
+		background-size: contain;
+	}
+
+	.bg-auto-l {
+		background-size: auto;
+	}
+
 }

@@ -1,58 +1,68 @@
-/*
+/* 
 
-	Macropalpis v1.0.0 | MIT License | git.io/vEucl
+	macropalpis 08/14/17
 
-	background-position Module
-
-	class	suffix			result
-	---------------------------------
-	bgp 	alphabetic		alignment
-
-
-	alphabetic index
-	----------------
-	t  =  top
-	r  =  right
-	b  =  bottom
-	l  =  left
-
-	tl  =  top left
-	tr  =  top right
-	bl  =  bottom left
-	br  =  bottom right
+	background-position module: v1
+	class, value = bg-*
 
 */
 
-.bgpt { background-position: top }
-.bgpr { background-position: right }
-.bgpb { background-position: bottom }
-.bgpl { background-position: left }
-
-.bgptl { background-position: top left }
-.bgptr { background-position: top right }
-.bgpbl { background-position: bottom left }
-.bgpbr { background-position: bottom right }
-
-@media (min-width:48em) {
-	.bgpt-M { background-position: top }
-	.bgpr-M { background-position: right }
-	.bgpb-M { background-position: bottom }
-	.bgpl-M { background-position: left }
-
-	.bgptl-M { background-position: top left }
-	.bgptr-M { background-position: top right }
-	.bgpbl-M { background-position: bottom left }
-	.bgpbr-M { background-position: bottom right }
+.bg-top {
+	background-position: top;
 }
 
-@media (min-width:64em) {
-	.bgpt-L { background-position: top }
-	.bgpr-L { background-position: right }
-	.bgpb-L { background-position: bottom }
-	.bgpl-L { background-position: left }
+.bg-right {
+	background-position: right;
+}
 
-	.bgptl-L { background-position: top left }
-	.bgptr-L { background-position: top right }
-	.bgpbl-L { background-position: bottom left }
-	.bgpbr-L { background-position: bottom right }
+.bg-bottom {
+	background-position: bottom;
+}
+
+.bg-left {
+	background-position: left;
+}
+
+.bg-center {
+	background-position: center center;
+}
+
+.bg-center-x {
+	background-position-x: center;
+}
+
+.bg-center-y {
+	background-position-y: center;
+}
+
+@media (min-width:48rem) {
+
+	.bg-top-l {
+		background-position: top;
+	}
+
+	.bg-right-l {
+		background-position: right;
+	}
+
+	.bg-bottom-l {
+		background-position: bottom;
+	}
+
+	.bg-left-l {
+		background-position: left;
+	}
+
+	.bg-center-l {
+		background-position: center center;
+	}
+
+	.bg-center-x-l {
+		background-position-x: center;
+	}
+
+	.bg-center-y-l {
+		background-position-y: center;
+	}
+
 }
