@@ -12,5 +12,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-uglifycss": "^1.0.8"
+  }
 }
