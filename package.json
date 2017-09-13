@@ -1,0 +1,16 @@
+{
+  "name": "macropalpis",
+  "version": "2.0.0",
+  "description": "Collection of functional css",
+  "author": "halfmage",
+  "main": "macropalpis.css",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {}
+}
