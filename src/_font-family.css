@@ -1,3 +1,8 @@
+/*
+	Macropalpis
+	Font-family module
+*/
+
 .serif {
 	font-family: serif; 
 }
@@ -8,4 +13,20 @@
 
 .mono {
 	font-family: monospace; 
+}
+
+@media (min-width: 48em) {
+
+	.serif-m {
+		font-family: serif; 
+	}
+
+	.sans-m {
+		font-family: sans-serif; 
+	}
+
+	.mono-m {
+		font-family: monospace; 
+	}	
+
 }

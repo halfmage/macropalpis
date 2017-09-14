@@ -1,0 +1,42 @@
+/*
+	Macropalpis
+	Display module
+*/
+
+.dn,
+.hide {
+	display: none;
+}
+
+.db {
+	display: block;
+}
+
+.di {
+	display: inline;
+}
+
+.dib {
+	display: inline-block;
+}
+
+@media (min-width: 48em) {
+
+	.dn-m,
+	.hide-m {
+		display: none;
+	}
+
+	.db-m {
+		display: block;
+	}
+
+	.di-m {
+		display: inline;
+	}
+
+	.dib-m {
+		display: inline-block;
+	}
+
+}

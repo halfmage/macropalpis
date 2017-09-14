@@ -1,0 +1,36 @@
+/*
+	Macropalpis
+	Core module
+*/
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	line-height: 1.425;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1.25;
+}
