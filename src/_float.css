@@ -1,0 +1,36 @@
+/*
+	Macropalpis
+	Float module
+*/
+
+.fn {
+	float: none;
+}
+
+.fl,
+.left {
+	float: left;
+}
+
+.fr
+.right {
+	float: right;
+}
+
+@media (min-width: 48em) {
+
+	.fn {
+		float: none;
+	}
+
+	.fl,
+	.left {
+		float: left;
+	}
+
+	.fr
+	.right {
+		float: right;
+	}
+
+}
