@@ -1,7 +1,7 @@
 ![alt text](http://i.imgur.com/dQq7BHF.png "Macropalpis Logo")
 
 # macropalpis.css
-**v. 1.0** - A experimental CSS collection
+**v. 1.1** - A experimental CSS collection
 
 ### Approaches and Features
 - Fast, tiny and responsive
