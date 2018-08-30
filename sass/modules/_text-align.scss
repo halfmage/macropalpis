@@ -7,7 +7,7 @@
 
 	class	suffix			result
 	--------------------------------------
-	ta 		alphabetic		text alignment
+	t 		alphabetic		text alignment
 
 
 	alphabetic index
@@ -15,25 +15,21 @@
 	l   =  left
 	r	=  right
 	c  	=  center
-	j  	=  justify
 
 */
 
-.tal { text-align: left; }
-.tar { text-align: right; }
-.tac { text-align: center; }
-.taj { text-align: justify; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.tc { text-align: center; }
 
 @media (min-width:48em) {
-	.tal-M { text-align: left; }
-	.tar-M { text-align: right; }
-	.tac-M { text-align: center; }
-	.taj-M { text-align: justify; }
+	.tl-M { text-align: left; }
+	.tr-M { text-align: right; }
+	.tc-M { text-align: center; }
 }
 
 @media (min-width:64em) {
-	.tal-L { text-align: left; }
-	.tar-L { text-align: right; }
-	.tac-L { text-align: center; }
-	.taj-L { text-align: justify; }
+	.tl-L { text-align: left; }
+	.tr-L { text-align: right; }
+	.tc-L { text-align: center; }
 }
