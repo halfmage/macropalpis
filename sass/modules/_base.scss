@@ -16,12 +16,12 @@ body {
 }
 
 
-// Fix box-model
-
+// Box model fix with root element
 html {
 	box-sizing: border-box;
 }
 
+// Box model fix for all other elements
 *,
 *:before,
 *:after {

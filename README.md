@@ -1,5 +1,8 @@
 ![alt text](http://i.imgur.com/dQq7BHF.png "Macropalpis Logo")
 
+### Reworking
+Iam currently updating some classnames for the first major release of macropalpis.
+
 # macropalpis.css
 **v. 1.0** - A experimental CSS collection
 
