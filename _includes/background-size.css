@@ -1,0 +1,15 @@
+.bgza  { background-size: auto }
+.bgzcv { background-size: cover }
+.bgzct { background-size: contain }
+
+@media (min-width:48em) {
+  .m-bgza  { background-size: auto }
+  .m-bgzcv { background-size: cover }
+  .m-bgzct { background-size: contain }
+}
+
+@media (min-width:64em) {
+  .l-bgza  { background-size: auto }
+  .l-bgzcv { background-size: cover }
+  .l-bgzct { background-size: contain }
+}

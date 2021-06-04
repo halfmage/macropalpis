@@ -1,0 +1,30 @@
+.br0   { border-radius: 0 }
+.br1   { border-radius: .125em }
+.br2   { border-radius: .5em }
+.br3   { border-radius: 1em }
+.br4   { border-radius: 2em }
+.br5   { border-radius: 4em } 
+.br6   { border-radius: 8em }
+.br100 { border-radius: 100% }
+
+@media (min-width:48em) {
+  .m-br0   { border-radius: 0 }
+  .m-br1   { border-radius: .125em }
+  .m-br2   { border-radius: .5em }
+  .m-br3   { border-radius: 1em }
+  .m-br4   { border-radius: 2em }
+  .m-br5   { border-radius: 4em } 
+  .m-br6   { border-radius: 8em }
+  .m-br100 { border-radius: 100% }
+}
+
+@media (min-width:64em) {
+  .l-br0   { border-radius: 0 }
+  .l-br1   { border-radius: .125em }
+  .l-br2   { border-radius: .5em }
+  .l-br3   { border-radius: 1em }
+  .l-br4   { border-radius: 2em }
+  .l-br5   { border-radius: 4em } 
+  .l-br6   { border-radius: 8em }
+  .l-br100 { border-radius: 100% }
+}
