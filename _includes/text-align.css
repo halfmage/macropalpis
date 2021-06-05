@@ -1,0 +1,29 @@
+.tn {text-align: none;}
+.tl {text-align: left;}
+.tc {text-align: center;}
+.tr {text-align: right;}
+.tj {text-align: justify;}
+
+@media (min-width: 40rem) {
+  .s-tn {text-align: none;}
+  .s-tl {text-align: left;}
+  .s-tc {text-align: center;}
+  .s-tr {text-align: right;}
+  .s-tj {text-align: justify;}
+}
+
+@media (min-width: 64rem) {
+  .m-tn {text-align: none;}
+  .m-tl {text-align: left;}
+  .m-tc {text-align: center;}
+  .m-tr {text-align: right;}
+  .m-tj {text-align: justify;}
+}
+
+@media (min-width: 80rem) {
+  .l-tn {text-align: none;}
+  .l-tl {text-align: left;}
+  .l-tc {text-align: center;}
+  .l-tr {text-align: right;}
+  .l-tj {text-align: justify;}
+}
