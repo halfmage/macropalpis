@@ -7,16 +7,19 @@
     max-width: var(--bp-sm);
   }
 }
+
 @media (min-width:768px) {
   .ctr {
     max-width: var(--bp-md);
   }
 }
+
 @media (min-width:1024px) {
   .ctr {
     max-width: var(--bp-lg);
   }
 }
+
 @media (min-width:1280px) {
   .ctr {
     max-width: var(--bp-xl);
