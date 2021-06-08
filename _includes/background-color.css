@@ -12,3 +12,14 @@
 .bg-primary   {background-color: var(--primary);}
 .bg-secondary {background-color: var(--secondary);}
 .bg-accent    {background-color: var(--accent);}
+
+.h-bg-gray50:hover  {background-color: var(--gray50)}
+.h-bg-gray100:hover {background-color: var(--gray100)}
+.h-bg-gray200:hover {background-color: var(--gray200)}
+.h-bg-gray300:hover {background-color: var(--gray300)}
+.h-bg-gray400:hover {background-color: var(--gray400)}
+.h-bg-gray500:hover {background-color: var(--gray500)}
+.h-bg-gray600:hover {background-color: var(--gray600)}
+.h-bg-gray700:hover {background-color: var(--gray700)}
+.h-bg-gray800:hover {background-color: var(--gray800)}
+.h-bg-gray900:hover {background-color: var(--gray900)}
