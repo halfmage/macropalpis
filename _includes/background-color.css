@@ -1,0 +1,14 @@
+.bg-gray50  {background-color: var(--gray50)}
+.bg-gray100 {background-color: var(--gray100)}
+.bg-gray200 {background-color: var(--gray200)}
+.bg-gray300 {background-color: var(--gray300)}
+.bg-gray400 {background-color: var(--gray400)}
+.bg-gray500 {background-color: var(--gray500)}
+.bg-gray600 {background-color: var(--gray600)}
+.bg-gray700 {background-color: var(--gray700)}
+.bg-gray800 {background-color: var(--gray800)}
+.bg-gray900 {background-color: var(--gray900)}
+
+.bg-primary   {background-color: var(--primary);}
+.bg-secondary {background-color: var(--secondary);}
+.bg-accent    {background-color: var(--accent);}
