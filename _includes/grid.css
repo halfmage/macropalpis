@@ -1,0 +1,17 @@
+.gc1 {  grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.gc2 {  grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gc3 {  grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.gc4 {  grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.gc5 {  grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.gc6 {  grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.gc7 {  grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.gc8 {  grid-template-columns: repeat(8, minmax(0, 1fr)); }
+.gc9 {  grid-template-columns: repeat(9, minmax(0, 1fr)); }
+.gc10 { grid-template-columns: repeat(10, minmax(0, 1fr)); }
+.gc11 { grid-template-columns: repeat(11, minmax(0, 1fr)); }
+.gc12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+
+.g1 {gap: 0.25rem;}
+.g2 {gap: 0.5rem;}
+.g3 {gap: 0.75rem;}
+.g4 {gap: 1rem;}
