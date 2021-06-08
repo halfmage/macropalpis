@@ -1,3 +1,6 @@
+.white {color: var(--white);}
+.black {color: var(--black);}
+
 .gray50  {color: var(--gray50)}
 .gray100 {color: var(--gray100)}
 .gray200 {color: var(--gray200)}

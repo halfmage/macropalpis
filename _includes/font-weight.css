@@ -1,6 +1,6 @@
-.l { font-weight: lighter; }
-.n { font-weight: normal; }
-.b { font-weight: bold; }
+.fwl { font-weight: lighter; }
+.fwn { font-weight: normal; }
+.fwb { font-weight: bold; }
 
 .fw300 { font-weight: 300; }
 .fw400 { font-weight: 400; }
