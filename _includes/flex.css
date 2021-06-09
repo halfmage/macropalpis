@@ -1,0 +1,18 @@
+.fx0 { flex: 0 }
+.fx1 { flex: 1 }
+
+.aib  { align-items: baseline }
+.aic  { align-items: center }
+.aife { align-items: flex-end }
+.aifs { align-items: flex-start }
+.aist { align-items: stretch }
+.aiu  { align-items: unset }
+
+.jcsa { justify-content: space-around }
+.jcsb { justify-content: space-between }
+.jcse { justify-content: space-evenly }
+.jcs  { justify-content: start }
+.jcst { justify-content: stretch }
+.jce  { justify-content: end }
+.jcu  { justify-content: unset }
+.jcc  { justify-content: center }
