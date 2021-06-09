@@ -1,0 +1,19 @@
+.class  {  }
+
+.h-class:hover  {  }
+
+@media (min-width: 640px) {
+  .sm-class  {  }
+}
+
+@media (min-width:768px) {
+  .md-class  {  }
+}
+
+@media (min-width:1024px) {
+  .lg-class  {  }
+}
+
+@media (min-width:1280px) {
+  .xl-class  {  }
+}
