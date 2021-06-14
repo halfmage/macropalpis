@@ -1,41 +1,133 @@
-.bg-gray1             { background-color: var(--gray1) }
-.bg-gray2             { background-color: var(--gray2) }
-.bg-gray3             { background-color: var(--gray3) }
-.bg-gray4             { background-color: var(--gray4) }
-.bg-gray5             { background-color: var(--gray5) }
-.bg-gray6             { background-color: var(--gray6) }
-.bg-gray7             { background-color: var(--gray7) }
-.bg-gray8             { background-color: var(--gray8) }
-.bg-gray9             { background-color: var(--gray9) }
+.bg-gray1         { background-color: var(--gray1) }
+.bg-gray2         { background-color: var(--gray2) }
+.bg-gray3         { background-color: var(--gray3) }
+.bg-gray4         { background-color: var(--gray4) }
+.bg-gray5         { background-color: var(--gray5) }
+.bg-gray6         { background-color: var(--gray6) }
+.bg-gray7         { background-color: var(--gray7) }
+.bg-gray8         { background-color: var(--gray8) }
+.bg-gray9         { background-color: var(--gray9) }
 
-.h-bg-gray1:hover     { background-color: var(--gray1) }
-.h-bg-gray2:hover     { background-color: var(--gray2) }
-.h-bg-gray3:hover     { background-color: var(--gray3) }
-.h-bg-gray4:hover     { background-color: var(--gray4) }
-.h-bg-gray5:hover     { background-color: var(--gray5) }
-.h-bg-gray6:hover     { background-color: var(--gray6) }
-.h-bg-gray7:hover     { background-color: var(--gray7) }
-.h-bg-gray8:hover     { background-color: var(--gray8) }
-.h-bg-gray9:hover     { background-color: var(--gray9) }
+.h-bg-gray1:hover { background-color: var(--gray1) }
+.h-bg-gray2:hover { background-color: var(--gray2) }
+.h-bg-gray3:hover { background-color: var(--gray3) }
+.h-bg-gray4:hover { background-color: var(--gray4) }
+.h-bg-gray5:hover { background-color: var(--gray5) }
+.h-bg-gray6:hover { background-color: var(--gray6) }
+.h-bg-gray7:hover { background-color: var(--gray7) }
+.h-bg-gray8:hover { background-color: var(--gray8) }
+.h-bg-gray9:hover { background-color: var(--gray9) }
 
-.bg-primary1          { background-color: var(--primary1)}
-.bg-primary2          { background-color: var(--primary2)}
-.bg-primary3          { background-color: var(--primary3)}
-.bg-secondary1        { background-color: var(--secondary1)}
-.bg-secondary2        { background-color: var(--secondary2)}
-.bg-secondary3        { background-color: var(--secondary3)}
-.bg-accent1           { background-color: var(--accent1)}
-.bg-accent2           { background-color: var(--accent2)}
-.bg-accent3           { background-color: var(--accent3)}
+.bg-primary       { background-color: var(--primary) }
+.bg-primary2      { background-color: var(--primary2) }
+.bg-primary3      { background-color: var(--primary3) }
+.bg-secondary     { background-color: var(--secondary) }
+.bg-secondary2    { background-color: var(--secondary2) }
+.bg-secondary3    { background-color: var(--secondary3) }
+.bg-accent        { background-color: var(--accent) }
+.bg-accent2       { background-color: var(--accent2) }
+.bg-accent3       { background-color: var(--accent3) }
+
+.h-bg-primary     { background-color: var(--primary) }
+.h-bg-primary2    { background-color: var(--primary2) }
+.h-bg-primary3    { background-color: var(--primary3) }
+.h-bg-secondary   { background-color: var(--secondary) }
+.h-bg-secondary2  { background-color: var(--secondary2) }
+.h-bg-secondary3  { background-color: var(--secondary3) }
+.h-bg-accent      { background-color: var(--accent) }
+.h-bg-accent2     { background-color: var(--accent2) }
+.h-bg-accent3     { background-color: var(--accent3) }
+
+.bg-info          { background-color: var(--info) }
+.bg-success       { background-color: var(--success) }
+.bg-warning       { background-color: var(--warning) }
+.bg-error         { background-color: var(--error) }
+
+.h-bg-info          { background-color: var(--info) }
+.h-bg-success       { background-color: var(--success) }
+.h-bg-warning       { background-color: var(--warning) }
+.h-bg-error         { background-color: var(--error) }
 
 @media (min-width: 640px) {
-  .sm-bg-gray1 { background-color: var(--gray1) }
-  .sm-bg-gray2 { background-color: var(--gray2) }
-  .sm-bg-gray3 { background-color: var(--gray3) }
-  .sm-bg-gray4 { background-color: var(--gray4) }
-  .sm-bg-gray5 { background-color: var(--gray5) }
-  .sm-bg-gray6 { background-color: var(--gray6) }
-  .sm-bg-gray7 { background-color: var(--gray7) }
-  .sm-bg-gray8 { background-color: var(--gray8) }
-  .sm-bg-gray9 { background-color: var(--gray9) }
+  .sm-bg-gray1      { background-color: var(--gray1) }
+  .sm-bg-gray2      { background-color: var(--gray2) }
+  .sm-bg-gray3      { background-color: var(--gray3) }
+  .sm-bg-gray4      { background-color: var(--gray4) }
+  .sm-bg-gray5      { background-color: var(--gray5) }
+  .sm-bg-gray6      { background-color: var(--gray6) }
+  .sm-bg-gray7      { background-color: var(--gray7) }
+  .sm-bg-gray8      { background-color: var(--gray8) }
+  .sm-bg-gray9      { background-color: var(--gray9) }
+  .sm-bg-primary    { background-color: var(--primary) }
+  .sm-bg-primary2   { background-color: var(--primary2) }
+  .sm-bg-primary3   { background-color: var(--primary3) }
+  .sm-bg-secondary  { background-color: var(--secondary) }
+  .sm-bg-secondary2 { background-color: var(--secondary2) }
+  .sm-bg-secondary3 { background-color: var(--secondary3) }
+  .sm-bg-accent     { background-color: var(--accent) }
+  .sm-bg-accent2    { background-color: var(--accent2) }
+  .sm-bg-accent3    { background-color: var(--accent3) }
+}
+
+@media (min-width:768px) {
+  .md-bg-gray1      { background-color: var(--gray1) }
+  .md-bg-gray2      { background-color: var(--gray2) }
+  .md-bg-gray3      { background-color: var(--gray3) }
+  .md-bg-gray4      { background-color: var(--gray4) }
+  .md-bg-gray5      { background-color: var(--gray5) }
+  .md-bg-gray6      { background-color: var(--gray6) }
+  .md-bg-gray7      { background-color: var(--gray7) }
+  .md-bg-gray8      { background-color: var(--gray8) }
+  .md-bg-gray9      { background-color: var(--gray9) }
+  .md-bg-primary    { background-color: var(--primary) }
+  .md-bg-primary2   { background-color: var(--primary2) }
+  .md-bg-primary3   { background-color: var(--primary3) }
+  .md-bg-secondary  { background-color: var(--secondary) }
+  .md-bg-secondary2 { background-color: var(--secondary2) }
+  .md-bg-secondary3 { background-color: var(--secondary3) }
+  .md-bg-accent     { background-color: var(--accent) }
+  .md-bg-accent2    { background-color: var(--accent2) }
+  .md-bg-accent3    { background-color: var(--accent3) }
+}
+
+@media (min-width:1024px) {
+  .lg-bg-gray1      { background-color: var(--gray1) }
+  .lg-bg-gray2      { background-color: var(--gray2) }
+  .lg-bg-gray3      { background-color: var(--gray3) }
+  .lg-bg-gray4      { background-color: var(--gray4) }
+  .lg-bg-gray5      { background-color: var(--gray5) }
+  .lg-bg-gray6      { background-color: var(--gray6) }
+  .lg-bg-gray7      { background-color: var(--gray7) }
+  .lg-bg-gray8      { background-color: var(--gray8) }
+  .lg-bg-gray9      { background-color: var(--gray9) }
+  .lg-bg-primary    { background-color: var(--primary) }
+  .lg-bg-primary2   { background-color: var(--primary2) }
+  .lg-bg-primary3   { background-color: var(--primary3) }
+  .lg-bg-secondary  { background-color: var(--secondary) }
+  .lg-bg-secondary2 { background-color: var(--secondary2) }
+  .lg-bg-secondary3 { background-color: var(--secondary3) }
+  .lg-bg-accent     { background-color: var(--accent) }
+  .lg-bg-accent2    { background-color: var(--accent2) }
+  .lg-bg-accent3    { background-color: var(--accent3) }
+}
+
+@media (min-width:1280px) {
+  .xl-bg-gray1      { background-color: var(--gray1) }
+  .xl-bg-gray2      { background-color: var(--gray2) }
+  .xl-bg-gray3      { background-color: var(--gray3) }
+  .xl-bg-gray4      { background-color: var(--gray4) }
+  .xl-bg-gray5      { background-color: var(--gray5) }
+  .xl-bg-gray6      { background-color: var(--gray6) }
+  .xl-bg-gray7      { background-color: var(--gray7) }
+  .xl-bg-gray8      { background-color: var(--gray8) }
+  .xl-bg-gray9      { background-color: var(--gray9) }
+  .xl-bg-primary    { background-color: var(--primary) }
+  .xl-bg-primary2   { background-color: var(--primary2) }
+  .xl-bg-primary3   { background-color: var(--primary3) }
+  .xl-bg-secondary  { background-color: var(--secondary) }
+  .xl-bg-secondary2 { background-color: var(--secondary2) }
+  .xl-bg-secondary3 { background-color: var(--secondary3) }
+  .xl-bg-accent     { background-color: var(--accent) }
+  .xl-bg-accent2    { background-color: var(--accent2) }
+  .xl-bg-accent3    { background-color: var(--accent3) }
 }

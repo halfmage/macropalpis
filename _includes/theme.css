@@ -20,16 +20,22 @@
   --gray8: #424242;
   --gray9: #212121;
 
+  /* UI colors */
+  --info:    #254EDB;
+  --success: #7EB90F;
+  --warning: #DB9433;
+  --error:   #DB242A;
+
   /* Brand */
-  --primary1 :   rgba(41, 98, 255, 1);
-  --primary2 :   rgba(41, 98, 255, .5);
-  --primary3 :   rgba(41, 98, 255, .25);
-  --secondary1:  rgba(0, 229, 255, 1);
-  --secondary2:  rgba(0, 229, 255, .5);
-  --secondary3:  rgba(0, 229, 255, .25);
-  --accent1:     rgba(255, 171, 0, 1);
-  --accent2:     rgba(255, 171, 0, .5);
-  --accent3:     rgba(255, 171, 0, .25);
+  --primary:     #2962FF;
+  --primary2:    #2962FF50; /* added "50" for 50% opacity */
+  --primary3:    #2962FF25; /* added "25" for 50% opacity */
+  --secondary:   #00e5ff;
+  --secondary2:  #00e5ff50; /* added "50" for 50% opacity */
+  --secondary3:  #00e5ff25; /* added "25" for 50% opacity */
+  --accent:      #FF7A00;
+  --accent2:     #FF7A0050; /* added "50" for 50% opacity */
+  --accent3:     #FF7A0025; /* added "25" for 50% opacity */
 
   /* Font sizes */
 
