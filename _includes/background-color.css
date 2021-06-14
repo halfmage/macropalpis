@@ -1,25 +1,27 @@
-.bg-gray50  {background-color: var(--gray50)}
-.bg-gray100 {background-color: var(--gray100)}
-.bg-gray200 {background-color: var(--gray200)}
-.bg-gray300 {background-color: var(--gray300)}
-.bg-gray400 {background-color: var(--gray400)}
-.bg-gray500 {background-color: var(--gray500)}
-.bg-gray600 {background-color: var(--gray600)}
-.bg-gray700 {background-color: var(--gray700)}
-.bg-gray800 {background-color: var(--gray800)}
-.bg-gray900 {background-color: var(--gray900)}
+.bg-gray1               { background-color: var(--gray1) }
+.bg-gray2               { background-color: var(--gray2) }
+.bg-gray3               { background-color: var(--gray3) }
+.bg-gray4               { background-color: var(--gray4) }
+.bg-gray5               { background-color: var(--gray5) }
+.bg-gray6               { background-color: var(--gray6) }
+.bg-gray7               { background-color: var(--gray7) }
+.bg-gray8               { background-color: var(--gray8) }
+.bg-gray9               { background-color: var(--gray9) }
 
-.bg-primary   {background-color: var(--primary);}
-.bg-secondary {background-color: var(--secondary);}
-.bg-accent    {background-color: var(--accent);}
+.h-bg-gray1:hover       { background-color: var(--gray1) }
+.h-bg-gray2:hover       { background-color: var(--gray2) }
+.h-bg-gray3:hover       { background-color: var(--gray3) }
+.h-bg-gray4:hover       { background-color: var(--gray4) }
+.h-bg-gray5:hover       { background-color: var(--gray5) }
+.h-bg-gray6:hover       { background-color: var(--gray6) }
+.h-bg-gray7:hover       { background-color: var(--gray7) }
+.h-bg-gray8:hover       { background-color: var(--gray8) }
+.h-bg-gray9:hover       { background-color: var(--gray9) }
 
-.h-bg-gray50:hover  {background-color: var(--gray50)}
-.h-bg-gray100:hover {background-color: var(--gray100)}
-.h-bg-gray200:hover {background-color: var(--gray200)}
-.h-bg-gray300:hover {background-color: var(--gray300)}
-.h-bg-gray400:hover {background-color: var(--gray400)}
-.h-bg-gray500:hover {background-color: var(--gray500)}
-.h-bg-gray600:hover {background-color: var(--gray600)}
-.h-bg-gray700:hover {background-color: var(--gray700)}
-.h-bg-gray800:hover {background-color: var(--gray800)}
-.h-bg-gray900:hover {background-color: var(--gray900)}
+.bg-primary             { background-color: var(--primary)}
+.bg-secondary           { background-color: var(--secondary)}
+.bg-accent              { background-color: var(--accent)}
+
+.h-bg-primary:hover     { background-color: var(--primary)}
+.h-bg-secondary:hover   { background-color: var(--secondary)}
+.h-bg-accent:hover      { background-color: var(--accent)}
