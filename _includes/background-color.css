@@ -1,27 +1,41 @@
-.bg-gray1               { background-color: var(--gray1) }
-.bg-gray2               { background-color: var(--gray2) }
-.bg-gray3               { background-color: var(--gray3) }
-.bg-gray4               { background-color: var(--gray4) }
-.bg-gray5               { background-color: var(--gray5) }
-.bg-gray6               { background-color: var(--gray6) }
-.bg-gray7               { background-color: var(--gray7) }
-.bg-gray8               { background-color: var(--gray8) }
-.bg-gray9               { background-color: var(--gray9) }
+.bg-gray1             { background-color: var(--gray1) }
+.bg-gray2             { background-color: var(--gray2) }
+.bg-gray3             { background-color: var(--gray3) }
+.bg-gray4             { background-color: var(--gray4) }
+.bg-gray5             { background-color: var(--gray5) }
+.bg-gray6             { background-color: var(--gray6) }
+.bg-gray7             { background-color: var(--gray7) }
+.bg-gray8             { background-color: var(--gray8) }
+.bg-gray9             { background-color: var(--gray9) }
 
-.h-bg-gray1:hover       { background-color: var(--gray1) }
-.h-bg-gray2:hover       { background-color: var(--gray2) }
-.h-bg-gray3:hover       { background-color: var(--gray3) }
-.h-bg-gray4:hover       { background-color: var(--gray4) }
-.h-bg-gray5:hover       { background-color: var(--gray5) }
-.h-bg-gray6:hover       { background-color: var(--gray6) }
-.h-bg-gray7:hover       { background-color: var(--gray7) }
-.h-bg-gray8:hover       { background-color: var(--gray8) }
-.h-bg-gray9:hover       { background-color: var(--gray9) }
+.h-bg-gray1:hover     { background-color: var(--gray1) }
+.h-bg-gray2:hover     { background-color: var(--gray2) }
+.h-bg-gray3:hover     { background-color: var(--gray3) }
+.h-bg-gray4:hover     { background-color: var(--gray4) }
+.h-bg-gray5:hover     { background-color: var(--gray5) }
+.h-bg-gray6:hover     { background-color: var(--gray6) }
+.h-bg-gray7:hover     { background-color: var(--gray7) }
+.h-bg-gray8:hover     { background-color: var(--gray8) }
+.h-bg-gray9:hover     { background-color: var(--gray9) }
 
-.bg-primary             { background-color: var(--primary)}
-.bg-secondary           { background-color: var(--secondary)}
-.bg-accent              { background-color: var(--accent)}
+.bg-primary1          { background-color: var(--primary1)}
+.bg-primary2          { background-color: var(--primary2)}
+.bg-primary3          { background-color: var(--primary3)}
+.bg-secondary1        { background-color: var(--secondary1)}
+.bg-secondary2        { background-color: var(--secondary2)}
+.bg-secondary3        { background-color: var(--secondary3)}
+.bg-accent1           { background-color: var(--accent1)}
+.bg-accent2           { background-color: var(--accent2)}
+.bg-accent3           { background-color: var(--accent3)}
 
-.h-bg-primary:hover     { background-color: var(--primary)}
-.h-bg-secondary:hover   { background-color: var(--secondary)}
-.h-bg-accent:hover      { background-color: var(--accent)}
+@media (min-width: 640px) {
+  .sm-bg-gray1 { background-color: var(--gray1) }
+  .sm-bg-gray2 { background-color: var(--gray2) }
+  .sm-bg-gray3 { background-color: var(--gray3) }
+  .sm-bg-gray4 { background-color: var(--gray4) }
+  .sm-bg-gray5 { background-color: var(--gray5) }
+  .sm-bg-gray6 { background-color: var(--gray6) }
+  .sm-bg-gray7 { background-color: var(--gray7) }
+  .sm-bg-gray8 { background-color: var(--gray8) }
+  .sm-bg-gray9 { background-color: var(--gray9) }
+}

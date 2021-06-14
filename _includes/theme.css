@@ -21,9 +21,15 @@
   --gray9: #212121;
 
   /* Brand */
-  --primary :   #2962ff;
-  --secondary:  #00e5ff;
-  --accent:     #ffab00;
+  --primary1 :   rgba(41, 98, 255, 1);
+  --primary2 :   rgba(41, 98, 255, .5);
+  --primary3 :   rgba(41, 98, 255, .25);
+  --secondary1:  rgba(0, 229, 255, 1);
+  --secondary2:  rgba(0, 229, 255, .5);
+  --secondary3:  rgba(0, 229, 255, .25);
+  --accent1:     rgba(255, 171, 0, 1);
+  --accent2:     rgba(255, 171, 0, .5);
+  --accent3:     rgba(255, 171, 0, .25);
 
   /* Font sizes */
 

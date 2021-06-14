@@ -1,77 +1,57 @@
-.h1 { font-size: 8rem;      line-height: 1; }
-.h2 { font-size: 6rem;      line-height: 1; }
-.h3 { font-size: 4.5rem;    line-height: 1; }
-.h4 { font-size: 3.75rem;   line-height: 1; }
-.h5 { font-size: 3rem;      line-height: 1; }
-.h6 { font-size: 2.25rem;   line-height: 2.5rem; }
-.f1 { font-size: 1.875rem;  line-height: 2.25rem; }
-.f2 { font-size: 1.5rem;    line-height: 2rem; }
-.f3 { font-size: 1.25rem;   line-height: 1.75rem; }
-.f4 { font-size: 1.125rem;  line-height: 1.75rem; }
-.f5 { font-size: 1rem;      line-height: 1.5rem; }
-.f6 { font-size: 0.875rem;  line-height: 1.25rem; }
-.f7 { font-size: 0.75rem;   line-height: 1rem; }
+.fz1 { font-size: 4rem;     line-height: 1; }
+.fz2 { font-size: 3rem;     line-height: 1; }
+.fz3 { font-size: 2.5rem;   line-height: 1; }
+.fz4 { font-size: 1.5rem;   line-height: 2rem; }
+.fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+.fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+.fz7 { font-size: 1rem;     line-height: 1.5rem; }
+.fz8 { font-size: .875rem;  line-height: 1.25rem; }
+.fz9 { font-size: .75rem;   line-height: 1; }
 
 @media (min-width: 640px) {
-  .sm-h1 { font-size: 8rem;      line-height: 1; }
-  .sm-h2 { font-size: 6rem;      line-height: 1; }
-  .sm-h3 { font-size: 4.5rem;    line-height: 1; }
-  .sm-h4 { font-size: 3.75rem;   line-height: 1; }
-  .sm-h5 { font-size: 3rem;      line-height: 1; }
-  .sm-h6 { font-size: 2.25rem;   line-height: 2.5rem; }
-  .sm-f1 { font-size: 1.875rem;  line-height: 2.25rem; }
-  .sm-f2 { font-size: 1.5rem;    line-height: 2rem; }
-  .sm-f3 { font-size: 1.25rem;   line-height: 1.75rem; }
-  .sm-f4 { font-size: 1.125rem;  line-height: 1.75rem; }
-  .sm-f5 { font-size: 1rem;      line-height: 1.5rem; }
-  .sm-f6 { font-size: 0.875rem;  line-height: 1.25rem; }
-  .sm-f7 { font-size: 0.75rem;   line-height: 1rem; }  
+  .sm-fz1 { font-size: 4rem;     line-height: 1; }
+  .sm-fz2 { font-size: 3rem;     line-height: 1; }
+  .sm-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .sm-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .sm-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .sm-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .sm-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .sm-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .sm-fz9 { font-size: .75rem;   line-height: 1; }
 }
 
 @media (min-width:768px) {
-  .md-h1 { font-size: 8rem;      line-height: 1; }
-  .md-h2 { font-size: 6rem;      line-height: 1; }
-  .md-h3 { font-size: 4.5rem;    line-height: 1; }
-  .md-h4 { font-size: 3.75rem;   line-height: 1; }
-  .md-h5 { font-size: 3rem;      line-height: 1; }
-  .md-h6 { font-size: 2.25rem;   line-height: 2.5rem; }
-  .md-f1 { font-size: 1.875rem;  line-height: 2.25rem; }
-  .md-f2 { font-size: 1.5rem;    line-height: 2rem; }
-  .md-f3 { font-size: 1.25rem;   line-height: 1.75rem; }
-  .md-f4 { font-size: 1.125rem;  line-height: 1.75rem; }
-  .md-f5 { font-size: 1rem;      line-height: 1.5rem; }
-  .md-f6 { font-size: 0.875rem;  line-height: 1.25rem; }
-  .md-f7 { font-size: 0.75rem;   line-height: 1rem; }
+  .md-fz1 { font-size: 4rem;     line-height: 1; }
+  .md-fz2 { font-size: 3rem;     line-height: 1; }
+  .md-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .md-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .md-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .md-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .md-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .md-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .md-fz9 { font-size: .75rem;   line-height: 1; }
 }
 
 @media (min-width:1024px) {
-  .lg-h1 { font-size: 8rem;      line-height: 1; }
-  .lg-h2 { font-size: 6rem;      line-height: 1; }
-  .lg-h3 { font-size: 4.5rem;    line-height: 1; }
-  .lg-h4 { font-size: 3.75rem;   line-height: 1; }
-  .lg-h5 { font-size: 3rem;      line-height: 1; }
-  .lg-h6 { font-size: 2.25rem;   line-height: 2.5rem; }
-  .lg-f1 { font-size: 1.875rem;  line-height: 2.25rem; }
-  .lg-f2 { font-size: 1.5rem;    line-height: 2rem; }
-  .lg-f3 { font-size: 1.25rem;   line-height: 1.75rem; }
-  .lg-f4 { font-size: 1.125rem;  line-height: 1.75rem; }
-  .lg-f5 { font-size: 1rem;      line-height: 1.5rem; }
-  .lg-f6 { font-size: 0.875rem;  line-height: 1.25rem; }
-  .lg-f7 { font-size: 0.75rem;   line-height: 1rem; }
+  .lg-fz1 { font-size: 4rem;     line-height: 1; }
+  .lg-fz2 { font-size: 3rem;     line-height: 1; }
+  .lg-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .lg-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .lg-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .lg-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .lg-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .lg-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .lg-fz9 { font-size: .75rem;   line-height: 1; }
 }
 
 @media (min-width:1280px) {
-  .xl-h1 { font-size: 8rem;      line-height: 1; }
-  .xl-h2 { font-size: 6rem;      line-height: 1; }
-  .xl-h3 { font-size: 4.5rem;    line-height: 1; }
-  .xl-h4 { font-size: 3.75rem;   line-height: 1; }
-  .xl-h5 { font-size: 3rem;      line-height: 1; }
-  .xl-h6 { font-size: 2.25rem;   line-height: 2.5rem; }
-  .xl-f1 { font-size: 1.875rem;  line-height: 2.25rem; }
-  .xl-f2 { font-size: 1.5rem;    line-height: 2rem; }
-  .xl-f3 { font-size: 1.25rem;   line-height: 1.75rem; }
-  .xl-f4 { font-size: 1.125rem;  line-height: 1.75rem; }
-  .xl-f5 { font-size: 1rem;      line-height: 1.5rem; }
-  .xl-f6 { font-size: 0.875rem;  line-height: 1.25rem; }
-  .xl-f7 { font-size: 0.75rem;   line-height: 1rem; }  
+  .xl-fz1 { font-size: 4rem;     line-height: 1; }
+  .xl-fz2 { font-size: 3rem;     line-height: 1; }
+  .xl-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .xl-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .xl-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .xl-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .xl-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .xl-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .xl-fz9 { font-size: .75rem;   line-height: 1; }
 }
