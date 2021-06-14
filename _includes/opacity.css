@@ -1,0 +1,63 @@
+.o1 { opacity: 100% }
+.o2 { opacity: 85%  }
+.o3 { opacity: 75%  }
+.o4 { opacity: 60%  }
+.o5 { opacity: 50%  }
+.o6 { opacity: 33%  }
+.o7 { opacity: 25%  }
+.o8 { opacity: 15%  }
+.o9 { opacity: 5%   }
+.o0 { opacity: 0%;  }
+
+
+@media (min-width: 640px) {
+  .sm-o1 { opacity: 100% }
+  .sm-o2 { opacity: 85%  }
+  .sm-o3 { opacity: 75%  }
+  .sm-o4 { opacity: 60%  }
+  .sm-o5 { opacity: 50%  }
+  .sm-o6 { opacity: 33%  }
+  .sm-o7 { opacity: 25%  }
+  .sm-o8 { opacity: 15%  }
+  .sm-o9 { opacity: 5%   }
+  .sm-o0 { opacity: 0%;  }
+}
+
+@media (min-width:768px) {
+  .md-o1 { opacity: 100% }
+  .md-o2 { opacity: 85%  }
+  .md-o3 { opacity: 75%  }
+  .md-o4 { opacity: 60%  }
+  .md-o5 { opacity: 50%  }
+  .md-o6 { opacity: 33%  }
+  .md-o7 { opacity: 25%  }
+  .md-o8 { opacity: 15%  }
+  .md-o9 { opacity: 5%   }
+  .md-o0 { opacity: 0%;  }
+}
+
+@media (min-width:1024px) {
+  .lg-o1 { opacity: 100% }
+  .lg-o2 { opacity: 85%  }
+  .lg-o3 { opacity: 75%  }
+  .lg-o4 { opacity: 60%  }
+  .lg-o5 { opacity: 50%  }
+  .lg-o6 { opacity: 33%  }
+  .lg-o7 { opacity: 25%  }
+  .lg-o8 { opacity: 15%  }
+  .lg-o9 { opacity: 5%   }
+  .lg-o0 { opacity: 0%;  }
+}
+
+@media (min-width:1280px) {
+  .xl-o1 { opacity: 100% }
+  .xl-o2 { opacity: 85%  }
+  .xl-o3 { opacity: 75%  }
+  .xl-o4 { opacity: 60%  }
+  .xl-o5 { opacity: 50%  }
+  .xl-o6 { opacity: 33%  }
+  .xl-o7 { opacity: 25%  }
+  .xl-o8 { opacity: 15%  }
+  .xl-o9 { opacity: 5%   }
+  .xl-o0 { opacity: 0%;  }
+}
