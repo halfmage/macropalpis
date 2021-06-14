@@ -1,0 +1,37 @@
+.tdn { text-decoration: none }
+.tdu { text-decoration: underline }
+.tdo { text-decoration: overline }
+.tdl { text-decoration: line-through }
+
+.h-tdn { text-decoration: none }
+.h-tdu { text-decoration: underline }
+.h-tdo { text-decoration: overline }
+.h-tdl { text-decoration: line-through }
+
+@media (min-width: 640px) {
+  .sm-tdn { text-decoration: none }
+  .sm-tdu { text-decoration: underline }
+  .sm-tdo { text-decoration: overline }
+  .sm-tdl { text-decoration: line-through }
+}
+
+@media (min-width:768px) {
+  .md-tdn { text-decoration: none }
+  .md-tdu { text-decoration: underline }
+  .md-tdo { text-decoration: overline }
+  .md-tdl { text-decoration: line-through }
+}
+
+@media (min-width:1024px) {
+  .lg-tdn { text-decoration: none }
+  .lg-tdu { text-decoration: underline }
+  .lg-tdo { text-decoration: overline }
+  .lg-tdl { text-decoration: line-through }
+}
+
+@media (min-width:1280px) {
+  .xl-tdn { text-decoration: none }
+  .xl-tdu { text-decoration: underline }
+  .xl-tdo { text-decoration: overline }
+  .xl-tdl { text-decoration: line-through }
+}
