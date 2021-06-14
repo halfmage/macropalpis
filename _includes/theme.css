@@ -25,4 +25,21 @@
   --primary :      #2962FF;
   --secondary:     #00E5FF;
   --accent:        #FFAB00;
+
+  /* Font sizes */
+
+  /* Spacing */
+  --spacing-0:  0;
+  --spacing-1:  .25rem;
+  --spacing-2:  .5rem;
+  --spacing-3:  .75rem;
+  --spacing-4:  1rem;
+  --spacing-5:  1.5rem;
+  --spacing-6:  2rem;
+  --spacing-7:  4rem;
+  --spacing-8:  6rem;
+  --spacing-9:  8rem;
+  --spacing-10: 10rem;
+  --spacing-11: 12rem;
+  --spacing-12: 16rem;
 }
