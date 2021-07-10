@@ -1,0 +1,158 @@
+.white              { color: var(--white) }
+.black              { color: var(--black) }
+.gray1              { color: var(--gray1) }
+.gray2              { color: var(--gray2) }
+.gray3              { color: var(--gray3) }
+.gray4              { color: var(--gray4) }
+.gray5              { color: var(--gray5) }
+.gray6              { color: var(--gray6) }
+.gray7              { color: var(--gray7) }
+.gray8              { color: var(--gray8) }
+.gray9              { color: var(--gray9) }
+.info               { color: var(--info) }
+.success            { color: var(--success) }
+.warning            { color: var(--warning) }
+.error              { color: var(--error) }
+.primary            { color: var(--primary); }
+.primary2           { color: var(--primary2); }
+.primary3           { color: var(--primary3); }
+.secondary          { color: var(--secondary); }
+.secondary2         { color: var(--secondary2); }
+.secondary3         { color: var(--secondary3); }
+.accent             { color: var(--accent); }
+.accent2            { color: var(--accent2); }
+.accent3            { color: var(--accent3); }
+
+.h-white:hover      { color: var(--white) }
+.h-black:hover      { color: var(--black) }
+.h-gray1:hover      { color: var(--gray1) }
+.h-gray2:hover      { color: var(--gray2) }
+.h-gray3:hover      { color: var(--gray3) }
+.h-gray4:hover      { color: var(--gray4) }
+.h-gray5:hover      { color: var(--gray5) }
+.h-gray6:hover      { color: var(--gray6) }
+.h-gray7:hover      { color: var(--gray7) }
+.h-gray8:hover      { color: var(--gray8) }
+.h-gray9:hover      { color: var(--gray9) }
+.h-info:hover       { color: var(--info) }
+.h-success:hover    { color: var(--success) }
+.h-warning:hover    { color: var(--warning) }
+.h-error:hover      { color: var(--error) }
+.h-primary:hover    { color: var(--primary); }
+.h-primary2:hover   { color: var(--primary2); }
+.h-primary3:hover   { color: var(--primary3); }
+.h-secondary:hover  { color: var(--secondary); }
+.h-secondary2:hover { color: var(--secondary2); }
+.h-secondary3:hover { color: var(--secondary3); }
+.h-accent:hover     { color: var(--accent); }
+.h-accent2:hover    { color: var(--accent2); }
+.h-accent3:hover    { color: var(--accent3); }
+
+
+@media (min-width: 640px) {
+  .sm-white      { color: var(--white) }
+  .sm-black      { color: var(--black) }
+  .sm-gray1      { color: var(--gray1) }
+  .sm-gray2      { color: var(--gray2) }
+  .sm-gray3      { color: var(--gray3) }
+  .sm-gray4      { color: var(--gray4) }
+  .sm-gray5      { color: var(--gray5) }
+  .sm-gray6      { color: var(--gray6) }
+  .sm-gray7      { color: var(--gray7) }
+  .sm-gray8      { color: var(--gray8) }
+  .sm-gray9      { color: var(--gray9) }
+  .sm-info       { color: var(--info) }
+  .sm-success    { color: var(--success) }
+  .sm-warning    { color: var(--warning) }
+  .sm-error      { color: var(--error) }
+  .sm-primary    { color: var(--primary); }
+  .sm-primary2   { color: var(--primary2); }
+  .sm-primary3   { color: var(--primary3); }
+  .sm-secondary  { color: var(--secondary); }
+  .sm-secondary2 { color: var(--secondary2); }
+  .sm-secondary3 { color: var(--secondary3); }
+  .sm-accent     { color: var(--accent); }
+  .sm-accent2    { color: var(--accent2); }
+  .sm-accent3    { color: var(--accent3); }
+}
+
+@media (min-width:768px) {
+  .md-white      { color: var(--white) }
+  .md-black      { color: var(--black) }
+  .md-gray1      { color: var(--gray1) }
+  .md-gray2      { color: var(--gray2) }
+  .md-gray3      { color: var(--gray3) }
+  .md-gray4      { color: var(--gray4) }
+  .md-gray5      { color: var(--gray5) }
+  .md-gray6      { color: var(--gray6) }
+  .md-gray7      { color: var(--gray7) }
+  .md-gray8      { color: var(--gray8) }
+  .md-gray9      { color: var(--gray9) }
+  .md-info       { color: var(--info) }
+  .md-success    { color: var(--success) }
+  .md-warning    { color: var(--warning) }
+  .md-error      { color: var(--error) }
+  .md-primary    { color: var(--primary); }
+  .md-primary2   { color: var(--primary2); }
+  .md-primary3   { color: var(--primary3); }
+  .md-secondary  { color: var(--secondary); }
+  .md-secondary2 { color: var(--secondary2); }
+  .md-secondary3 { color: var(--secondary3); }
+  .md-accent     { color: var(--accent); }
+  .md-accent2    { color: var(--accent2); }
+  .md-accent3    { color: var(--accent3); }
+}
+
+@media (min-width:1024px) {
+  .lg-white      { color: var(--white) }
+  .lg-black      { color: var(--black) }
+  .lg-gray1      { color: var(--gray1) }
+  .lg-gray2      { color: var(--gray2) }
+  .lg-gray3      { color: var(--gray3) }
+  .lg-gray4      { color: var(--gray4) }
+  .lg-gray5      { color: var(--gray5) }
+  .lg-gray6      { color: var(--gray6) }
+  .lg-gray7      { color: var(--gray7) }
+  .lg-gray8      { color: var(--gray8) }
+  .lg-gray9      { color: var(--gray9) }
+  .lg-info       { color: var(--info) }
+  .lg-success    { color: var(--success) }
+  .lg-warning    { color: var(--warning) }
+  .lg-error      { color: var(--error) }
+  .lg-primary    { color: var(--primary); }
+  .lg-primary2   { color: var(--primary2); }
+  .lg-primary3   { color: var(--primary3); }
+  .lg-secondary  { color: var(--secondary); }
+  .lg-secondary2 { color: var(--secondary2); }
+  .lg-secondary3 { color: var(--secondary3); }
+  .lg-accent     { color: var(--accent); }
+  .lg-accent2    { color: var(--accent2); }
+  .lg-accent3    { color: var(--accent3); }
+}
+
+@media (min-width:1280px) {
+  .xl-white      { color: var(--white) }
+  .xl-black      { color: var(--black) }
+  .xl-gray1      { color: var(--gray1) }
+  .xl-gray2      { color: var(--gray2) }
+  .xl-gray3      { color: var(--gray3) }
+  .xl-gray4      { color: var(--gray4) }
+  .xl-gray5      { color: var(--gray5) }
+  .xl-gray6      { color: var(--gray6) }
+  .xl-gray7      { color: var(--gray7) }
+  .xl-gray8      { color: var(--gray8) }
+  .xl-gray9      { color: var(--gray9) }
+  .xl-info       { color: var(--info) }
+  .xl-success    { color: var(--success) }
+  .xl-warning    { color: var(--warning) }
+  .xl-error      { color: var(--error) }
+  .xl-primary    { color: var(--primary); }
+  .xl-primary2   { color: var(--primary2); }
+  .xl-primary3   { color: var(--primary3); }
+  .xl-secondary  { color: var(--secondary); }
+  .xl-secondary2 { color: var(--secondary2); }
+  .xl-secondary3 { color: var(--secondary3); }
+  .xl-accent     { color: var(--accent); }
+  .xl-accent2    { color: var(--accent2); }
+  .xl-accent3    { color: var(--accent3); }
+}

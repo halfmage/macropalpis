@@ -1,0 +1,56 @@
+:root {
+  /* Breakpoints */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+
+  /* Basic */
+  --black: #000;
+  --white: #fff;
+
+  /* Gray */
+  --gray1: #f8f8f8;
+  --gray2: #eee;
+  --gray3: #e0e0e0;
+  --gray4: #bdbdbd;
+  --gray5: #9e9e9e;
+  --gray6: #757575;
+  --gray7: #616161;
+  --gray8: #424242;
+  --gray9: #212121;
+
+  /* UI colors */
+  --info:    #254EDB;
+  --success: #7EB90F;
+  --warning: #DB9433;
+  --error:   #DB242A;
+
+  /* Brand */
+  --primary:     #2962FF;
+  --primary2:    #2962FF50; /* added "50" for 50% opacity */
+  --primary3:    #2962FF25; /* added "25" for 50% opacity */
+  --secondary:   #00e5ff;
+  --secondary2:  #00e5ff50; /* added "50" for 50% opacity */
+  --secondary3:  #00e5ff25; /* added "25" for 50% opacity */
+  --accent:      #FF7A00;
+  --accent2:     #FF7A0050; /* added "50" for 50% opacity */
+  --accent3:     #FF7A0025; /* added "25" for 50% opacity */
+
+  /* Font sizes */
+
+  /* Spacing */
+  --spacing-0:  0;
+  --spacing-1:  .25rem;
+  --spacing-2:  .5rem;
+  --spacing-3:  .75rem;
+  --spacing-4:  1rem;
+  --spacing-5:  1.5rem;
+  --spacing-6:  2rem;
+  --spacing-7:  4rem;
+  --spacing-8:  6rem;
+  --spacing-9:  8rem;
+  --spacing-10: 10rem;
+  --spacing-11: 12rem;
+  --spacing-12: 16rem;
+}

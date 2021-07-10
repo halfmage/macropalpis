@@ -1,0 +1,14 @@
+.b-gray50  {border-color: var(--gray50)}
+.b-gray100 {border-color: var(--gray100)}
+.b-gray200 {border-color: var(--gray200)}
+.b-gray300 {border-color: var(--gray300)}
+.b-gray400 {border-color: var(--gray400)}
+.b-gray500 {border-color: var(--gray500)}
+.b-gray600 {border-color: var(--gray600)}
+.b-gray700 {border-color: var(--gray700)}
+.b-gray800 {border-color: var(--gray800)}
+.b-gray900 {border-color: var(--gray900)}
+
+.b-primary   {border-color: var(--primary);}
+.b-secondary {border-color: var(--secondary);}
+.b-accent    {border-color: var(--accent);}

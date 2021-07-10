@@ -1,0 +1,30 @@
+.bgpt  { background-position: top }
+.bgpr  { background-position: right }
+.bgpb  { background-position: bottom }
+.bgpl  { background-position: left }
+.bgptl { background-position: top left }
+.bgptr { background-position: top right }
+.bgpbl { background-position: bottom left }
+.bgpbr { background-position: bottom right }
+
+@media (min-width:48em) {
+  .m-bgpt  { background-position: top }
+  .m-bgpr  { background-position: right }
+  .m-bgpb  { background-position: bottom }
+  .m-bgpl  { background-position: left }
+  .m-bgptl { background-position: top left }
+  .m-bgptr { background-position: top right }
+  .m-bgpbl { background-position: bottom left }
+  .m-bgpbr { background-position: bottom right }
+}
+
+@media (min-width:64em) {
+  .l-bgpt  { background-position: top }
+  .l-bgpr  { background-position: right }
+  .l-bgpb  { background-position: bottom }
+  .l-bgpl  { background-position: left }
+  .l-bgptl { background-position: top left }
+  .l-bgptr { background-position: top right }
+  .l-bgpbl { background-position: bottom left }
+  .l-bgpbr { background-position: bottom right }
+}

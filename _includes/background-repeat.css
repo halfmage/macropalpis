@@ -1,0 +1,15 @@
+.bgrn { background-repeat: no-repeat }
+.bgrx { background-repeat: repeat-x }
+.bgry { background-repeat: repeat-y }
+
+@media (min-width:48em) {
+  .m-bgrn { background-repeat: no-repeat }
+  .m-bgrx { background-repeat: repeat-x }
+  .m-bgry { background-repeat: repeat-y }
+}
+
+@media (min-width:64em) {
+  .l-bgrn { background-repeat: no-repeat }
+  .l-bgrx { background-repeat: repeat-x }
+  .l-bgry { background-repeat: repeat-y }
+}

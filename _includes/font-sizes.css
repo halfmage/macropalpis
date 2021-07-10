@@ -1,0 +1,57 @@
+.fz1 { font-size: 4rem;     line-height: 1; }
+.fz2 { font-size: 3rem;     line-height: 1; }
+.fz3 { font-size: 2.5rem;   line-height: 1; }
+.fz4 { font-size: 1.5rem;   line-height: 2rem; }
+.fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+.fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+.fz7 { font-size: 1rem;     line-height: 1.5rem; }
+.fz8 { font-size: .875rem;  line-height: 1.25rem; }
+.fz9 { font-size: .75rem;   line-height: 1; }
+
+@media (min-width: 640px) {
+  .sm-fz1 { font-size: 4rem;     line-height: 1; }
+  .sm-fz2 { font-size: 3rem;     line-height: 1; }
+  .sm-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .sm-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .sm-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .sm-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .sm-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .sm-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .sm-fz9 { font-size: .75rem;   line-height: 1; }
+}
+
+@media (min-width:768px) {
+  .md-fz1 { font-size: 4rem;     line-height: 1; }
+  .md-fz2 { font-size: 3rem;     line-height: 1; }
+  .md-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .md-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .md-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .md-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .md-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .md-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .md-fz9 { font-size: .75rem;   line-height: 1; }
+}
+
+@media (min-width:1024px) {
+  .lg-fz1 { font-size: 4rem;     line-height: 1; }
+  .lg-fz2 { font-size: 3rem;     line-height: 1; }
+  .lg-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .lg-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .lg-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .lg-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .lg-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .lg-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .lg-fz9 { font-size: .75rem;   line-height: 1; }
+}
+
+@media (min-width:1280px) {
+  .xl-fz1 { font-size: 4rem;     line-height: 1; }
+  .xl-fz2 { font-size: 3rem;     line-height: 1; }
+  .xl-fz3 { font-size: 2.5rem;   line-height: 1; }
+  .xl-fz4 { font-size: 1.5rem;   line-height: 2rem; }
+  .xl-fz5 { font-size: 1.25rem;  line-height: 1.75rem; }
+  .xl-fz6 { font-size: 1.125rem; line-height: 1.75rem; }
+  .xl-fz7 { font-size: 1rem;     line-height: 1.5rem; }
+  .xl-fz8 { font-size: .875rem;  line-height: 1.25rem; }
+  .xl-fz9 { font-size: .75rem;   line-height: 1; }
+}

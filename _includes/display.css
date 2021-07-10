@@ -1,0 +1,55 @@
+.di  {display: inline}
+.db  {display: block}
+.dib {display: inline-block}
+.df  {display: flex}
+.dif {display: inline-flex}
+.dg  {display: grid}
+.dt  {display: table}
+
+.h-di:hover  {display: inline}
+.h-db:hover  {display: block}
+.h-dib:hover {display: inline-block}
+.h-df:hover  {display: flex}
+.h-dif:hover {display: inline-flex}
+.h-dg:hover  {display: grid}
+.h-dt:hover  {display: table}
+
+@media (min-width: 640px) {
+  .sm-di  {display: inline}
+  .sm-db  {display: block}
+  .sm-dib {display: inline-block}
+  .sm-df  {display: flex}
+  .sm-dif {display: inline-flex}
+  .sm-dg  {display: grid}
+  .sm-dt  {display: table}
+}
+
+@media (min-width:768px) {
+  .md-di  {display: inline}
+  .md-db  {display: block}
+  .md-dib {display: inline-block}
+  .md-df  {display: flex}
+  .md-dif {display: inline-flex}
+  .md-dg  {display: grid}
+  .md-dt  {display: table}
+}
+
+@media (min-width:1024px) {
+  .lg-di  {display: inline}
+  .lg-db  {display: block}
+  .lg-dib {display: inline-block}
+  .lg-df  {display: flex}
+  .lg-dif {display: inline-flex}
+  .lg-dg  {display: grid}
+  .lg-dt  {display: table}
+}
+
+@media (min-width:1280px) {
+  .xl-di  {display: inline}
+  .xl-db  {display: block}
+  .xl-dib {display: inline-block}
+  .xl-df  {display: flex}
+  .xl-dif {display: inline-flex}
+  .xl-dg  {display: grid}
+  .xl-dt  {display: table}
+}

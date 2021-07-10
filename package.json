@@ -1,0 +1,24 @@
+{
+  "name": "macropalpis",
+  "version": "1.0.0",
+  "description": "![alt text](http://i.imgur.com/dQq7BHF.png \"Macropalpis Logo\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halfmage/macropalpis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halfmage/macropalpis/issues"
+  },
+  "homepage": "https://github.com/halfmage/macropalpis#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "clean-css": "^5.1.2"
+  }
+}
